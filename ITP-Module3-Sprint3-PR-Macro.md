@@ -2,6 +2,16 @@
 
 Using a boundary value as a test case is always a good idea. Many programs fail because they do not check the boundary cases properly.
 
+---
+
+If you are interested in preventing some code (like those custom testing code) in a file containing the function definition get executed when the file is imported by another script using `require(...)`, you can try asking ChatGPT "how to check if a JS script is executed directly or via import?".
+
+#### Sprint-3/implement/get-card-value.js
+Can you also check if `getCardValue("23♠")` is returning the value you expect?
+
+#### Sprint-3/implement/is-valid-triangle.js
+Could also test 0 and negative numbers in the 2nd and 3rd parameters.
+
 #### Sprint-3/implement/rotate-char.js
 
 How would you modify your implementation if shift is allowed to be a negative number to represent a rotation in the opposite direction?
