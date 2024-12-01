@@ -4,7 +4,11 @@ Using a boundary value as a test case is always a good idea. Many programs fail 
 
 ---
 
-If you want to prevent some code in a file from being executed when the file is imported by another file (via `require(...)`), you can try asking ChatGPT "how to check if a JS script is executed directly or via import?". The suggested if-statement can be used to conditionally execute code in a file only when the file is executed directly.
+If you want to prevent some code in a file from being executed when the file is imported by another file (via `require(...)`), you can lookup "how to check if a JS script is executed directly or via import?".
+
+---
+
+It is a good practice to prepare test cases such that they can cover various scenarios to ensure thorough testing.
 
 #### Sprint-3/implement/get-card-value.js
 Can you also check if `getCardValue("23♠")` is returning the value you expect?
@@ -14,6 +18,7 @@ Can you check if your function returns the value you expected in the following f
 getCardValue("0Q♠");
 getCardValue("010♠");
 getCardValue("02♠");
+getCardValue("0x02♠");
 getCardValue("2.1♠")
 ```
 
