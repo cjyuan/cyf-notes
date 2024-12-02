@@ -13,7 +13,9 @@ It is a good practice to prepare test cases such that they can cover various sce
 #### Sprint-3/implement/get-card-value.js
 Can you also check if `getCardValue("23♠")` is returning the value you expect?
 
-Can you check if your function returns the value you expected in the following function calls:
+What do you expect from the following function calls?
+Does your function returns the value you expected?
+
 ```
 getCardValue("0Q♠");
 getCardValue("010♠");
@@ -22,8 +24,28 @@ getCardValue("0x02♠");
 getCardValue("2.1♠")
 ```
 
+#### Sprint-3/implement/is-proper-fraction.js
+
+Suppose the notation **|X|** denotes the absolute value of X. 
+If you are unfamiliar with the definition of ***absolute value***, you should look the term up.
+
+To test your function more comprehensively, you should consider testing all combinations of positive and negative parameters. For examples,
+- For cases where |numerator| < |denominator|, test 
+`isProperFraction(4, 7)`, `isProperFraction(-4, -7)`, `isProperFraction(-4, 7)`, `isProperFraction(4, -7)`.
+- Do the same for cases where |numerator| > |denominator|. 
+
+Hint: If you compute the absolute value of both parameters inside the function first, the code can become much simpler.
+
 #### Sprint-3/implement/is-valid-triangle.js
-Could also test 0 and negative numbers in the 2nd and 3rd parameters.
+
+Is it necessary to include the if-statement at lines 42-44?
+Can you find any values for a, b, and c, such that the function will fail after you removed the if-statement at lines 42-44?
+If you cannot find such a, b, and c, that means you probably do not need that if-statement.
+
+I will not go into details why in some programming languages (but not JavaScript) we need also to check if a, b, c are positives.
+
+The main point I would like to make is, you should fully understand what you wrote in your code. An interviewer may ask you questions like what I am asking here, and it would reflect poorly on you if you cannot explain your code.
+
 
 #### Sprint-3/implement/rotate-char.js
 
