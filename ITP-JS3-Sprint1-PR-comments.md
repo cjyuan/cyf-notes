@@ -1,3 +1,12 @@
+#### Sprint-1/fix/median.js
+
+The arrays specified in `median.test.js` happened to be sorted.
+
+Normally, before we can easily find the median value in an array, we need to sort the array first.
+Can you try inserting a statement to sort the numbers in `list` first? 
+
+
+
 #### Sprint-1/implement/max.js
 What do you expect from the following function calls (on extreme cases)?
 Does your function returns the value you expected?
@@ -6,6 +15,12 @@ Does your function returns the value you expected?
 findMax([-Infinity]);
 findMax([NaN]);
 ```
+
+---
+
+Why return a string (instead of a value of type "number") when the given array contains only non-number values?
+
+When a function has a dual return type, it becomes unclear what the caller should expect. Developers would need to look at the implementation or documentation to understand the behavior.
 
 #### Sprint-1/implement/sum.js
 
