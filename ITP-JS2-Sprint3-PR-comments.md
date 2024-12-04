@@ -14,7 +14,7 @@ It is a good practice to prepare test cases such that they can cover various sce
 Can you also check if `getCardValue("23♠")` is returning the value you expect?
 
 What do you expect from the following function calls?
-Does your function returns the value you expected?
+Does your function return the value you expected?
 
 ```
 getCardValue("0Q♠");
