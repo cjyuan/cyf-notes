@@ -29,9 +29,12 @@ findMax([-Infinity, 0])
 findMax([NaN])
 findMax([0, NaN, 1])
 ```
-
 ---
 
+`Inifinity` is a keyword in the JavaScript language. When an array is empty, the value to be returned 
+should be be `-Infinty`, not a string value.
+
+---
 Why return a string (instead of a value of type "number") when the given array contains only non-number values?
 
 When a function has a dual return type, it becomes unclear what the caller should expect. Developers would need to look at the implementation or documentation to understand the behavior.
