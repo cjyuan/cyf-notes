@@ -1,6 +1,13 @@
 #### Generic
 
-It is never too early to develop the habit to keep the code clean by removing dead code or debugging code.
+It is never too early to develop the habit to keep the code clean by removing 
+(or at least commenting out) unused code or debugging code.
+
+---
+
+Array is passed to a function ***by reference***  (instead of ***by value***). This implies when an array is passed to a function via parameter, the array is **shared** by the caller and the callee (the function being called).
+
+To avoid modifying the caller's array, a common practice is to make a clone of the array (that's passed as a parameter) and modify the clone in the callee instead.
 
 #### Sprint-1/fix/median.js
 
