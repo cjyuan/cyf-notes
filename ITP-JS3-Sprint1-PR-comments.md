@@ -74,3 +74,6 @@ I think this exercise expect you to also write JS code to read the numbers from 
 With the file path specified as an absolute path, the script probably cannot find `input.txt` when it is executed on a different computer.
 
 Assuming `input.txt` will always be in the same folder as the script, how would you modify your code to read data from this `input.txt` file?
+
+Part 2 spec: https://adventofcode.com/2018/day/1#part2
+
