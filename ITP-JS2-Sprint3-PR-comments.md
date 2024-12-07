@@ -34,6 +34,10 @@ To test your function more comprehensively, you should consider testing all comb
 `isProperFraction(4, 7)`, `isProperFraction(-4, -7)`, `isProperFraction(-4, 7)`, `isProperFraction(4, -7)`.
 - Do the same for cases where |numerator| > |denominator|. 
 
+
+In mathematics, -4/7 == 4/-7, and -4/-7 == 4/7.
+So, ideally `isProperFraction()` should recognise all of them as proper fractions.
+
 Hint: If you compute the absolute value of both parameters inside the function first, the code can become much simpler.
 
 #### Sprint-3/implement/is-valid-triangle.js
@@ -42,9 +46,9 @@ Is it necessary to include the if-statement at lines 42-44?
 Can you find any values for a, b, and c, such that the function will fail after you removed the if-statement at lines 42-44?
 If you cannot find such a, b, and c, that means you probably do not need that if-statement.
 
-I will not go into details why in some programming languages (but not JavaScript) we need also to check if a, b, c are positives.
+I will not go into details why in some programming languages (but not JavaScript) we need also to ensure a, b, c are positives.
 
-The main point I would like to make is, you should fully understand what you wrote in your code. An interviewer may ask you questions like what I am asking here, and it would reflect poorly on you if you cannot explain your code.
+The main point I would like to make is, you should fully understand and be able to explain your code. An interviewer may ask you questions like what I am asking here, and it would reflect poorly on you if you cannot explain your code.
 
 
 #### Sprint-3/implement/rotate-char.js
@@ -63,9 +67,19 @@ May I suggest using Google/ChatGPT to find out the rules to convert a number to 
 #### Sprint-3/revise/implement/is-prime.js
 
 You can possibly improve the performance of the code in the following manners:
-- Check if num is 2, and check only odd numbers >= 3 in the loop
+- Check if num is 2, and check only odd numbers >= 3 (up to `Math.sqrt(num)`) in the loop
 - Avoid calling `Math.sqrt(num)` repeatedly by assigning the value of `Math.sqrt(num)` to a variable once, and then refer to the variable in the condition of the loop.
   - Note: The condition is checked at the start of every iteration.
+
+
+You can possibly improve the performance of the code in the following manners:
+- Return `true` if `num` is 2
+- Return `false` if `num` is an even number (we have already checked 2)
+
+- Use a loop to check if `num` can be fully divided by an odd number >= 3 (but <= `Math.sqrt(num)`)
+- In the loop, avoid calling `Math.sqrt(num)` repeatedly by first assigning the value of `Math.sqrt(num)` to a variable once, and then refer to the variable in the condition of the loop.
+  
+
 
 #### Sprint-3/revise/implement/password-validator.test.js
 Some of the passwords in this array are invalid passwords.
