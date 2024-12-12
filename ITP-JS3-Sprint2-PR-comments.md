@@ -9,8 +9,14 @@ The spec at line 4 also asks to log each ingredient on a new line (i.e., one ing
 
 #### Sprint-2/implement/querystring.test.js
 
+Please note that in real querystring, both `key` and `value` are ***percent-encoded*** or ***URL encoded*** in the URL. For example, the string "5%" will be encoded as "5%25". So to get the actual value of "5%25" (whether it is a key or value in the querystring), you should call a function to decode it.
+May I suggest looking up any of these terms, and "How to decode URL encoded string in JS"?
+
+
 The string `key%201` is a ***percent-encoded*** or ***URL encoded*** string.
 May I suggest looking up any of these terms, and "How to decode URL encoded string in JS"?
+
+
 
 #### Sprint-2/interpret/invert.test.js
 **Challenge**
