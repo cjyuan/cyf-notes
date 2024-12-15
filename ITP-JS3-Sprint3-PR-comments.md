@@ -1,3 +1,8 @@
+### Generic
+
+We should always respect instructions like `DO NOT EDIT BELOW HERE`; it is usually there for a good reason. If you are curious about why, you can ask ChatGPT `Why should programmers respect "DO NOT EDIT BELOW HERE" instruction in a file?`
+
+
 ### Alarmclock App
 
 
