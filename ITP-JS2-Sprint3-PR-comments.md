@@ -2,6 +2,7 @@
 
 Using a boundary value as a test case is always a good idea. Many programs fail because they do not check the boundary cases properly.
 
+
 ---
 
 If you want to prevent some code in a file from being executed when the file is imported by another file (via `require(...)`), you can lookup "how to check if a JS script is executed directly or via import?".
@@ -9,6 +10,15 @@ If you want to prevent some code in a file from being executed when the file is 
 ---
 
 It is a good practice to prepare test cases such that they can cover various scenarios to ensure thorough testing.
+
+
+#### Sprint-3/implement/get-angle-type.test.js
+
+Could consider describe this as `"Expect 'Reflex angle' if 180 < angle < 360"`.
+I asked ChatGPT to create a concise version of your description, it gave me this:
+`Return 'Reflex angle' for angles between 180 and 360 degrees`
+After I give additional constraints `if symbol or operator is allowed (as in describing test in code)`, it showed me:
+`Return 'Reflex angle' if 180 < angle < 360`
 
 #### Sprint-3/implement/get-card-value.js
 Can you also check if `getCardValue("23♠")` is returning the value you expect?
