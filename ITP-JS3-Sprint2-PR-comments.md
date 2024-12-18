@@ -1,11 +1,25 @@
 #### Generic
 
-#### 
-
+#### Sprint-2/debug/author.js
+The property values refer to `'Zadie', 'Smith', 'writer', 40, true`.
+Can you change your code so that `value` will take the **value** (instead of **name**) of each property in each iteration?
 
 
 #### Sprint-2/debug/recipe.js
 The spec at line 4 also asks to log each ingredient on a new line (i.e., one ingredient per line).
+
+#### Sprint-2/implement/contains.js
+
+**Suggestion**
+Consider the following:
+```
+  let obj = {}, propertyName = "toString";
+  console.log( propertyName in obj );                // true
+  console.log( obj.hasOwnProperty(propertyName) );   // false
+```
+
+If you are interested in learning the differences between these two approaches for determining if an object contains a property, you can look up
+`JS "in" operator vs hasOwnProperty`.
 
 #### Sprint-2/implement/querystring.test.js
 
@@ -33,16 +47,13 @@ What do you expect `invert({ a: 1, b: 1 })` would return?
 
 
 #### Sprint-2/stretch/count-words.js
-The punctuations shown in the spec are only examples, meaning other punctuation marks are possible.
 
----
-
-What do you expect from the following function call?
+What is the return value you expect from the following function call?
 Does your function return the value you expected?
+```
+countWords("A.A A A_A A$A")
+```
 
-```
-countWords("A.A A A_A A$A");
-```
 
 #### Sprint-2/stretch/till.js
 `"1p" * 4` can still produce a value, albeit not a useful result, but the expression does not throw any error.
