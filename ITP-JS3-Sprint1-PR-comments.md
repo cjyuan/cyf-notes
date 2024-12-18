@@ -16,6 +16,10 @@ The arrays specified in `median.test.js` happened to be sorted.
 Normally, before we can easily find the median value in an array, we need to sort the array first.
 Can you try inserting a statement to sort the numbers in `list` first? 
 
+---
+
+`.sort()` can modify the content in an array. So it is better to sort a cloned version of `list`.
+
 #### Sprint-1/implement/dedupe.test.js
 
 We must use `.toEqual()` instead of `.toBe()` when comparing arrays or objects; `.toBe()` does not compare two arrays by their values. Since `toEqual()` works equally well on primitive values such as number, and string, you can also just use `.toEqual()` to compare all types of values.
@@ -28,7 +32,7 @@ To learn more about how arrays/objects are compared/copied in JS, and to learn m
 
 #### Sprint-1/implement/max.js
 What do you expect from the following function calls (on extreme cases)?
-Does your function returns the value you expected?
+Does your function return the value you expected?
 
 ```
 findMax([-Infinity])
@@ -49,11 +53,9 @@ When a function has a dual return type, it becomes unclear what the caller shoul
 #### Sprint-1/implement/sum.js
 
 What do you expect from the following function calls (on extreme cases)?
-Does your function returns the value you expected?
+Does your function return the value you expected?
 
 ```
-sum([Infinity, 1]);
-sum([Infinity, Infinity]);
 sum([NaN, 1]);
 sum([Infinity, -Infinity]);
 ```
@@ -65,7 +67,7 @@ Decimal numbers in most programming languages (including JS) are internally repr
 
 So `expect(sum([1.1, 1.1, 1.1])).toEqual(3.3);` would probably fail.
 
-Can you find a more appropriate way to test a value (that involves decimal number calculations) for "equality?
+Can you find a more appropriate way to test a value (that involves decimal number calculations) for equality?
 
 #### Sprint-1/stretch/aoc-2018-day1/solution.js
 I think this exercise expect you to also write JS code to read the numbers from the file `input.txt` directly.
