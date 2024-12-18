@@ -63,11 +63,16 @@ sum([Infinity, -Infinity]);
 
 #### Sprint-1/implement/sum.test.js
 
-Decimal numbers in most programming languages (including JS) are internally represented in "floating point number" format. Floating point arithmetic is not exact. For example, the result of `46.5678 - 46 === 0.5678` is false because `46.5678 - 46` only yield a value that is very close to `0.5678`.
+Decimal numbers in most programming languages (including JS) are internally represented in "floating point number" format. Floating point arithmetic is not exact. For example, the result of `46.5678 - 46 === 0.5678` is false because `46.5678 - 46` only yield a value that is very close to `0.5678`. Even changing the order in which the program add/subtract numbers can yield different values.
 
-So `expect(sum([1.1, 1.1, 1.1])).toEqual(3.3);` would probably fail.
+So the following could happen
+```
+  expect(sum([1.2, 0.6, 0.005])).toEqual(1.805);                // This fail
+  expect(sum([1.2, 0.6, 0.005])).toEqual(1.8049999999999997);   // This pass
+  expect(sum([0.005, 0.6, 1.2])).toEqual(1.8049999999999997);   // This fail
+```
 
-Can you find a more appropriate way to test a value (that involves decimal number calculations) for equality?
+**Can you find a more appropriate way to test a value (that involves decimal number calculations) for equality?**
 
 #### Sprint-1/stretch/aoc-2018-day1/solution.js
 I think this exercise expect you to also write JS code to read the numbers from the file `input.txt` directly.
