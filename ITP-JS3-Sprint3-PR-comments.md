@@ -5,7 +5,8 @@ We should always respect instructions like `DO NOT EDIT BELOW HERE`; it is usual
 
 ### Alarmclock App
 
-
+If a user enters a time and then clicks the "Set Alarm" button multiple times, the countdown clock will not display properly.
+Can you fix the problem?
 
 ### Quote Generator
 
@@ -17,3 +18,9 @@ The first line in `quote.js` is `// DO NOT EDIT BELOW HERE`. So you probably sho
 ---
 
 It would be better to show "Auto-Play: OFF" initially (to be consistent with the unchecked "Auto-Play" checkbox).
+
+### Image Carousel
+
+- Not all the requirements specified in "Level 1 Challenge" in `readm.md` are met.
+
+- If a user clicks the "Auto forward" or/and "Auto Backward" **multiple** times, the display will become jittery, and clicking the "Stop" button cannot stop the images from being changed automatically.
