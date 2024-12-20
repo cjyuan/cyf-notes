@@ -30,6 +30,19 @@ May I suggest looking up any of these terms, and "How to decode URL encoded stri
 The string `key%201` is a ***percent-encoded*** or ***URL encoded*** string.
 May I suggest looking up any of these terms, and "How to decode URL encoded string in JS"?
 
+---
+
+For each of the following function calls, does your function return the value you expected?
+```
+parseQueryString("a=b&=&c=d")
+parseQueryString("a=")
+parseQueryString("=b")
+parseQueryString("a=b&&c=d")
+parseQueryString("a%25b=c%26d`)
+```
+Note: the `%25` and `%26` are ***URL encoded*** or ***percent encoded*** characters.
+
+
 
 
 #### Sprint-2/interpret/invert.test.js
