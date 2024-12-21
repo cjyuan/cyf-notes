@@ -11,15 +11,14 @@ The spec at line 4 also asks to log each ingredient on a new line (i.e., one ing
 #### Sprint-2/implement/contains.js
 
 **Suggestion**
-Consider the following:
+Consider the following two approaches for determining if an object contains a property:
 ```
   let obj = {}, propertyName = "toString";
   console.log( propertyName in obj );                // true
   console.log( obj.hasOwnProperty(propertyName) );   // false
 ```
-
-If you are interested in learning the differences between these two approaches for determining if an object contains a property, you can look up
-`JS "in" operator vs hasOwnProperty`.
+Which of these approaches suits your needs better?
+For more info, you can look up `JS "in" operator vs hasOwnProperty`.
 
 #### Sprint-2/implement/querystring.test.js
 
