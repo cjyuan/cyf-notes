@@ -27,3 +27,24 @@ Since the value of `data.img` is coming from another website, there is a danger 
 For details, you can ask ChatGPT `In JS, why is constructing HTML tag using template string dangerous?`
 
 It is safer to create HTML element using the `document.createElement()` approach.
+
+## Challenges
+### Cowsay Two
+I think in `solution1.js`, the program is expected to use the **command line argument** as input, so that one can run the code with an input string "Moo moo" as
+```
+node solution1.js "Moo moo"
+```
+
+---
+
+I think the expectation are
+- In (3), `cowSay(saying)` should return a string that represents the cow saying the value of parameter `saying`.
+- In (4), output the cow to the console as `console.log(cowSay(...))` where `...` is the command line argument.
+
+
+
+
+The given link in `readm.md` is broken, but you can find similar guide from https://www.30secondsofcode.org/js/s/command-line-arguments/ (or use ChatGPT).
+
+
+
