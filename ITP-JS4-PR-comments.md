@@ -2,7 +2,12 @@
 ## Sprint-1 (Array Destructuring)
 
 ### Sprint-1/destructuring/exercise-3/exercise.js
-The output produced by the code in `exercise-3/exercise.js` is not quite in "exact format".
+It might be easier to align output using the string's built-in padding functions than using space characters.
+
+---
+
+The format of the output in exercise-3 is not **exact**; the spacing is off a bit.
+Since the spec mentions `Pay attention to the exact formatting of the expected result.` It would be great if you can try to produce an output that matches the expected result.
 
 ## Programmer Humour
 ### fetch/programmer-humour/javascript.js
