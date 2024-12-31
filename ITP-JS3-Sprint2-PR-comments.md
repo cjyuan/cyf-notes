@@ -37,7 +37,7 @@ parseQueryString("a=b&=&c=d")
 parseQueryString("a=")
 parseQueryString("=b")
 parseQueryString("a=b&&c=d")
-parseQueryString("a%25b=c%26d`)
+parseQueryString("a%25b=c%26d")
 ```
 Note: the `%25` and `%26` are ***URL encoded*** or ***percent encoded*** characters.
 
