@@ -20,6 +20,15 @@ Consider the following two approaches for determining if an object contains a pr
 Which of these approaches suits your needs better?
 For more info, you can look up `JS "in" operator vs hasOwnProperty`.
 
+---
+
+`contains([1, 2, 3], "a")` could also return false because "a" is not a property (or key) of `[1, 2, 3]`.
+However, "0", "1", "2" are keys of `[1, 2, 3]`, so it is better to specify the test as
+`expect(contains([1, 2, 3], "1")).toBe(false);` (to ensure you are checking what you describe)
+
+There are other types of invalid parameters (number, undefined, null, string, boolean). One of them will show you a bug in your function.
+
+
 #### Sprint-2/implement/querystring.test.js
 
 Please note that in real querystring, both `key` and `value` are ***percent-encoded*** or ***URL encoded*** in the URL. For example, the string "5%" will be encoded as "5%25". So to get the actual value of "5%25" (whether it is a key or value in the querystring), you should call a function to decode it.
