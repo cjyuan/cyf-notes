@@ -89,9 +89,10 @@ May I suggest using Google/ChatGPT to find out the rules to convert a number to 
 #### Sprint-3/revise/implement/is-prime.js
 
 You can possibly improve the performance of the code in the following manners:
-- Check if num is 2, and check only odd numbers >= 3 (up to `Math.sqrt(num)`) in the loop
-- Avoid calling `Math.sqrt(num)` repeatedly by assigning the value of `Math.sqrt(num)` to a variable once, and then refer to the variable in the condition of the loop.
-  - Note: The condition is checked at the start of every iteration.
+- Return `true` if `num` is 2
+- Return `false` if `num` is an even number (we have already checked 2)
+- Use a loop to check if `num` can be fully divided by an odd number >= 3 (but <= `Math.sqrt(num)`)
+- In the loop, avoid calling `Math.sqrt(num)` repeatedly by first assigning the value of `Math.sqrt(num)` to a variable once, and then refer to the variable in the condition of the loop.
 
 
 You can possibly improve the performance of the code in the following manners:
