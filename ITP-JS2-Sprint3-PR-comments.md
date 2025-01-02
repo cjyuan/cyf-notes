@@ -68,6 +68,9 @@ Is there any need to further check if `a`, `b`, and `c` is less than or equal to
 
 I will not go into details why in some programming languages (but not JavaScript) we need also to ensure a, b, c are positives.
 
+---
+
+In some programming languages that support "integer" data type, if `side1`, `side2`, and `side3` are of "integer" type, then we will need to also ensure all sides are positives (to take into account of possible ***integer overflow*** cases). But the "number" type in JavaScript is "double precision floating point" type, so such check can be omitted.
 
 
 #### Sprint-3/implement/rotate-char.js
