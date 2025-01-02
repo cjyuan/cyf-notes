@@ -61,6 +61,15 @@ I will not go into details why in some programming languages (but not JavaScript
 The main point I would like to make is, you should fully understand and be able to explain your code. An interviewer may ask you questions like what I am asking here, and it would reflect poorly on you if you cannot explain your code.
 
 
+---
+
+If any of `a`, `b`, and `c` is less than or equal to zero, then the condition at line 43 will always be false.
+Is there any need to further check if `a`, `b`, and `c` is less than or equal to zero at line 51?
+
+I will not go into details why in some programming languages (but not JavaScript) we need also to ensure a, b, c are positives.
+
+
+
 #### Sprint-3/implement/rotate-char.js
 
 How would you modify your implementation if shift is allowed to be a negative number to represent a rotation in the opposite direction?
@@ -95,3 +104,6 @@ You can possibly improve the performance of the code in the following manners:
 Some of the passwords in this array are invalid passwords.
 
 The function could also return `false` because "welcome1" does not have any uppercase letter. So this test may fail to check if the function can handle "Must not be any previous password in the passwords array" properly.
+
+The function could have also returned `false` because `P1!` does not contain any lowercase letter. How can we be 100% sure the function can correctly check passwords shorter than 5 characters?
+
