@@ -70,6 +70,9 @@ So the following could happen
   expect(sum([1.2, 0.6, 0.005])).toEqual(1.805);                // This fail
   expect(sum([1.2, 0.6, 0.005])).toEqual(1.8049999999999997);   // This pass
   expect(sum([0.005, 0.6, 1.2])).toEqual(1.8049999999999997);   // This fail
+
+  console.log(1.2 + 0.6 + 0.005 == 1.805);  // false
+  console.log(1.2 + 0.6 + 0.005 == 0.005 + 0.6 + 1.2); // false
 ```
 
 **Can you find a more appropriate way to test a value (that involves decimal number calculations) for equality?**
