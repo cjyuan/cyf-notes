@@ -35,3 +35,20 @@ It would be better to show "Auto-Play: OFF" initially (to be consistent with the
 - Not all the requirements specified in "Level 1 Challenge" in `readm.md` are met.
 
 - If a user clicks the "Auto forward" or/and "Auto Backward" **multiple** times, the display will become jittery, and clicking the "Stop" button cannot stop the images from being changed automatically.
+
+### Todo List
+
+The approach works in the following way:
+- Represent the "application state" using only JS data.
+  - For this app, the `todos` array would be the application state.
+- Dynamically update the view using HTML and CSS based on the "application state".
+  - The code inside `populateTodoList()` should, based on the value of `todos`,  construct the list items using the API like `document.createElement()`, and add event listeners to the `<i>` elements using `.addEventListener()`. 
+- Whenever you need to mark or unmark an item as completed, change the `completed` property of the corresponding item in `todos`.
+- Whenever you need to add/delete an item, do it in `todos`.
+- Every time `todos` is modified, call `populateTodoList()` to update the view.
+
+If you have difficulty figuring out how to implement this, try asking ChatGPT or ask a volunteer.
+(Let me know if you want to know what question you can ask ChatGPT to get a sample code)
+
+
+
