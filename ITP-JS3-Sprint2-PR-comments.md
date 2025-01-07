@@ -40,7 +40,7 @@ May I suggest looking up any of these terms, and "How to decode URL encoded stri
 
 ---
 
-For each of the following function calls, does your function return the value you expected?
+For each of the following function calls, does your function return the value you expect?
 ```
 parseQueryString("a=b&=&c=d")
 parseQueryString("a=")
