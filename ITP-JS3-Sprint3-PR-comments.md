@@ -10,7 +10,7 @@ Each Sprint-3 backlog (alarmclock, reading-list, slideshow, quote-generator, tod
 
 ---
 
-We should always respect instructions like `DO NOT EDIT BELOW HERE`; it is usually there for a good reason. If you are curious about why, you can ask ChatGPT `Why should programmers respect "DO NOT EDIT BELOW HERE" instruction in a file?`
+We should respect instructions like `DO NOT EDIT BELOW HERE`; it is usually there for a good reason. If you are curious about why, you can ask ChatGPT `Why should programmers respect "DO NOT EDIT BELOW HERE" instruction in a file?`
 
 
 ### Alarmclock App
