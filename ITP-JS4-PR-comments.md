@@ -46,14 +46,17 @@ The given link in `readm.md` is broken, but you can find similar guide from http
 
 ## Debugging
 ### Book Library
-1. Seems like you missed checking some input.
-1. Can `.value` be `null`?
+In terms of input validation, 
+1. Are all input properly checked?
+1. Can `.value` be `null`? (Do we need to check `someInputElement.value == null`?)
 1. What if a user enters only space characters in the "title" input field?
 1. What if a users enters `-1` or `3.1416` in the "pages" input field?
 
+There are also some errors in the `index.html`.
+
 ---
 
-What's the reason of keeping `return false;` in this function? The function would return `undefined` if input values are ok.
+Can you think of a more efficient way to remove all rows (except the `<th>...</th>`) in the table?
 
 ---
 
@@ -61,6 +64,22 @@ Does `book.check == true` mean "Read" or "Not yet read"?
 
 ---
 
+- Is the value assigned to this `id` attribute unique?
+- Is there a need to assign an id attribute to `delButton`?
+- Is there a need to assign an id attribute to `changeBut` (at line 72)?
+- Can you think of a more consistent way to name the variables representing the two buttons?
 
+---
 
+At the moment when the alert message is displayed, has the book mentioned in the message been deleted yet?
+How would you rearrange these statements to make the message truthful?
+
+### Code Reading
+The variable at line 5 is definite not global.
+I wonder how ChatGPT would answer this question.
+
+--- 
+Did you try executing the code to verify your answer?
+
+The second statement is correct about `y`, but it does not explain why the first output is 10.
 
