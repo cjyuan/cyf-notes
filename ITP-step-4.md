@@ -22,3 +22,7 @@ Can you express one action that satisfies these five characteristics?
 - Achievable: The action is realistic and feasible
 - Relevant: The action is meaningful and fits the purpose of your goal
 - Time-bound: The action has a deadline
+
+
+Volunteers don't receive any email notification when you leave comments here on the Applicant Portal.
+Can you make a new submission after you have made the necessary change? Doing so would make your submission "stand out" on Dashboard to attract volunteer's attention.
