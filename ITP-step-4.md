@@ -1,7 +1,11 @@
-For the TV Show project, you need to sumbit
+For the TV Show project, you need to submit
 - A link to your level 400 PR you made against your partner's repo (`main` or `level-300` branch)
 - A link to your level 500 PR (which you can make against your OWN `main` branch).
 - A link to the TV Show app deployed at Netlify. 
+
+The acceptance criteria does not mention the TV Show App has to be bug free, just thought you may want to know:
+
+
 
 https://github.com/CodeYourFuture/Module-Data-Flows/issues/12
 For the Linkedin Social Selling Index, you need to
@@ -26,3 +30,7 @@ Can you express one action that satisfies these five characteristics?
 
 Volunteers don't receive any email notification when you leave comments here on the Applicant Portal.
 Can you make a new submission after you have made the necessary change? Doing so would make your submission "stand out" on Dashboard to attract volunteer's attention.
+
+Note:
+Volunteers don't receive any email notification when you leave comments here on the Applicant Portal.
+Resubmitting would make your submission "stand out" on Dashboard to attract volunteer's attention.
