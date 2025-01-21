@@ -1,6 +1,9 @@
 The acceptance criteria in step 1 asks for
-- Make a new issue on your own Coursework Planner
-- Add the two PR links in the issue
-- Submit the issue link here
+1. Make a new issue on your own Coursework Planner repository
+2. Add your pull request (PR) links in the issue
+3. Submit the issue link 
 
-Can you include your PR links in an issue and then submit the issue link here?
+After you have prepared the PRs and created the issue, please submit your issue link here. Thanks
+
+
+Note: To create a new issue, click "Issues" tab in your own Coursework Planner repository and then create a new issue.
