@@ -36,7 +36,7 @@ how would you modify the code (through type conversion) so that it can still ext
 Have you also noticed the variable names do not quite match the values assigned to the variable?
 
 #### Sprint-1/3-mandatory-interpret/1-percentage-change.js
-
+`foo(bar())` would be considered as two function calls in which `bar()` is called first and its return value is passed as a parameter to `foo()`.
 
 #### Sprint-1/3-mandatory-interpret/2-time-format.js
 
