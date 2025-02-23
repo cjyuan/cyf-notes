@@ -4,5 +4,5 @@ How would you modify the function so that it can be easily reused to convert dif
 
 
 #### Sprint-2/2-mandatory-debug/2.js
-May I suggest asking ChatGPT "How does the identifier resolution work in Javascript?".
+May I suggest asking ChatGPT "How does identifier resolution work in Javascript?".
 
