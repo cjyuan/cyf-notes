@@ -23,9 +23,10 @@ a random integer between -5 and 5 (including both -5 and 5)?
 The phrase "between 0 and 1" alone is not precise enough in program specification because 
 it does not state clearly whether 0 and 1 are included in the range.
 
-May I suggest asking ChatGPT how to precisely describe a range of numbers from 0 to 1 
-that include/exclude 0/1, and then use what you learn to describe the return value of 
-`Math.random()`?
+One concise way to specify a range of values is to use the **interval notation**.
+You can ask ChatGPT "how to specify a range of numbers using interval notation" to learn more about such notation.
+
+Would you try describing the return value of `Math.random()` and the value of `num` using this notation?
 
 #### Sprint-1/2-mandatory-errors/3.js
 If you cannot modify this statement `const cardNumber = 4533787178994213;`
