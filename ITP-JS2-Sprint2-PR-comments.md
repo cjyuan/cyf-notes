@@ -6,3 +6,6 @@ How would you modify the function so that it can be easily reused to convert dif
 #### Sprint-2/2-mandatory-debug/2.js
 May I suggest asking ChatGPT "How does identifier resolution work in Javascript?".
 
+#### Sprint-2/3-mandatory-implement/1-bmi.js
+What type of value do you expect the function to return? A number or a string?
+Is your implementation matches your expectation?
