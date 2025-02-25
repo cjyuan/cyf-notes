@@ -12,7 +12,7 @@ If you want to prevent some code in a file from being executed when the file is 
 It is a good practice to prepare test cases such that they can cover various scenarios to ensure thorough testing.
 
 
-#### Sprint-3/implement/get-angle-type.test.js
+#### Sprint-3/1-key-implement/1-get-angle-type.js
 
 Could consider describe this as `"Expect 'Reflex angle' if 180 < angle < 360"`.
 I asked ChatGPT to create a concise version of your description, it gave me this:
@@ -71,6 +71,40 @@ I will not go into details why in some programming languages (but not JavaScript
 ---
 
 In some programming languages that support "integer" data type, if `side1`, `side2`, and `side3` are of "integer" type, then we will need to also ensure all sides are positives (to take into account of possible ***integer overflow*** cases). But the "number" type in JavaScript is "double precision floating point" type, so such check can be omitted.
+
+
+
+#### Sprint-3/2-mandatory-rewrite/1-get-angle-type.test.js
+You can specify multiple `execpt(...)` statements within each `test()` to cover multiple values that belong to the same case. For example,
+```
+test("should identify reflex angle, greater than (180°) degrees and less than (360°) degrees", () => {
+  expect(getAngleType(300)).toEqual("Reflex angle");
+  expect(getAngleType(359.999)).toEqual("Reflex angle");
+  expect(getAngleType(180.001)).toEqual("Reflex angle");
+});
+```
+
+### Sprint-3/2-mandatory-rewrite/2-is-proper-fraction.test.js
+
+3. What should be the return value of the following function calls?
+```
+isProperFraction(-2, -3)
+isProperFraction(-2, 3)
+isProperFraction(2, -3)
+isProperFraction(-4, -3)
+isProperFraction(4, -3)
+```
+
+### Sprint-3/3-mandatory-practice/implement/repeat.js
+How would the caller distinguish the following two function calls?
+1. `repeat("Please enter positive number!", 1)`
+2. `repeat("", -1)`
+
+Both function calls return the same value.
+
+---
+
+
 
 
 #### Sprint-3/implement/rotate-char.js
