@@ -9,6 +9,10 @@ May I suggest (with the help of ChatGPT)
 - Look up the terms "expression", "operand", "argument" in programming
 ?
 
+#### Sprint-1/1-key-exercises/3-paths.js
+Since a folder name can also contain '.', can you modify your code so that it will also work for a file path like `"/path1/path2.old/file.txt"`?
+
+
 #### Sprint-1/1-key-exercises/4-random.js
 To test your understanding, how would you write an expression (without using any variable in the expression) that can yield
 a random integer between -5 and 5 (including both -5 and 5)?
