@@ -20,22 +20,18 @@ I asked ChatGPT to create a concise version of your description, it gave me this
 After I give additional constraints `if symbol or operator is allowed (as in describing test in code)`, it showed me:
 `Return 'Reflex angle' if 180 < angle < 360`
 
-#### Sprint-3/implement/get-card-value.js
-Can you also check if `getCardValue("23♠")` is returning the value you expect?
 
-What do you expect from the following function calls?
-Does your function return the value you expected?
+The spec does not specify what to do when angle >= 360. How would you handle such a case?
 
-```
-getCardValue("0Q♠");
-getCardValue("010♠");
-getCardValue("02♠");
-getCardValue("0x02♠");
-getCardValue("2.1♠")
-```
+#### Sprint-3/1-key-implement/2-is-proper-fraction.js
 
-#### Sprint-3/implement/is-proper-fraction.js
+Mathematically speaking, -3/2 and -1/0 are not proper fractions and -2/-3 is a proper fraction.
 
+If we "remove the negative sign" in `numerator` and `denominator` first, we would not need to consider so many different cases. ***Input normalisation", the process of pre-processing the input values before they are used in computation, can often simplify complexity of code, improve performance, and prevent errors.
+
+JS has a built-in function to compute absolute value.
+
+---
 Suppose the notation **|X|** denotes the absolute value of X. 
 If you are unfamiliar with the definition of ***absolute value***, you should look the term up.
 
@@ -50,34 +46,28 @@ So, ideally `isProperFraction()` should recognise all of them as proper fraction
 
 Hint: If you compute the absolute value of both parameters inside the function first, the code can become much simpler.
 
-#### Sprint-3/implement/is-valid-triangle.js
+#### Sprint-3/1-key-implement/3-get-card-value.js
+Can you also check if `getCardValue("23♠")` is returning the value you expect?
 
-Is it necessary to include the if-statement at lines 42-44?
-Can you find any values for a, b, and c, such that the function will fail after you removed the if-statement at lines 42-44?
-If you cannot find such a, b, and c, that means you probably do not need that if-statement.
+Does your function return the value you expected from each of the following function calls?
 
-I will not go into details why in some programming languages (but not JavaScript) we need also to ensure a, b, c are positives.
+```
+getCardValue("0Q♠");
+getCardValue("010♠");
+getCardValue("02♠");
+getCardValue("0x02♠");
+getCardValue("2.1♠")
+```
 
-The main point I would like to make is, you should fully understand and be able to explain your code. An interviewer may ask you questions like what I am asking here, and it would reflect poorly on you if you cannot explain your code.
 
 
----
-
-If any of `a`, `b`, and `c` is less than or equal to zero, then the condition at line 43 will always be false.
-Is there any need to further check if `a`, `b`, and `c` is less than or equal to zero at line 51?
-
-I will not go into details why in some programming languages (but not JavaScript) we need also to ensure a, b, c are positives.
-
----
-
-In some programming languages that support "integer" data type, if `side1`, `side2`, and `side3` are of "integer" type, then we will need to also ensure all sides are positives (to take into account of possible ***integer overflow*** cases). But the "number" type in JavaScript is "double precision floating point" type, so such check can be omitted.
 
 
 
 #### Sprint-3/2-mandatory-rewrite/1-get-angle-type.test.js
 You can specify multiple `execpt(...)` statements within each `test()` to cover multiple values that belong to the same case. For example,
 ```
-test("should identify reflex angle, greater than (180°) degrees and less than (360°) degrees", () => {
+test("should identify reflex angle when angle is in the interval (180, 360)", () => {
   expect(getAngleType(300)).toEqual("Reflex angle");
   expect(getAngleType(359.999)).toEqual("Reflex angle");
   expect(getAngleType(180.001)).toEqual("Reflex angle");
@@ -144,4 +134,31 @@ Some of the passwords in this array are invalid passwords.
 The function could also return `false` because "welcome1" does not have any uppercase letter. So this test may fail to check if the function can handle "Must not be any previous password in the passwords array" properly.
 
 The function could have also returned `false` because `P1!` does not contain any lowercase letter. How can we be 100% sure the function can correctly check passwords shorter than 5 characters?
+
+---
+## In older ITP
+
+#### Sprint-3/implement/is-valid-triangle.js
+
+Is it necessary to include the if-statement at lines 42-44?
+Can you find any values for a, b, and c, such that the function will fail after you removed the if-statement at lines 42-44?
+If you cannot find such a, b, and c, that means you probably do not need that if-statement.
+
+I will not go into details why in some programming languages (but not JavaScript) we need also to ensure a, b, c are positives.
+
+The main point I would like to make is, you should fully understand and be able to explain your code. An interviewer may ask you questions like what I am asking here, and it would reflect poorly on you if you cannot explain your code.
+
+
+---
+
+If any of `a`, `b`, and `c` is less than or equal to zero, then the condition at line 43 will always be false.
+Is there any need to further check if `a`, `b`, and `c` is less than or equal to zero at line 51?
+
+I will not go into details why in some programming languages (but not JavaScript) we need also to ensure a, b, c are positives.
+
+---
+
+In some programming languages that support "integer" data type, if `side1`, `side2`, and `side3` are of "integer" type, then we will need to also ensure all sides are positives (to take into account of possible ***integer overflow*** cases). But the "number" type in JavaScript is "double precision floating point" type, so such check can be omitted.
+
+
 
