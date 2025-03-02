@@ -86,7 +86,7 @@ isProperFraction(4, -3)
 ```
 
 ### Sprint-3/3-mandatory-practice/implement/repeat.js
-How would the caller distinguish the following two function calls?
+How would the caller distinguish the result of the following two function calls?
 1. `repeat("Please enter positive number!", 1)`
 2. `repeat("", -1)`
 
