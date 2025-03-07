@@ -1,13 +1,9 @@
 Describing code can be very challenging initially (even in one's first language). May I suggest using ChatGPT to find out how else code can be described? From time to time you may also learn some useful programming terms from ChatGPT.
 
 #### Sprint-1/1-key-exercises/1-count.js
+Operation like `count = count + 1` is very common in programming, and there is a programming term describing such operation.
 
-You probably understand what the code does.
-However, using the correct terminology is crucial when communicating with other programmers.
-May I suggest (with the help of ChatGPT)
-- Find out how else the code can be described
-- Look up the terms "expression", "operand", "argument" in programming
-?
+May I suggest feeding the code to ChatGPT and see how else the code can be described? From time to time you may learn some new programming terms.
 
 #### Sprint-1/1-key-exercises/3-paths.js
 Since a folder name can also contain '.', can you modify your code so that it will also work for a file path like `"/path1/path2.old/file.txt"`?
