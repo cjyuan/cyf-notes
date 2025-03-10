@@ -27,9 +27,7 @@ The spec does not specify what to do when angle >= 360. How would you handle suc
 
 Mathematically speaking, -3/2 and -1/0 are not proper fractions and -2/-3 is a proper fraction.
 
-If we "remove the negative sign" in `numerator` and `denominator` first, we would not need to consider so many different cases. ***Input normalisation", the process of pre-processing the input values before they are used in computation, can often simplify complexity of code, improve performance, and prevent errors.
-
-JS has a built-in function to compute absolute value.
+If we consider all possible combinations of negative/positive/zero numerator and denominator, we would have to use a lot of if-statements. However, if we "remove the negative sign" in `numerator` and `denominator` first, we would not need to consider as many. ***Input normalisation", the process of pre-processing the input values before they are used in computation, can often simplify complexity of code, improve performance, and prevent errors.
 
 ---
 Suppose the notation **|X|** denotes the absolute value of X. 
@@ -65,7 +63,7 @@ getCardValue("2.1♠")
 
 
 #### Sprint-3/2-mandatory-rewrite/1-get-angle-type.test.js
-You can specify multiple `execpt(...)` statements within each `test()` to cover multiple values that belong to the same case. For example,
+We can specify multiple `execpt(...)` statements within each `test()` to cover multiple values that belong to the same case. For example,
 ```
 test("should identify reflex angle when angle is in the interval (180, 360)", () => {
   expect(getAngleType(300)).toEqual("Reflex angle");
