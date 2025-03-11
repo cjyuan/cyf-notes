@@ -19,6 +19,9 @@ Can you try inserting a statement to sort the numbers in `list` first?
 ---
 
 `.sort()` can modify the content in an array. So it is better to sort a cloned version of `list`.
+#### Sprint-1/fix/median.test.js
+
+Can you figure out why the "doesn't modify the input" test in `median.test.js` may fail to check what it describes, and improve the test code accordingly?
 
 #### Sprint-1/implement/dedupe.test.js
 
