@@ -10,14 +10,14 @@ Each Sprint-3 backlog (alarmclock, reading-list, slideshow, quote-generator, tod
 
 ---
 
-We should respect instructions like `DO NOT EDIT BELOW HERE`; it is usually there for a good reason. If you are curious about why, you can ask ChatGPT `Why should programmers respect "DO NOT EDIT BELOW HERE" instruction in a file?`
+We should respect instructions like `DO NOT EDIT BELOW HERE`; it is usually there for a reason. If you are curious about why, you can ask ChatGPT `Why should programmers respect "DO NOT EDIT BELOW HERE" instruction in a file?`
 
 
 ### Alarmclock App
 
 Code works fine if a user only clicks the "Set Alarm" button once.
-If the user enters a time and then clicks the "Set Alarm" button multiple times, the countdown clock will not display properly.
-Can you fix the problem?
+However, if the user enters a time and then clicks the "Set Alarm" button multiple times, the countdown clock will not display properly.
+Can you fix the issue?
 
 Some unusual input values that can make your app behave abnormally can still pass this check. Can you add code to sanitise this kind of values?
 
