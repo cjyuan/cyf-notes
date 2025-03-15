@@ -63,7 +63,7 @@ getCardValue("2.1♠")
 
 
 #### Sprint-3/2-mandatory-rewrite/1-get-angle-type.test.js
-We can specify multiple `execpt(...)` statements within each `test()` to cover multiple values that belong to the same case. For example,
+We can specify multiple `expect(...)` statements within each `test()` to cover multiple values that belong to the same case. For example,
 ```
 test("should identify reflex angle when angle is in the interval (180, 360)", () => {
   expect(getAngleType(300)).toEqual("Reflex angle");
