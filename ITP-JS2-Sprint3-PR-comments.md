@@ -72,7 +72,7 @@ test("should identify reflex angle when angle is in the interval (180, 360)", ()
 });
 ```
 
-### Sprint-3/2-mandatory-rewrite/2-is-proper-fraction.test.js
+#### Sprint-3/2-mandatory-rewrite/2-is-proper-fraction.test.js
 
 3. What should be the return value of the following function calls?
 ```
@@ -83,7 +83,7 @@ isProperFraction(-4, -3)
 isProperFraction(4, -3)
 ```
 
-### Sprint-3/3-mandatory-practice/implement/repeat.js
+#### Sprint-3/3-mandatory-practice/implement/repeat.js
 How would the caller distinguish the result of the following two function calls?
 1. `repeat("Please enter positive number!", 1)`
 2. `repeat("", -1)`
@@ -91,8 +91,10 @@ How would the caller distinguish the result of the following two function calls?
 Both function calls return the same value.
 
 ---
+#### Sprint-3/3-mandatory-practice/implement/repeat.test.js
 
-
+If you modified `repeat()` to throw an error when `count` is negative, and you wanted to test 
+if the function can throw an error as expected, you can use `.toThrow()`. You can find out more about how to use `.toThrow()` here: https://jestjs.io/docs/expect#tothrowerror (Note: Pay close attention to the syntax of the example)
 
 
 #### Sprint-3/implement/rotate-char.js
