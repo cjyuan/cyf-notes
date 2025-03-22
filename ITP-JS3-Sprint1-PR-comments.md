@@ -11,17 +11,15 @@ To avoid modifying the caller's array, a common practice is to make a clone of t
 
 #### Sprint-1/fix/median.js
 
-The arrays specified in `median.test.js` happened to be sorted.
+The arrays specified in `median.test.js` are already sorted by coincidence.
 
-Normally, before we can easily find the median value in an array, we need to sort the array first.
-Can you try inserting a statement to sort the numbers in `list` first? 
+Typically, to find the median value of an array, we first need to sort it. However, to prevent modifying `list` directly, it's best to work with a cloned version instead.
 
----
+Could you add one or more statements to create a cloned copy of `list` and then sort the numbers in the cloned array?
 
-`.sort()` can modify the content in an array. So it is better to sort a cloned version of `list`.
 #### Sprint-1/fix/median.test.js
 
-Can you figure out why the "doesn't modify the input" test in `median.test.js` may fail to check what it describes, and improve the test code accordingly?
+The elements in `[1, 2, 3]` are already sorted. If we use this array as a test value, it will be difficult to determine whether the function modifies the input or not (by sorting the given array).
 
 #### Sprint-1/implement/dedupe.test.js
 
