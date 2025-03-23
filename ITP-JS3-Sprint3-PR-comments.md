@@ -27,6 +27,13 @@ Can you think of any user input that might need to sanitise so that your app won
 
 After the user clicks the "Set Alarm" button, there is a one second delay before the countdown clock starts showing. Can you find a way to "remove" that delay? 
 
+Here is one way to implement "Change background color when countdown reaches zero":
+- Create a CSS class (in `style.css`) for the background when countdown reaches zero.
+- In JS, when the countdown reaches zero, add this CSS class to `<body>`.
+- In JS, whenever you need to reset the background, remove the CSS class from `<body>`.
+
+If you can make this work, you can also change the CSS properties to make the background blinks.
+
 ### Quote Generator
 
 #### Sprint-3/quote-generator/quotes.js
