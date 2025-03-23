@@ -15,10 +15,10 @@ Consider the following two approaches for determining if an object contains a pr
 ```
   let obj = {}, propertyName = "toString";
   console.log( propertyName in obj );                // true
-  console.log( obj.hasOwnProperty(propertyName) );   // false
+  console.log( Object.hasOwn(obj, propertyName) );   // false
 ```
 Which of these approaches suits your needs better?
-For more info, you can look up `JS "in" operator vs hasOwnProperty`.
+For more info, you can look up `JS "in" operator vs Object.hasOwn`.
 
 ---
 
@@ -26,7 +26,11 @@ For more info, you can look up `JS "in" operator vs hasOwnProperty`.
 However, "0", "1", "2" are keys of `[1, 2, 3]`, so it is better to specify the test as
 `expect(contains([1, 2, 3], "1")).toBe(false);` (to ensure you are checking what you describe)
 
-There are other types of invalid parameters (number, undefined, null, string, boolean). One of them will show you a bug in your function.
+---
+
+Array is a kind of object in JS, and "0", "1", "2" are keys of `[1, 2, 3]`. So it is better to express the test as `expect(contains([1, 2, 3], "1")).toBe(false);` to ensure the function can truly reject array.
+
+You can also test other types of invalid parameters (e. g., number, undefined, null, string, boolean).
 
 
 #### Sprint-2/implement/querystring.test.js
