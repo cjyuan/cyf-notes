@@ -46,13 +46,18 @@ It would be better to show "Auto-Play: OFF" initially (to be consistent with the
 
 ### Todo List
 
-The approach works in the following way:
+May I suggest the following approach for implementing an app with a GUI?
 - Represent the "application state" using only JS data.
-  - For this app, the `todos` array would be the application state.
-- Dynamically update the view using HTML and CSS based on the "application state".
-  - The code inside `populateTodoList()` should, based on the value of `todos`,  construct the list items using the API like `document.createElement()`, and add event listeners to the `<i>` elements using `.addEventListener()`. 
-- Whenever you need to mark or unmark an item as completed, change the `completed` property of the corresponding item in `todos`.
-- Whenever you need to add/delete an item, do it in `todos`.
+  - With these data, the app can construct the GUI.
+  - For this todo-list app, the `todos` array (and its elements) can be used as the application state.
+
+- In `populateTodoList()`, define the code to update the view based on the application state.
+  - For examples
+    - Code that constructs the list items using the API like `document.createElement()`
+    - Code that adds event listeners to the `<i>` elements using `.addEventListener()`
+
+- Whenever you need to mark or unmark an item as completed, change the `completed` property of the corresponding item in `todos`
+- Whenever you need to add/delete an item, do it in `todos`
 - Every time `todos` is modified, call `populateTodoList()` to update the view.
 
 If you have difficulty figuring out how to implement this, try asking ChatGPT or ask a volunteer.
