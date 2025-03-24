@@ -19,13 +19,13 @@ Code works fine if a user only clicks the "Set Alarm" button once.
 However, if the user enters a time and then clicks the "Set Alarm" button multiple times, the countdown clock will not display properly.
 Can you fix the issue?
 
-Some unusual input values that can make your app behave abnormally can still pass this check. Can you add code to sanitise this kind of values?
+Some unusual input values that can make your app behave abnormally can still pass this check. Can you add code to sanitise them?
+
+Some unusual input values can make your app behave abnormally. Can you add code to sanitise them?
 
 You missed updating `index.html` according to an instruction in `readme.md`.
 
-Can you think of any user input that might need to sanitise so that your app won't behave abnormally?
-
-After the user clicks the "Set Alarm" button, there is a one second delay before the countdown clock starts showing. Can you find a way to "remove" that delay? 
+After the user clicks the "Set Alarm" button, there is a one second delay before the countdown clock starts showing. Can you find a way to get rid of that delay? 
 
 Here is one way to implement "Change background color when countdown reaches zero":
 - Create a CSS class (in `style.css`) for the background when countdown reaches zero.
