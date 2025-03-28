@@ -27,6 +27,8 @@ You missed updating `index.html` according to an instruction in `readme.md`.
 
 After the user clicks the "Set Alarm" button, there is a one second delay before the countdown clock starts showing. Can you find a way to get rid of that delay? 
 
+When the countdown reaches 00:00, there is a one second delay before the alarm sound is played. Is this by design?
+
 Here is one way to implement "Change background color when countdown reaches zero":
 - Create a CSS class (in `style.css`) for the background when countdown reaches zero.
 - In JS, when the countdown reaches zero, add this CSS class to `<body>`.
@@ -39,11 +41,14 @@ If you can make this work, you can also change the CSS properties to make the ba
 #### Sprint-3/quote-generator/quotes.js
 Code is good, 
 
-The first line in `quote.js` is `// DO NOT EDIT BELOW HERE`. So you probably should insert your code before that line.
+The first line in `quote.js` is `// DO NOT EDIT BELOW HERE`. So it would be a better practice to respect that line and insert our code before that line.
 
 ---
 
 It would be better to show "Auto-Play: OFF" initially (to be consistent with the unchecked "Auto-Play" checkbox).
+
+
+It seems that the leading `"` and `-` are for "styling" purpose. If we leave them in HTML code, it could make styling or changing the view easier. For example, a front-end developer will not need to edit any JS code to change the appearance.
 
 ### Image Carousel
 
