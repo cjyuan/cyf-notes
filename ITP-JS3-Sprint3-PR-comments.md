@@ -13,6 +13,10 @@ Each Sprint-3 backlog (alarmclock, reading-list, slideshow, quote-generator, tod
 We should respect instructions like `DO NOT EDIT BELOW HERE`; it is usually there for a reason. If you are curious about why, you can ask ChatGPT `Why should programmers respect "DO NOT EDIT BELOW HERE" instruction in a file?`
 
 
+Hoisting in JavaScript 
+https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
+
+
 ### Alarmclock App
 
 Code works fine if a user only clicks the "Set Alarm" button once.
@@ -47,8 +51,9 @@ The first line in `quote.js` is `// DO NOT EDIT BELOW HERE`. So it would be a be
 
 It would be better to show "Auto-Play: OFF" initially (to be consistent with the unchecked "Auto-Play" checkbox).
 
+To make the variable names (for storing DOM objects) more meaningful, a good practice is to add a suffix to the variable names. For examples, `quoteEl`, `authorEl`, `newQuoteButton`.
 
-It seems that the leading `"` and `-` are for "styling" purpose. If we leave them in HTML code, it could make styling or changing the view easier. For example, a front-end developer will not need to edit any JS code to change the appearance.
+It seems that the leading `"` and `-` are for "styling" purpose. If we leave them in HTML code, it could make styling or changing the view easier. For example, a front-end developer can change the UI (the view) without editing any JS code.
 
 ### Image Carousel
 
