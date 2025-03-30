@@ -25,9 +25,13 @@ The spec does not specify what to do when angle >= 360. How would you handle suc
 
 #### Sprint-3/1-key-implement/2-is-proper-fraction.js
 
-Mathematically speaking, -3/2 and -1/0 are not proper fractions and -2/-3 is a proper fraction.
+Mathematically speaking, -3/2 and -1/0 are not proper fractions (but -3 < 2 and -1 < 0) and -2/-3 is a proper fraction (but -2 > -3). 
 
-If we consider all possible combinations of negative/positive/zero numerator and denominator, we would have to use a lot of if-statements. However, if we "remove the negative sign" in `numerator` and `denominator` first, we would not need to consider as many. ***Input normalisation", the process of pre-processing the input values before they are used in computation, can often simplify complexity of code, improve performance, and prevent errors.
+We need to consider the cases that `numerator` and `denominator` can be negative, positive, or zero.
+
+However, if we were to consider all possible combinations of negative/positive/zero numerator and denominator, we would have to use a lot of if-statements. One way to reduce the complexity of the code is to "remove the negative sign" in `numerator` and `denominator`. If both numerator and denominator are non-negative numbers, then the if-statements at lines 11-12 would work perfectly.
+
+ ***Input normalisation***, the process of pre-processing the input values before they are used in computation, can often simplify complexity of code, improve performance, and prevent errors.
 
 ---
 Suppose the notation **|X|** denotes the absolute value of X. 
