@@ -17,6 +17,11 @@ Hoisting in JavaScript
 https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
 
 
+---
+
+A better practice is to define styles in an external CSS file and use 'class' in JavaScript to apply styles to elements.
+
+
 ### Alarmclock App
 
 Code works fine if a user only clicks the "Set Alarm" button once.
@@ -45,15 +50,18 @@ If you can make this work, you can also change the CSS properties to make the ba
 #### Sprint-3/quote-generator/quotes.js
 Code is good, 
 
-The first line in `quote.js` is `// DO NOT EDIT BELOW HERE`. So it would be a better practice to respect that line and insert our code before that line.
+Since the first line in quote.js states `// DO NOT EDIT BELOW HERE`, it's best practice to respect this and insert our code above it.
+
+For improved UI/UX, keeping the 'New Quote' button fixed on the page would make it easier to click.
+
 
 ---
 
 It would be better to show "Auto-Play: OFF" initially (to be consistent with the unchecked "Auto-Play" checkbox).
 
-To make the variable names (for storing DOM objects) more meaningful, a good practice is to add a suffix to the variable names. For examples, `quoteEl`, `authorEl`, `newQuoteButton`.
+To make variable names (for storing DOM objects) more meaningful, a better practice is to add a suffix to the variable names. For examples, `quoteEl`, `authorEl`, `newQuoteButton`.
 
-It seems that the leading `"` and `-` are for "styling" purpose. If we leave them in HTML code, it could make styling or changing the view easier. For example, a front-end developer can change the UI (the view) without editing any JS code.
+The leading `"` and `-` appear to be for styling purposes. Keeping them in the HTML makes it easier to style or modify the view. This allows front-end developers to adjust the UI without changing any JavaScript code.
 
 ### Image Carousel
 
