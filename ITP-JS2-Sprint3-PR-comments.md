@@ -27,7 +27,7 @@ The spec does not specify what to do when angle >= 360. How would you handle suc
 
 Mathematically speaking, -3/2 and -1/0 are not proper fractions (but -3 < 2 and -1 < 0) and -2/-3 is a proper fraction (but -2 > -3). 
 
-We need to consider the cases that `numerator` and `denominator` can be negative, positive, or zero.
+We need to account for all possible cases where `numerator` and `denominator` can be negative, positive, or zero.
 
 However, if we were to consider all possible combinations of negative/positive/zero numerator and denominator, we would have to use a lot of if-statements. One way to reduce the complexity of the code is to "remove the negative sign" in `numerator` and `denominator`. If both numerator and denominator are non-negative numbers, then the if-statements at lines 11-12 would work perfectly.
 
