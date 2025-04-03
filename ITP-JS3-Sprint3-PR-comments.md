@@ -48,9 +48,9 @@ If you can make this work, you can also change the CSS properties to make the ba
 ### Quote Generator
 
 #### Sprint-3/quote-generator/quotes.js
-Code is good, 
+Code is working great. 
 
-Since the first line in quote.js states `// DO NOT EDIT BELOW HERE`, it's best practice to respect this and insert our code above it.
+Note: It is a best practice to respect instructions like `// DO NOT EDIT BELOW HERE`.
 
 For improved UI/UX, keeping the 'New Quote' button fixed on the page would make it easier to click.
 
