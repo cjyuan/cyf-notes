@@ -88,5 +88,8 @@ May I suggest the following approach for implementing an app with a GUI?
 If you have difficulty figuring out how to implement this, try asking ChatGPT or ask a volunteer.
 (Let me know if you want to know what question you can ask ChatGPT to get a sample code)
 
+### Reading List
+It is a better practice to separate CSS styles as much as possible from the JS code. That way, front-end developers can change the view without dealing with the JS code.
 
+Can you specify these in style.css, and instead of setting a background color conditionally, change the statement at line 45 to assign a CSS class to bookElement conditionally?
 
