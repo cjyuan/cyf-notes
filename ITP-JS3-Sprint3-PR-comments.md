@@ -69,6 +69,24 @@ The leading `"` and `-` appear to be for styling purposes. Keeping them in the H
 
 - If a user clicks the "Auto forward" or/and "Auto Backward" **multiple** times, the display will become jittery, and clicking the "Stop" button cannot stop the images from being changed automatically.
 
+
+A lot of these code are very similar. That usually means we could possibly refactor them to reduce the amount of code in the program.
+
+For example, we can define a function to display the previous/current/next image in the following manner:
+```
+  // offset = -1, 0, 1 to represent previous, current, and next image respectively
+  function showImage(offset) { 
+     // Update currentImageIndex accordingly
+     // Display images[currentImageIndex]
+  }
+```
+
+Note: I think you might also be interested in knowing a trick to wrap index to prevent index out of bounds in programming.
+May I suggest you ask ChatGPT "How to wrap positive and negative index in JS?".
+
+
+Consider setting fixed dimensions for the displayed image to prevent the buttons from shifting positions due to changes in image size.
+
 ### Todo List
 
 May I suggest the following approach for implementing an app with a GUI?
