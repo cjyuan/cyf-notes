@@ -7,12 +7,13 @@ The acceptance criteria does not mention the TV Show App has to be bug free, jus
 
 
 
-https://github.com/CodeYourFuture/Module-Data-Flows/issues/12
+You missed an item described in the Acceptance Criteria ( https://programming.codeyourfuture.io/data-flows/success/ ), "Work out your [LinkedIn Social Selling Index](https://github.com/CodeYourFuture/Module-Data-Flows/issues/12), and posted the actions you will take to improve this".
+
 For the Linkedin Social Selling Index, you need to
 1. Clone the issue/backlog to your course planner
 2. In your copied issue,
   - Share the screenshot of your LinkedIn Social Selling Index
-  - Write one SMART action you will commit to get more active on LinkedIn (as a comment in the issue)
+  - Write one SMART action you will commit to get more active on LinkedIn (as a comment in the issue). A SMART action should be Specific, Measurable, Achievable, Relevant, Time-bound.
 3. Share the link to your updated copied issued.
 
 
