@@ -52,12 +52,11 @@ In terms of input validation,
 1. What if a user enters only space characters in the "title" input field?
 1. What if a users enters `-1` or `3.1416` in the "pages" input field?
 
-There are also some errors in the `index.html`.
+When I checked the code in `index.html` at https://validator.w3.org/, it indicated some errors.
 
 ---
 
-Can you think of a more efficient way to remove all rows (except the `<th>...</th>`) in the table?
-
+Instead of deleting the table rows one by one, can you think of a more efficient way to remove all rows (except the `<th>...</th>`) in the table?
 ---
 
 Does `book.check == true` mean "Read" or "Not yet read"?
@@ -67,12 +66,16 @@ Does `book.check == true` mean "Read" or "Not yet read"?
 - Is the value assigned to this `id` attribute unique?
 - Is there a need to assign an id attribute to `delButton`?
 - Is there a need to assign an id attribute to `changeBut` (at line 72)?
-- Can you think of a more consistent way to name the variables representing the two buttons?
+- Can you think of a more consistent way to name the variables representing the two buttons, `changeBut` and `delButton`?
 
 ---
+In order to allow a user to indicate a book has not yet been read, I think we should also allow the checkbox to stay unchecked.
 
 At the moment when the alert message is displayed, has the book mentioned in the message been deleted yet?
 How would you rearrange these statements to make the message truthful?
+
+With the way the book's title is assigned to an HTML element, a book with a title containing special character sequence such as `<i>` can possibly ruin the display.
+
 
 ### Code Reading
 The variable at line 5 is definite not global.
