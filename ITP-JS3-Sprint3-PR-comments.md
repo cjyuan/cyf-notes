@@ -1,5 +1,8 @@
 ### Generic
 
+It's considered good practice to check the boxes in the PR template (to confirm that the listed requirements have been met) and to include a brief description of the PR.
+
+
 Each exercise should have its own branch created from `main`. This branch currently contains modified files that don't belong to this backlog. Can you either
 1. fix this branch by either rebasing it onto `main`, Or
 2. close this PR and submit a new PR using a new branch created from `main?
