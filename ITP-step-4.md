@@ -34,4 +34,4 @@ Can you make a new submission after you have made the necessary change? Doing so
 
 Note:
 Volunteers don't receive any email notification when you leave comments here on the Applicant Portal.
-Resubmitting would make your submission "stand out" on Dashboard to attract volunteer's attention.
+Resubmitting is the best way to make your submission "stand out" on Dashboard to attract volunteer's attention.
