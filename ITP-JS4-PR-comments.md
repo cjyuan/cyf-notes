@@ -73,15 +73,11 @@ Does `book.check == true` mean "Read" or "Not yet read"?
   - Is there any need to assign an id attribute to either buttons?
 
 - Line 76:
-  - With the way the book's title is assigned to an HTML element, a book with a title containing special character sequence such as `<i>` can possibly ruin the display.
+  - The current method of assigning book titles to HTML elements can cause display issues if a title contains special character sequences like `<i>`.
 
-- Can you think of a more consistent way to name the variables representing the two buttons, `changeBut` and `delButton`?
-
-With the way the book's title is assigned to an HTML element, a book with a title containing special character sequence such as `<i>` can possibly ruin the display.
+- Can you suggest a more consistent naming convention for the variables representing the two buttons, currently named `changeBut` and `delButton`?
 
 ---
-In order to allow a user to indicate a book has not yet been read, I think we should also allow the checkbox to stay unchecked.
-
 At the moment when the alert message is displayed, has the book mentioned in the message been deleted yet?
 How would you rearrange these statements to make the message truthful?
 
