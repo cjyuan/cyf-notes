@@ -54,10 +54,10 @@ The given link in `readm.md` is broken, but you can find similar guide from http
 In terms of input validation, 
 1. Are all input properly checked?
 1. Can `.value` be `null`? (Do we need to check `someInputElement.value == null`?)
-1. What if a user enters only space characters in the "title" input field?
+1. Do you want to allow book title and author name to contain only space characters?
 1. What if a user enters an invalid page number in the "pages" input field?
 
-When I checked the code in `index.html` at https://validator.w3.org/, it indicated some errors.
+According to https://validator.w3.org/, there are errors in your `index.html`. Can you fix these errors?
 
 ---
 
@@ -68,18 +68,22 @@ Does `book.check == true` mean "Read" or "Not yet read"?
 
 ---
 
-- Is the value assigned to this `id` attribute unique?
-- Is there a need to assign an id attribute to `delButton`?
-- Is there a need to assign an id attribute to `changeBut` (at line 72)?
+- Lines 82, 102:
+  - Are the values assigned to these `id` attributes unique? 
+  - Is there any need to assign an id attribute to either buttons?
+
+- Line 76:
+  - With the way the book's title is assigned to an HTML element, a book with a title containing special character sequence such as `<i>` can possibly ruin the display.
+
 - Can you think of a more consistent way to name the variables representing the two buttons, `changeBut` and `delButton`?
+
+With the way the book's title is assigned to an HTML element, a book with a title containing special character sequence such as `<i>` can possibly ruin the display.
 
 ---
 In order to allow a user to indicate a book has not yet been read, I think we should also allow the checkbox to stay unchecked.
 
 At the moment when the alert message is displayed, has the book mentioned in the message been deleted yet?
 How would you rearrange these statements to make the message truthful?
-
-With the way the book's title is assigned to an HTML element, a book with a title containing special character sequence such as `<i>` can possibly ruin the display.
 
 
 ### Code Reading
