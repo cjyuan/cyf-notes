@@ -10,6 +10,7 @@ On a separate note, it's considered good practice to check the boxes in the PR t
 It might be easier to align output using the string's built-in padding functions than using space characters.
 
 ---
+How would you modify this statement to align the value of `lineTotal` when its value is 10.00 or more?
 
 The format of the output in exercise-3 is not **exact**; the spacing is off a bit.
 Since the spec mentions `Pay attention to the exact formatting of the expected result.` It would be great if you can try to produce an output that matches the expected result.
