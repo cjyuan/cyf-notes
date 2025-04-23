@@ -114,3 +114,7 @@ It is a better practice to separate CSS styles as much as possible from the JS c
 
 Can you specify these in style.css, and instead of setting a background color conditionally, change the statement at line 45 to assign a CSS class to bookElement conditionally?
 
+For examples, you can specify different classes in an external CSS file, and then
+- At line 31, conditionally add a CSS class to `listItem` (A HTML element can have multiple CSS classes) 
+- At line 42, assign a CSS class to `image`.
+
