@@ -1,6 +1,7 @@
 VSCode includes a built-in feature called "Format Document" which can be used to format our code for better readability and consistency.
 To use the feature, right-click inside the code editor and select the option.
 
+There are some errors in your HTML code.
 It's a good practice to use an [HTML validator](https://validator.w3.org/) to check our HTML code for errors and ensure it follows web standards.
 
 It is also good practice to use an AI tool to review our code. It can often provide valuable feedback and help identify small mistakes we might overlook.
