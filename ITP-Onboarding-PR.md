@@ -9,7 +9,7 @@ It is also good practice to use an AI tool to review our code. It can often prov
 
 On a separate note, it is best practice to include a brief description in the Changelist section of every PR.
 
-
+The spacing before and after the title in the second article differs from that in the third. Can you fix those spacing to ensure consistency across all articles.
 
 
 
