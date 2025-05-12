@@ -13,7 +13,7 @@ Please note that if there are syntax errors in the code, the "Prettier" extensio
 
 ---
 
-When provided with a wireframe, our implementation should closely match it in appearance and layout. For examples,
+When provided with a wireframe, our implementation should closely match it in appearance and layout. For examples, in your implementation
   - In the wireframe, the PAGE TITLE is centered.
   - In the wireframe image, there is a "A SHORT DESCRIPTION" beneath the title.
 
