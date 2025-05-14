@@ -1,3 +1,6 @@
+Please follow the instructions in "PR Essentials" on this Slack Canvas:
+https://codeyourfutur-yov6609.slack.com/archives/C07QX99JK7B
+
 
 ---
 
