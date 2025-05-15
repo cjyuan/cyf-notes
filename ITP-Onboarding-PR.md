@@ -2,7 +2,11 @@ Please follow the instructions in "PR Essentials" on this Slack Canvas:
 https://codeyourfutur-yov6609.slack.com/archives/C07QX99JK7B
 
 
-In addition to implementing changes based on reviewer feedback, it's good practice to respond to each comment, indicating what was changed or how the request was addressed.
+
+
+
+I think you can improve the wireframe webpage by addressing the following issue:
+
 
 ---
 
@@ -17,19 +21,29 @@ Please note that if there are syntax errors in the code, the "Prettier" extensio
 3. It is also good practice to use an AI tool to review our code. It can often provide valuable feedback and help identify small mistakes we might overlook.
 
 ---
-When a wireframe is provided, our implementation should closely reflect its appearance and layout to ensure consistency with design expectations.
-You're off to a solid start! To align more closely with the wireframe, here are a few areas where the layout or appearance could be refined:
+When a wireframe is provided, our implementation should closely reflect its appearance and layout to ensure consistency with design expectations. You're off to a solid start! To better align with the wireframe, here are a few areas where the layout and appearance could be refined:
   - The PAGE TITLE is not centered.
   - The "A SHORT DESCRIPTION" beneath the page title is omitted.
   - The left and right edges of the first article are misaligned with the left edge of the second article and the right edge of the third article.
   - The image in the first article is not center and it does not cover the full width of its container.
   - The spacing (margin and padding) used in the articles are not consistent; 
+  - The images do not span the full width of their container.
+  - The article content is not left-aligned.
+  - The "Read More" links are missing a border.
 
 Could you adjust the CSS to better match the wireframe's appearance and layout?
 
-
-
   - The spacing before and after the title in the second article differs from that in the third. Can you fix those spacing to ensure consistency across all articles.
+
+
+- The spacing in the second article appears to be slightly different from that in the third. In particulars,
+  - The vertical gap before and after the article title
+  - The margin/padding size around the "Read More" link
+  
+  With the original CSS, this spacing issues appears to be affected by the content length. Can you modify the CSS code to make the spacing more consistent in all articles regardless of content length?
+
+--- 
+One of the acceptance criteria, "The page footer is fixed to the bottom of the viewport", has not yet been satisfied. Can you make the necessary change? (Suggestion: Ask ChatGPT what that requirement means).
 
 ---
 
@@ -59,6 +73,5 @@ To understand why, you can ask ChatGPT these questions:
 
 
 ### Form-Controls
-1. Do you want to accept two space characters as valid name?  If you want to accept names that match certain pattern, you can explore the "pattern" attribute.
+1. A user can currently enter a name consisting of only spaces (e.g., " "). To enforce stricter validation, consider using the `pattern` attribute to disallow whitespace-only or invalid name formats.
 
-2. Currently a us
