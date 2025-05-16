@@ -1,12 +1,22 @@
 Please follow the instructions in "PR Essentials" on this Slack Canvas:
 https://codeyourfutur-yov6609.slack.com/archives/C07QX99JK7B
 
+Note: In addition to implementing changes based on reviewer feedback, it's good practice to respond to each comment, indicating what was changed or how the request was addressed.
+
 
 
 
 
 I think you can improve the wireframe webpage by addressing the following issue:
 
+
+In terms of preparing better HTML code, there are few areas you can improve. To find out what you can possibly improve, I would like you to try asking ChatGPT to review your code.
+Hints: 
+    - favicon
+    - h1 headers
+    - typo (spelling mistakes)
+ 
+ChatGPT may suggest a lot of changes, and you can determine which suggestions to consider.
 
 ---
 
@@ -74,4 +84,6 @@ To understand why, you can ask ChatGPT these questions:
 
 ### Form-Controls
 1. A user can currently enter a name consisting of only spaces (e.g., " "). To enforce stricter validation, consider using the `pattern` attribute to disallow whitespace-only or invalid name formats.
+
+2. There is a way to configure a <select> element so that no option is selected by default, allowing the user to make an explicit choice.
 
