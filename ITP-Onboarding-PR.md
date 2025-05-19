@@ -1,22 +1,28 @@
-Please follow the instructions in "PR Essentials" on this Slack Canvas:
+Can you refer to "PR Essentials" on this Slack Canvas:
 https://codeyourfutur-yov6609.slack.com/archives/C07QX99JK7B
 
 Note: In addition to implementing changes based on reviewer feedback, it's good practice to respond to each comment, indicating what was changed or how the request was addressed.
 
+---
+
+To follow best practices, make sure to check the items in the Self-Checklist to confirm your pull request meets the guidelines. Additionally, provide a brief description summarizing the purpose of the PR and the changes you’ve made.
 
 
+---
+
+I saw some very good suggestions by ChatGPT When I asked it to review your code by asking
+```
+review HTML code:
+...        <--- paste your HTML code here
+```
+
+Can you try asking ChatGPT to review your code, go through its suggestions, and choose the ones that are most helpful to apply to your work? 
+
+---
+
+I think you can further improve your wireframe webpage by addressing the following issues:
 
 
-I think you can improve the wireframe webpage by addressing the following issue:
-
-
-In terms of preparing better HTML code, there are few areas you can improve. To find out what you can possibly improve, I would like you to try asking ChatGPT to review your code.
-Hints: 
-    - favicon
-    - h1 headers
-    - typo (spelling mistakes)
- 
-ChatGPT may suggest a lot of changes, and you can determine which suggestions to consider.
 
 ---
 
