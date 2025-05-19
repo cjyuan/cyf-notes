@@ -68,6 +68,8 @@ Instead of deleting the table rows one by one, can you think of a more efficient
 Does `book.check == true` mean "Read" or "Not yet read"?
 
 ---
+- Lines 18-21:
+  - Using descriptive and consistent suffixes for DOM elements (like El, Input, Btn, Form, etc.) can significantly improves code readability and maintainability.
 
 - Lines 82, 102:
   - Are the values assigned to these `id` attributes unique? 
