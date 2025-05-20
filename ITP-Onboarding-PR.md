@@ -10,7 +10,7 @@ To follow best practices, make sure to check the items in the Self-Checklist to 
 
 ---
 
-I saw some very good suggestions by ChatGPT When I asked it to review your code by asking
+I saw some very good suggestions when I asked ChatGPT this:
 ```
 review HTML code:
 ...        <--- paste your HTML code here
