@@ -13,7 +13,7 @@ Can you give those suggestions a try? They can really help speed up the review p
 
 In the CYF course, the recommended way to let a reviewer know you've made the requested changes is to:
   - Reply to their comments (which you’ve already done — great!)
-  - Replace the "Reviewed" label by to "Needs review" label instead of directly requesting a review from the rereview
+  - Replace the "Reviewed" label by a "Needs review" label instead of directly requesting a review from the rereview
 
 ---
 
@@ -68,7 +68,7 @@ I think you can further improve your wireframe webpage by addressing the followi
 
 ---
 
-VSCode includes a built-in feature called "Format Document" which can be used to format our code for better readability and consistency.
+VSCode's "Format Document" feature can help us format our code for better readability and consistency.
 To use the feature, right-click inside the code editor and select the option.
 Please note that if there are syntax errors in the code, the "Prettier" extension may not format HTML code properly.
 
