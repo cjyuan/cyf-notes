@@ -73,7 +73,7 @@ To use the feature, right-click inside the code editor and select the option.
 Please note that if there are syntax errors in the code, the "Prettier" extension may not format HTML code properly.
 
 ---
-When a wireframe is provided, our implementation should closely reflect its appearance and layout to ensure consistency with design expectations. You're off to a solid start! To better align with the wireframe, here are a few areas where the layout and appearance could be refined:
+When a wireframe is provided, our implementation should closely reflect its appearance and layout to ensure consistency with design expectations. You're off to a solid start, but the main purpose of implementing a wireframe is to translate structure and functionality, not final visual design. Visual design is usually handled by UI/graphic designers after the wireframe phase. To better align with the wireframe, here are a few areas where the layout and appearance could be refined:
   - The PAGE TITLE is not centered.
   - The "A SHORT DESCRIPTION" beneath the page title is omitted.
   - The left and right edges of the first article are misaligned with the left edge of the second article and the right edge of the third article.
