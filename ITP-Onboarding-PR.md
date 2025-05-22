@@ -1,3 +1,10 @@
+A PR branch should include only the changes relevant to the specific task or feature it addresses. In this case, the branch created for the Form-Control exercise includes modifications to files in the "Wireframe" folder, which are considered unrelated to the current work.
+
+Could you please revert the changes made to the unrelated file(s) so that the PR remains focused?
+
+Note: If you need help with this, feel free to bring it up during a Saturday workshop—volunteers will be available to assist you.
+
+
 Slack message:
 The "PR Essentials" file on the [Canvas](https://codeyourfutur-yov6609.slack.com/archives/C07QX99JK7B) in the #cyf-code-review channel has some helpful tips for preparing your pull requests.
 
@@ -6,7 +13,7 @@ Can you give those suggestions a try? They can really help speed up the review p
 
 In the CYF course, the recommended way to let a reviewer know you've made the requested changes is to:
   - Reply to their comments (which you’ve already done — great!)
-  - Change the label from "Reviewed" to "Needs review" instead of directly asking them to review again.
+  - Replace the "Reviewed" label by to "Needs review" label instead of directly requesting a review from the rereview
 
 ---
 
@@ -25,7 +32,8 @@ Then take a look at the suggestions it gives you, and pick out the ones that act
 Once you've finished making changes, please leave a comment on this PR so I’ll get notified. Thanks!
 
 ---
-The 3rd and 5th items in the original Self-check list would have already implied your implementation meets all those requirements listed in the `README.md` file of the exercise. An alternative to make the spec available to the reviewer could be to include a link to the relevant backlog or to the `README.md` file.
+
+In your PR description, instead of including the checklist from the project's `README.md`, you can check off the 3rd and 5th items in the original Self-check list to confirm that your implementation meets all the requirements outlined in the project's `README.md`.
 
 I restored the original checklist in your PR description. can you check them to make them look like
 ![image](https://github.com/user-attachments/assets/6f85e6c5-4dd7-49aa-a9fc-e17a9dc2189d)
@@ -119,7 +127,7 @@ To understand why, you can ask ChatGPT these questions:
 
 
 ### Form-Controls
-1. A user can currently enter a name consisting of only spaces (e.g., " "). To enforce stricter validation, consider using the `pattern` attribute to disallow whitespace-only name.
+1. Currently a user can enter a name consisting of only space characters (e.g., " "). Can you enforce a stricter validation rule using the `pattern` attribute to disallow any name that contains only space characters?
 
 2. There is a way to configure a `<select>` element so that no option is selected by default, allowing the user to make an explicit choice.
 
