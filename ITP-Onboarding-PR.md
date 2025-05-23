@@ -11,9 +11,9 @@ The "PR Essentials" file on the [Canvas](https://codeyourfutur-yov6609.slack.com
 Can you give those suggestions a try? They can really help speed up the review process. Thanks.
 
 
-In the CYF course, the recommended way to let a reviewer know you've made the requested changes is to:
+Please note that in the CYF course, the recommended way to inform the reviewer of your changes is to do both of the following:
   - Reply to their comments (which you’ve already done — great!)
-  - Replace the "Reviewed" label by a "Needs review" label instead of directly requesting a review from the rereview
+  - Replace the "Reviewed" label by a "Needs review" label
 
 ---
 
