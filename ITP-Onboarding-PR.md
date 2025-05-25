@@ -4,12 +4,14 @@ Could you please revert the changes made to the unrelated file(s) so that the PR
 
 Note: If you need help with this, feel free to bring it up during a Saturday workshop—volunteers will be available to assist you.
 
+---
 
 Slack message:
 The "PR Essentials" file on the [Canvas](https://codeyourfutur-yov6609.slack.com/archives/C07QX99JK7B) in the #cyf-code-review channel has some helpful tips for preparing your pull requests.
 
 Can you give those suggestions a try? They can really help speed up the review process. Thanks.
 
+---
 
 Please note that in the CYF course, the recommended way to inform the reviewer of your changes is to do both of the following:
   - Reply to their comments (which you’ve already done — great!)
@@ -94,7 +96,9 @@ The spacing in the second article appears to be slightly different from that in 
   - The margin/padding size around the "Read More" link
 With the original CSS, this spacing issues appears to be affected by the content length. Can you modify the CSS code to make the spacing more consistent in all articles regardless of content length?
 
+---
 
+It’s important to ensure the implementation adheres to the specifications outlined in the `README.md` to maintain consistency and avoid unexpected behavior. If you’d like to introduce new features you believe are useful, it’s best to request pre-approval first to ensure alignment with project goals.
 
 --- 
 One of the acceptance criteria, "The page footer is fixed to the bottom of the viewport", has not yet been satisfied. Can you make the necessary change? (Suggestion: Ask ChatGPT what that requirement means).
