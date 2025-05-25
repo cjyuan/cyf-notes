@@ -14,8 +14,14 @@ Can you give those suggestions a try? They can really help speed up the review p
 ---
 
 Please note that in the CYF course, the recommended way to inform the reviewer of your changes is to do both of the following:
-  - Reply to their comments (which you’ve already done — great!)
-  - Replace the "Reviewed" label by a "Needs review" label
+  - Reply to their feedback.
+    - In the responses, clarify how each piece of feedback was addressed to demonstrate that you've carefully reviewed the suggestions.
+    - Your response may trigger a notification (depending on the reviewer's settings), helping ensure they’re aware of the updates you’ve made. 
+  - Replace the "Reviewed" label by a "Needs review" label (which you have done -- great!)
+
+---
+
+In addition to implementing changes based on reviewer feedback, it's considered good practice to respond to each comment. This helps clarify how each piece of feedback was addressed and demonstrates that you've carefully reviewed the suggestions. Additionally, your response may trigger a notification (depending on the reviewer's settings), helping ensure they’re aware of the updates you’ve made.
 
 ---
 
@@ -46,13 +52,13 @@ I restored the original checklist in your PR description. can you check them to 
 You can find some useful info to prepare a PR in the "PR Essentials" file on this Slack Canvas:
 https://codeyourfutur-yov6609.slack.com/archives/C07QX99JK7B
 
-In addition to implementing changes based on reviewer feedback, it's considered good practice to respond to each comment. This helps clarify how each piece of feedback was addressed and demonstrates that you've carefully reviewed the suggestions. Additionally, your response may trigger a notification (depending on the reviewer's settings), helping ensure they’re aware of the updates you’ve made.
 
 
 ---
 
-To follow best practices, make sure to check the items in the Self-Checklist to confirm your pull request meets the guidelines. Additionally, provide a brief description summarizing the purpose of the PR and the changes you’ve made.
-
+To follow best practices, make sure to 
+    - Check the items in the Self-Checklist to confirm your pull request meets the guidelines (which you have done! Good!)
+    - Provide a brief description (under the "Changelist" section) summarizing the purpose of the PR and the changes you’ve made 
 
 ---
 
@@ -108,10 +114,6 @@ One of the acceptance criteria, "The page footer is fixed to the bottom of the v
 There are some errors in your HTML code. Can you fix these errors?
 
 --- 
-
-On a separate note, it is best practice to include a brief description of the changes you made in the Changelist section of every PR.
-
-
 
 
 Line 17 can be better formatted as:
