@@ -6,10 +6,15 @@ Note: If you need help with this, feel free to bring it up during a Saturday wor
 
 ---
 
-Slack message:
-The "PR Essentials" file on the [Canvas](https://codeyourfutur-yov6609.slack.com/archives/C07QX99JK7B) in the #cyf-code-review channel has some helpful tips for preparing your pull requests.
+Can you find out from ChatGPT the following
+- What's the best practice to respond to reviewer reviews in a PR?
+- How to respond to comments in a conversation in a PR?
 
-Can you give those suggestions a try? They can really help speed up the review process. Thanks.
+You can use this PR to practice them.
+
+---
+
+Can you also run your code through ChatGPT to see if there’s anything (no matter how minor) that could be improved? I noticed some small inconsistencies, but I believe you can identify them yourself with ChatGPT’s help.
 
 ---
 
@@ -76,9 +81,6 @@ I think you can further improve your wireframe webpage by addressing the followi
 
 ---
 
-VSCode's "Format Document" feature can help us format our code for better readability and consistency.
-To use the feature, right-click inside the code editor and select the option.
-Please note that if there are syntax errors in the code, the "Prettier" extension may not format HTML code properly.
 
 ---
 When a wireframe is provided, our implementation should closely reflect its appearance and layout to ensure consistency with design expectations. You're off to a solid start, but the main purpose of implementing a wireframe is to translate structure and functionality, not final visual design. Visual design is usually handled by UI/graphic designers after the wireframe phase. To better align with the wireframe, here are a few areas where the layout and appearance could be refined:
@@ -130,6 +132,12 @@ To understand why, you can ask ChatGPT these questions:
 - How HTML treat mutliple whitespace characters in text?
 - What's the advantage of not writing a long paragraph of text in a single line in HTML?
 
+VSCode's "Format Document" feature can help us format our code for better readability and consistency, including breaking a long line of text into shorter lines of text.
+To use the feature, right-click inside the code editor and select the option.
+Please note that if there are syntax errors in the code, the "Prettier" extension may not format HTML code properly.
+
+This is an example of a webpage with a layout that matches the wireframe.
+![image](https://github.com/user-attachments/assets/15f3fcb5-5a5a-4826-8e94-f8f0b716cb61)
 
 
 ### Form-Controls
