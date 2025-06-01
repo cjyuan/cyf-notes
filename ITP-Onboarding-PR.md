@@ -23,7 +23,7 @@ Please note that in CYF courses, the recommended way to inform the reviewer of y
     - In the responses, clarify how each piece of feedback was addressed to demonstrate that you've carefully reviewed the suggestions.
     - Your response may trigger a notification (depending on the reviewer's settings), helping ensure they’re aware of the updates you’ve made. 
   - Replace the "Reviewed" label by a "Needs review" label (which you have done -- great!)
-
+    - Without this label, the reviewer would not know if your changes is ready to be reviewed.
 ---
 
 In addition to implementing changes based on reviewer feedback, it's considered good practice to respond to each comment. This helps clarify how each piece of feedback was addressed and demonstrates that you've carefully reviewed the suggestions. Additionally, your response may trigger a notification (depending on the reviewer's settings), helping ensure they’re aware of the updates you’ve made.
@@ -113,7 +113,7 @@ One of the acceptance criteria, "The page footer is fixed to the bottom of the v
 
 ---
 
-There are some errors in your HTML code. Can you fix these errors?
+According to https://validator.w3.org/, there are errors in your code. Can you fix them?
 
 --- 
 
