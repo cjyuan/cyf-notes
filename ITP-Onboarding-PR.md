@@ -1,3 +1,5 @@
+Both of your PRs do not yet have a "Needs review" label. Without the label, volunteers will not recognise them as being "ready to be reviewed".
+
 Until you're able to add a label, here are some actions you can take to further improve your implementation and your PR (in order to speed up the review process):
 1. Follow the suggestions in the "PR Essentials" guide on the [Canvas](https://codeyourfutur-yov6609.slack.com/archives/C07QX99JK7B) in the #cyf-code-review channel. It has some helpful tips to make your PRs more robust and ready for review.
 
