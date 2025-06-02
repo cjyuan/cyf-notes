@@ -1,3 +1,16 @@
+Until you're able to add a label, here are some actions you can take to further improve your implementation and your PR (in order to speed up the review process):
+1. Follow the suggestions in the "PR Essentials" guide on the [Canvas](https://codeyourfutur-yov6609.slack.com/archives/C07QX99JK7B) in the #cyf-code-review channel. It has some helpful tips to make your PRs more robust and ready for review.
+
+2. Ask AI tools for suggestions. For example, you can ask ChatGPT
+```
+review HTML code:
+...        <--- paste your HTML code here
+```
+
+Then take a look at the suggestions it gives you, and pick out the ones that actually make sense for your project. It's a also great way to learn and improve your work.
+
+---
+
 A PR branch should include only the changes relevant to the specific task or feature it addresses. In this case, the branch created for the Form-Control exercise includes modifications to files in the "Wireframe" folder, which are considered unrelated to the current work.
 
 Could you please revert the changes made to the unrelated file(s) so that the PR remains focused?
@@ -19,10 +32,10 @@ Can you also run your code through ChatGPT to see if there’s anything (no matt
 ---
 
 Please note that in CYF courses, the recommended way to inform the reviewer of your changes is to do both of the following:
-  - Reply to their feedback.
+  - **Reply to their feedback.**
     - In the responses, clarify how each piece of feedback was addressed to demonstrate that you've carefully reviewed the suggestions.
     - Your response may trigger a notification (depending on the reviewer's settings), helping ensure they’re aware of the updates you’ve made. 
-  - Replace the "Reviewed" label by a "Needs review" label (which you have done -- great!)
+  - **Replace the "Reviewed" label by a "Needs review" label** (which you have done -- great!)
     - Without this label, the reviewer would not know if your changes is ready to be reviewed.
 ---
 
@@ -46,6 +59,13 @@ Once you've finished making changes, please leave a comment on this PR so I’ll
 
 ---
 
+There are a few errors in your HTML code, and the code could benefit from better indentation for readability. Can you take a few minutes to go through the suggestions in the "PR Essentials" guide to help improve your code quality and the overall pull request?
+
+You can find the "PR Essentials" guide on the [Canvas](https://codeyourfutur-yov6609.slack.com/archives/C07QX99JK7B) in the #cyf-code-review channel. 
+It includes practical tips for writing cleaner code and making your PRs easier to review. Thanks!
+
+---
+
 In your PR description, instead of including the checklist from the project's `README.md`, you can check off the 3rd and 5th items in the original Self-check list to confirm that your implementation meets all the requirements outlined in the project's `README.md`.
 
 I restored the original checklist in your PR description. can you check them to make them look like
@@ -61,9 +81,26 @@ https://codeyourfutur-yov6609.slack.com/archives/C07QX99JK7B
 
 ---
 
-To follow best practices, make sure to 
+To follow best practices, can you carry out the following actions?
     - Check the items in the Self-Checklist to confirm your pull request meets the guidelines (which you have done! Good!)
     - Provide a brief description (under the "Changelist" section) summarizing the purpose of the PR and the changes you’ve made 
+
+Can you format the checked boxes using the proper Markdown syntax in your PR description so that they look something like this?
+![image](https://github.com/user-attachments/assets/6f85e6c5-4dd7-49aa-a9fc-e17a9dc2189d)
+(With proper Markdown syntax, we can use mouse to check/uncheck the items)
+
+In the PR description, can you also provide a brief description (under the "Changelist" section) summarizing the purpose of the PR and the changes you’ve made?
+![image](https://github.com/user-attachments/assets/f510bc87-2e14-4e47-853b-65a7453d7b41)
+
+
+The code for the "Changelist" section looks like this in the PR template:
+```
+### Changelist
+
+Briefly explained your PR.
+
+```
+
 
 ---
 
