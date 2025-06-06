@@ -88,7 +88,7 @@ To follow best practices, can you update your PR description by carrying out the
     - Provide a brief description (under the "Changelist" section) summarizing the purpose of the PR and the changes you’ve made 
 
 Can you format the checked boxes using the proper Markdown syntax in your PR description so that they look something like this?
-![image](https://github.com/user-attachments/assets/6f85e6c5-4dd7-49aa-a9fc-e17a9dc2189d)
+![image](https://github.com/user-attachments/assets/74c526b0-3a54-4570-8bb4-680398337bcb)
 (With proper Markdown syntax, we can use mouse to check/uncheck the items)
 
 To follow best practices, in your PR description, can you provide a brief description (under the "Changelist" section) summarizing the purpose of the PR and the changes you’ve made?
