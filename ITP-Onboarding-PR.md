@@ -83,7 +83,7 @@ https://codeyourfutur-yov6609.slack.com/archives/C07QX99JK7B
 
 ---
 
-To follow best practices, can you carry out the following actions?
+To follow best practices, can you update your PR description by carrying out the following actions?
     - Check the items in the Self-Checklist to confirm your pull request meets the guidelines (which you have done! Good!)
     - Provide a brief description (under the "Changelist" section) summarizing the purpose of the PR and the changes you’ve made 
 
@@ -183,4 +183,26 @@ This is an example of a webpage with a layout that matches the wireframe.
 1. Currently a user can enter a name consisting of only space characters (e.g., " "). Can you enforce a stricter validation rule using the `pattern` attribute to disallow any name that contains only space characters?
 
 2. There is a way to configure a `<select>` element so that no option is selected by default, allowing the user to make an explicit choice.
+
+
+---
+
+A PR branch should include only the changes relevant to the specific task or feature it addresses.\
+You can see all the modified files in the current branch in the "Files changed" tab of this PR: 
+https://github.com/CodeYourFuture/Module-Onboarding/pull/472/files
+ 
+
+Are the modified files in the "Wireframe" folder and the modified `index.html` in the top level folder related to your form implementation? 
+If not, you should revert the changes made in those files in order to make this branch clean. 
+![image](https://github.com/user-attachments/assets/e7c4cd38-993f-46f1-8e3f-abeafb086ae6)
+
+
+To revert the changes made to certain files, you can replace them with the versions from your `main` branch.
+(The files in the `main` branch remain unmodified since you forked them from CYF.)
+Here’s how to do it:
+    - Download the original versions of the files from your [main branch on GitHub]().
+    - On your computer (in VSCode), switch to the branch where you want to revert the changes. (`Mo-reza_Articles`)
+    - Replace the modified files with the downloaded versions from the `main` branch.
+    - Commit the changes and push the commit to GitHub.
+
 
