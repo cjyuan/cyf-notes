@@ -87,7 +87,7 @@ To follow best practices, can you carry out the following actions?
     - Check the items in the Self-Checklist to confirm your pull request meets the guidelines (which you have done! Good!)
     - Provide a brief description (under the "Changelist" section) summarizing the purpose of the PR and the changes you’ve made 
 
-To follow best practices, can you format the checked boxes using the proper Markdown syntax in your PR description so that they look something like this?
+Can you format the checked boxes using the proper Markdown syntax in your PR description so that they look something like this?
 ![image](https://github.com/user-attachments/assets/6f85e6c5-4dd7-49aa-a9fc-e17a9dc2189d)
 (With proper Markdown syntax, we can use mouse to check/uncheck the items)
 
