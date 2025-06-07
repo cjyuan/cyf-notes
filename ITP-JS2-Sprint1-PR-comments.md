@@ -3,7 +3,11 @@ Describing code can be very challenging initially (even in one's first language)
 #### Sprint-1/1-key-exercises/1-count.js
 Operation like `count = count + 1` is very common in programming, and there is a programming term describing such operation.
 
+Can you find out what one-word programming term describes the operation on line 3?
+
 May I suggest feeding the code to ChatGPT and see how else the code can be described? From time to time you may learn some new programming terms.
+
+
 
 #### Sprint-1/1-key-exercises/3-paths.js
 Since a folder name can also contain '.', can you modify your code so that it will also work for a file path like `"/path1/path2.old/file.txt"`?
