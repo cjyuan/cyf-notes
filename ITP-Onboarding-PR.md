@@ -88,11 +88,11 @@ To follow best practices, can you update your PR description by carrying out the
     - Provide a brief description (under the "Changelist" section) summarizing the purpose of the PR and the changes you’ve made 
 
 Can you format the checked boxes using the proper Markdown syntax in your PR description so that they look something like this?
-![image](https://github.com/user-attachments/assets/74c526b0-3a54-4570-8bb4-680398337bcb)
+![image](https://github.com/user-attachments/assets/e6934aa9-0dab-4c08-80ca-e20e6750347e)
 (With proper Markdown syntax, we can use mouse to check/uncheck the items)
 
 To follow best practices, in your PR description, can you provide a brief description (under the "Changelist" section) summarizing the purpose of the PR and the changes you’ve made?
-![image](https://github.com/user-attachments/assets/f510bc87-2e14-4e47-853b-65a7453d7b41)
+![image](https://github.com/user-attachments/assets/74c526b0-3a54-4570-8bb4-680398337bcb).
 
 
 The code for the "Changelist" section looks like this in the PR template:
@@ -187,7 +187,7 @@ This is an example of a webpage with a layout that matches the wireframe.
 
 ---
 
-A PR branch should include only the changes relevant to the specific task or feature it addresses.\
+A PR branch should include only the changes relevant to the specific task or feature it addresses.
 You can see all the modified files in the current branch in the "Files changed" tab of this PR: 
 https://github.com/CodeYourFuture/Module-Onboarding/pull/472/files
  
