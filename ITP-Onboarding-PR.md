@@ -22,8 +22,8 @@ Note: If you need help with this, feel free to bring it up during a Saturday wor
 ---
 
 Can you find out from ChatGPT the following
-- What's the best practice to respond to reviewer reviews in a PR?
-- How to respond to comments in a conversation in a PR?
+- What's the best practice to respond to reviewer reviews in a pull request?
+- How to respond to inline comments in a conversation in a pull request?
 
 You can use this PR to practice them.
 
