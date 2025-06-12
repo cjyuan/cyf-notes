@@ -103,6 +103,9 @@ Briefly explained your PR.
 
 ```
 
+---
+
+Could you improve the Lighthouse Accessibility score (as reported by the browser's Lighthouse dev tool) to 100?
 
 ---
 
@@ -145,7 +148,10 @@ With the original CSS, this spacing issues appears to be affected by the content
 
 ---
 
-It’s important to ensure the implementation adheres to the specifications outlined in the `README.md` to maintain consistency and avoid unexpected behavior. If you’d like to introduce new features you believe are useful, it’s best to request pre-approval first to ensure alignment with project goals.
+Lines _____ contain code that does not comply with ____ of the requirements specified in `README.md` 
+Could you update your implementation to ensure it complies with the requirements?
+
+Note: In practice, it’s important to ensure the implementation adheres to the specifications to maintain consistency and avoid unexpected behavior. If you’d like to introduce new features you believe are useful, it’s best to request pre-approval first to ensure alignment with project goals.
 
 --- 
 One of the acceptance criteria, "The page footer is fixed to the bottom of the viewport", has not yet been satisfied. Can you make the necessary change? (Suggestion: Ask ChatGPT what that requirement means).
