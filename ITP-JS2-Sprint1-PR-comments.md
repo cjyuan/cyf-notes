@@ -24,13 +24,18 @@ a random integer between -5 and 5 (including both -5 and 5)?
 - What is the range of values that could be assigned to `num`?
 ---
 
-The phrase "between 0 and 1" alone is not precise enough in program specification because 
-it does not state clearly whether 0 and 1 are included in the range.
+Phrases like "integer in range from 0 to 1" or "between 0 and 1" are not precise enough in a program specification, because they do not clearly state whether the endpoints 0 and 1 are included.
 
-One concise way to specify a range of values is to use the **interval notation**.
-You can ask ChatGPT "how to specify a range of numbers using interval notation" to learn more about such notation.
+A more concise and precise way to describe a range of values is to use ***interval notation***.
 
-Would you try describing the return value of `Math.random()` and the value of `num` using this notation?
+I suggest looking up what interval notation is and then using it to describe the return value of `Math.random()`, as well as the possible values of `num`.
+
+
+---
+
+`Math.floor(12.9)` is 12; the function does not **round** 12.9 to 13 (the nearest integer). Could you rephrase the sentence to more accurately describe what `.floor()` does?
+
+
 
 #### Sprint-1/2-mandatory-errors/3.js
 If you cannot modify this statement `const cardNumber = 4533787178994213;`
@@ -38,7 +43,9 @@ If you cannot modify this statement `const cardNumber = 4533787178994213;`
 how would you modify the code (through type conversion) so that it can still extract the last 4 digits from its value.
 
 #### Sprint-1/2-mandatory-errors/4.js
-Have you also noticed the variable names do not quite match the values assigned to the variable?
+- Have you also noticed the variable names do not quite match the values assigned to the variable?
+
+- In JS naming convention, variable names usually begins with a lowercase letter. Names starting with an uppercase letter are used for built-in and custom data types (e.g., `Math`)
 
 #### Sprint-1/3-mandatory-interpret/1-percentage-change.js
 `foo(bar())` would be considered as two function calls in which `bar()` is called first and its return value is passed as a parameter to `foo()`.
@@ -56,6 +63,8 @@ Can you think of another name for the variable?
 
 #### Sprint-1/interpret/to-pounds.js
  Can we expect this program to work as intended even if we deleted `.padEnd(2, "0")` from the code?
+
+In this script, when line 14 is executed, could `paddedPenceNumberString.substring(paddedPenceNumberString.length - 2)` ever be shorter than 2 characters? In other words, do we really need `.padEnd(2, "0")` in this script?
 
 ----
 
