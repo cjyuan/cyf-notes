@@ -26,10 +26,19 @@ a random integer between -5 and 5 (including both -5 and 5)?
 
 Phrases like "integer in range from 0 to 1" or "between 0 and 1" are not precise enough in a program specification, because they do not clearly state whether the endpoints 0 and 1 are included.
 
-A more concise and precise way to describe a range of values is to use ***interval notation***.
+A concise and precise way to describe a range of values is to use ***interval notation***.
+For example, we can say `Math.random() returns a random number in the interval [0, 1)`.
+
+
+
 
 I suggest looking up what interval notation is and then using it to describe the return value of `Math.random()`, as well as the possible values of `num`.
 
+---
+
+"subtract minimum from maximum and add 1" is a literal translation of `(maximum - minimum + 1)`, it does not carry any additional info.
+
+Could you try using ChatGPT to find a clearer, more concise way to describe the code (and update your description in items 2, 3, 4)?
 
 ---
 
@@ -50,6 +59,10 @@ how would you modify the code (through type conversion) so that it can still ext
 #### Sprint-1/3-mandatory-interpret/1-percentage-change.js
 `foo(bar())` would be considered as two function calls in which `bar()` is called first and its return value is passed as a parameter to `foo()`.
 
+
+In the function call .replaceAll(",", ""), there's a programming term for "," and "" (the values passed into the function). Can you find out what it's called, so you can shorten your explanation to something like '...between the ___________s'?
+
+
 #### Sprint-1/3-mandatory-interpret/2-time-format.js
 
 You gave a literal translation of the code, but it does not quite explain what the expression `(movieLength - remainingSeconds) / 60` does.
@@ -61,15 +74,26 @@ Can you describe in terms of **whole minute**, or use ChatGPT to find out how el
 "time" can ambiguous because it may mean refer to clock time (e.g., 12:30pm), time in seconds, etc. 
 Can you think of another name for the variable?
 
-#### Sprint-1/interpret/to-pounds.js
- Can we expect this program to work as intended even if we deleted `.padEnd(2, "0")` from the code?
+
+
+#### Sprint-1/3-mandatory-interpret/3-to-pounds.js
+Could we expect this program to work as intended for any valid `penceString` if we deleted `.padEnd(2, "0")` from the code?
+In other words, do we really need `.padEnd(2, "0")` in this script?
 
 In this script, when line 14 is executed, could `paddedPenceNumberString.substring(paddedPenceNumberString.length - 2)` ever be shorter than 2 characters? In other words, do we really need `.padEnd(2, "0")` in this script?
 
-----
+
+#### Sprint-1/4-stretch-explore/chrome.md
+
+Note: To view the return value of a function call, you need to output the return value to the console as `console.log( function_call(...) )`.
+
+You can also find out exactly what the function returns from the MDN Web Docs website.
+
 
 If you were writing a program that uses `prompt()` to ask for an input value, how can 
 your program tell if the user clicked "OK" or "Cancel"?
+
+
 
 There is a shorter ***programming term*** to describe operations like `count = count + 1` or `count++`. 
 May I suggest feeding the code to ChatGPT to see how else the code can be described? 
