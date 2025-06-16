@@ -25,13 +25,7 @@ The spec does not specify what to do when angle >= 360. How would you handle suc
 
 #### Sprint-3/1-key-implement/2-is-proper-fraction.js
 
-Mathematically speaking, -3/2 and -1/0 are not proper fractions (but -3 < 2 and -1 < 0) and -2/-3 is a proper fraction (but -2 > -3). 
 
-We need to account for all possible cases where `numerator` and `denominator` can be negative, positive, or zero.
-
-However, if we were to consider all possible combinations of negative/positive/zero numerator and denominator, we would have to use a lot of if-statements. One way to reduce the complexity of the code is to "remove the negative sign" in `numerator` and `denominator`. If both numerator and denominator are non-negative numbers, then the if-statements at lines 11-12 would work perfectly.
-
- ***Input normalisation***, the process of pre-processing the input values before they are used in computation, can often simplify complexity of code, improve performance, and prevent errors.
 
 ---
 Suppose the notation **|X|** denotes the absolute value of X. 
@@ -67,7 +61,7 @@ getCardValue("2.1♠")
 
 
 #### Sprint-3/2-mandatory-rewrite/1-get-angle-type.test.js
-We can specify multiple `expect(...)` statements within each `test()` to cover multiple values that belong to the same case. For example,
+We could specify multiple `expect(...)` statements within each `test()` to cover multiple values that belong to the same case. For example,
 ```
 test("should identify reflex angle when angle is in the interval (180, 360)", () => {
   expect(getAngleType(300)).toEqual("Reflex angle");
@@ -78,6 +72,18 @@ test("should identify reflex angle when angle is in the interval (180, 360)", ()
 
 #### Sprint-3/2-mandatory-rewrite/2-is-proper-fraction.test.js
 
+Mathematically speaking, -3/2 and -1/0 are not proper fractions (even though -3 < 2 and -1 < 0), and -2/-3 is a proper fraction (even though -2 > -3). 
+
+We need to account for all possible cases where `numerator` and `denominator` can be negative, positive, or zero.
+
+However, if we were to consider all possible combinations of negative/positive/zero numerator and denominator, we would have to use a lot of if-statements. One way to reduce the complexity of the code is to "remove the negative sign" in `numerator` and `denominator`. If both numerator and denominator are non-negative numbers, then the if-statements at lines 11-12 would work perfectly.
+
+ ***Input normalisation***, the process of pre-processing the input values before they are used in computation, can often simplify complexity of code, improve performance, and prevent errors.
+
+**Can you update your function implementation and Jest tests to take into account all possible cases where `numerator` and `denominator` can be negative, positive, or zero?** 
+
+---
+
 3. What should be the return value of the following function calls?
 ```
 isProperFraction(-2, -3)
@@ -86,6 +92,21 @@ isProperFraction(2, -3)
 isProperFraction(-4, -3)
 isProperFraction(4, -3)
 ```
+
+
+#### Sprint-3/2-mandatory-rewrite/3-get-card-value.js
+
+The instructions in `Sprint-3/1-key-implement/3-get-card-value.js` state
+"Given a card with an invalid rank ... the function should **throw an error** indicating "Invalid card rank."
+
+Throwing an error is not the same as returning an error message.
+
+Could you look up "How to throw an error in JS" and update your code accordingly?
+
+---
+
+To test if a function can throw an error as expected, we could use `.toThrow()`. You can find out more about how to use `.toThrow()` here: https://jestjs.io/docs/expect#tothrowerror (Note: Pay close attention to the syntax of the example)
+
 
 #### Sprint-3/3-mandatory-practice/implement/repeat.js
 How would the caller distinguish the result of the following two function calls?
@@ -101,6 +122,8 @@ If you modified `repeat()` to throw an error when `count` is negative, and you w
 if the function can throw an error as expected, you can use `.toThrow()`. You can find out more about how to use `.toThrow()` here: https://jestjs.io/docs/expect#tothrowerror (Note: Pay close attention to the syntax of the example)
 
 
+
+
 #### Sprint-3/implement/rotate-char.js
 
 How would you modify your implementation if shift is allowed to be a negative number to represent a rotation in the opposite direction?
@@ -112,7 +135,7 @@ Why not check also cases where number of digits is not exactly 16?
 #### Sprint-3/revise/implement/get-ordinal-number.test.js
 
 `getOrdinalNumber(101)` should return "101st". 
-May I suggest using Google/ChatGPT to find out the rules to convert a number to an ordinal number?
+You might consider looking up the rules online or asking an AI tool to clarify how ordinal numbers are formed.
 
 #### Sprint-3/revise/implement/is-prime.js
 
