@@ -1,12 +1,23 @@
+
+To follow best practices, can you update your PR description by carrying out the following actions?
+    - Check the items in the Self-Checklist to confirm your pull request meets the guidelines (which you have done! Good!)
+    - Provide a brief description (under the "Changelist" section) summarizing the purpose of the PR and the changes you’ve made 
+
+---
+
 Describing code can be very challenging initially (even in one's first language). May I suggest using ChatGPT to find out how else code can be described? From time to time you may also learn some useful programming terms from ChatGPT.
+
+--
+Why not practice "committing files one by one, on purpose, and for a reason"?
+In VSCode, you can select which file to ***stage***, and commit only the staged file.
+See: https://www.youtube.com/watch?v=z5jZ9lrSpqk&t=705  (At around 12:50 minute marker, the video shows how to stage a single file).
+
+
 
 #### Sprint-1/1-key-exercises/1-count.js
 Operation like `count = count + 1` is very common in programming, and there is a programming term describing such operation.
 
 Can you find out what one-word programming term describes the operation on line 3?
-
-May I suggest feeding the code to ChatGPT and see how else the code can be described? From time to time you may learn some new programming terms.
-
 
 
 #### Sprint-1/1-key-exercises/3-paths.js
@@ -26,13 +37,8 @@ a random integer between -5 and 5 (including both -5 and 5)?
 
 Phrases like "integer in range from 0 to 1" or "between 0 and 1" are not precise enough in a program specification, because they do not clearly state whether the endpoints 0 and 1 are included.
 
-A concise and precise way to describe a range of values is to use ***interval notation***.
+You can also use the concise and precise ***interval notation*** to describe a range of values.
 For example, we can say `Math.random() returns a random number in the interval [0, 1)`.
-
-
-
-
-I suggest looking up what interval notation is and then using it to describe the return value of `Math.random()`, as well as the possible values of `num`.
 
 ---
 
