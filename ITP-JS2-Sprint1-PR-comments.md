@@ -66,7 +66,7 @@ how would you modify the code (through type conversion) so that it can still ext
 `foo(bar())` would be considered as two function calls in which `bar()` is called first and its return value is passed as a parameter to `foo()`.
 
 
-In the function call .replaceAll(",", ""), there's a programming term for "," and "" (the values passed into the function). Can you find out what it's called, so you can shorten your explanation to something like '...between the ___________s'?
+In the function call `.replaceAll(",", "")`, there's a programming term for `","` and `""` (the values passed into the function). Could you find out what it's called so you can shorten your explanation to something like '...between the ___________s'?
 
 
 #### Sprint-1/3-mandatory-interpret/2-time-format.js
@@ -91,9 +91,9 @@ In this script, when line 14 is executed, could `paddedPenceNumberString.substri
 
 #### Sprint-1/4-stretch-explore/chrome.md
 
-Note: To view the return value of a function call, you need to output the return value to the console as `console.log( function_call(...) )`.
+Note: To view the return value of a function call, we need to output the return value to the console as `console.log( function_call(...) )`.
 
-You can also find out exactly what the function returns from the MDN Web Docs website.
+We can also find out exactly what the function returns from the MDN Web Docs website.
 
 
 If you were writing a program that uses `prompt()` to ask for an input value, how can 
