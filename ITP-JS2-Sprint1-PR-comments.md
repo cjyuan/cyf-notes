@@ -5,6 +5,10 @@ To follow best practices, can you update your PR description by carrying out the
 
 ---
 
+Could you look up "best practice to respond to inline comments in a pull request"? And then practice what you find in future PRs?
+
+---
+
 Describing code can be very challenging initially (even in one's first language). May I suggest using ChatGPT to find out how else code can be described? From time to time you may also learn some useful programming terms from ChatGPT.
 
 --
@@ -23,6 +27,11 @@ Can you find out what one-word programming term describes the operation on line 
 #### Sprint-1/1-key-exercises/3-paths.js
 Since a folder name can also contain '.', can you modify your code so that it will also work for a file path like `"/path1/path2.old/file.txt"`?
 
+---
+
+Your understanding of `.indexOf()` and `.slice()` is correct, but the value assigned to `dir` is not quite the directory/folder name of the given file path.
+
+Could you find out from ChatGPT which part of the path, `/Users/mitch/cyf/Module-JS1/week-1/interpret/file.txt`, is considered the directory name?
 
 #### Sprint-1/1-key-exercises/4-random.js
 To test your understanding, how would you write an expression (without using any variable in the expression) that can yield
@@ -53,14 +62,13 @@ Could you try using ChatGPT to find a clearer, more concise way to describe the 
 
 
 #### Sprint-1/2-mandatory-errors/3.js
-If you cannot modify this statement `const cardNumber = 4533787178994213;`
-(that is, keep the variable's value unchanged), 
-how would you modify the code (through type conversion) so that it can still extract the last 4 digits from its value.
+Suppose you were not allowed to modify the statement `const cardNumber = 4533787178994213;`
+(that is, keep the variable's value unchanged).
+How would you modify the code (through type conversion) so that you can still use `.slice(-4)` to extract the last 4 digits from the given number.
 
 #### Sprint-1/2-mandatory-errors/4.js
-- Have you also noticed the variable names do not quite match the values assigned to the variable?
 
-- In JS naming convention, variable names usually begins with a lowercase letter. Names starting with an uppercase letter are used for built-in and custom data types (e.g., `Math`)
+In JS naming convention, variable names usually begins with a lowercase letter. Names starting with an uppercase letter are used for built-in and custom data types (e.g., `Math`)
 
 #### Sprint-1/3-mandatory-interpret/1-percentage-change.js
 `foo(bar())` would be considered as two function calls in which `bar()` is called first and its return value is passed as a parameter to `foo()`.
