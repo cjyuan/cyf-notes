@@ -49,6 +49,10 @@ Phrases like "integer in range from 0 to 1" or "between 0 and 1" are not precise
 You can also use the concise and precise ***interval notation*** to describe a range of values.
 For example, we can say, "`Math.random()` returns a random number in the interval `[0, 1)`"
 
+
+"Returns" is the standard technical term for what a function outputs. It aligns with programming language terminology, especially in documentation and developer communication.
+
+
 ---
 
 "subtract minimum from maximum and add 1" is a literal translation of `(maximum - minimum + 1)`, it does not carry any additional info.
