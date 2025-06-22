@@ -46,7 +46,7 @@ a random integer between -5 and 5 (including both -5 and 5)?
 
 Phrases like "integer in range from 0 to 1" or "between 0 and 1" are not precise enough in a program specification, because they do not clearly state whether the endpoints 0 and 1 are included.
 
-You can also use the concise and precise ***interval notation*** to describe a range of values.
+We can also use the concise and precise ***interval notation*** to describe a range of values.
 For example, we can say, "`Math.random()` returns a random number in the interval `[0, 1)`"
 
 
@@ -108,8 +108,8 @@ Note: To view the return value of a function call, we need to output the return 
 We can also find out exactly what the function returns from the MDN Web Docs website.
 
 
-If you were writing a program that uses `prompt()` to ask for an input value, how can 
-your program tell if the user clicked "OK" or "Cancel"?
+If we were writing a program that uses `prompt()` to ask for an input value, how could
+the program check if the user clicked "OK" or "Cancel"?
 
 
 
