@@ -5,7 +5,18 @@ To follow best practices, can you update your PR description by carrying out the
 
 ---
 
-Could you look up "best practice to respond to inline comments in a pull request"? And then practice what you find in future PRs?
+Could you also practice responding to comments directly in the comment threads? It could make tracking the discussion easier.
+
+Leaving responses directly in the comment threads makes tracking the discussion easier. You can try the approach in future PRs.
+Here is a simplified version of best practices ChatGPT suggested for responding to inline comments in a pull request:
+> - ✅ Reply to every comment – Let the reviewer know you saw it.
+> - ✏️ Make the change if needed – Fix the code if the comment points out a real issue.
+> - 🤔 Explain if you don't agree – If you think the code is fine, politely explain why.
+> - ✅ Mark as resolved when done – Only mark comments resolved after you fix or respond.
+> - 💬 Keep replies short and polite – Be respectful and to the point.
+> - ⏱️ Respond soon – Don’t wait too long to reply.
+> - 🧪 Test your changes – Make sure your fixes actually work.
+> - 📍 Reply directly under the comment – This keeps the conversation easy to follow.
 
 ---
 
@@ -102,7 +113,7 @@ Can you think of another name for the variable?
 Could we expect this program to work as intended for any valid `penceString` if we deleted `.padEnd(2, "0")` from the code?
 In other words, do we really need `.padEnd(2, "0")` in this script?
 
-In this script, when line 14 is executed, could `paddedPenceNumberString.substring(paddedPenceNumberString.length - 2)` ever be shorter than 2 characters? In other words, do we really need `.padEnd(2, "0")` in this script?
+Have you tried executing the script without padEnd(2, "0") using different values of penceString to validate your expectation?
 
 
 #### Sprint-1/4-stretch-explore/chrome.md
