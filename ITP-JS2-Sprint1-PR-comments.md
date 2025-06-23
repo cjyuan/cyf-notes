@@ -9,7 +9,11 @@ Could you look up "best practice to respond to inline comments in a pull request
 
 ---
 
-Describing code can be very challenging initially (even in one's first language). May I suggest using ChatGPT to find out how else code can be described? From time to time you may also learn some useful programming terms from ChatGPT.
+When describing code, we should avoid simply translating it literally because:
+- Other developers can already read the code and see what it does.
+- A literal description adds no extra insight to help others understand the purpose, logic, or context of the code.
+
+Describing code can be quite challenging at first (even in your native language). I suggest using ChatGPT to explore alternative ways to describe the code. Along the way, you might also pick up some useful programming terminology.
 
 --
 Why not practice "committing files one by one, on purpose, and for a reason"?
@@ -50,7 +54,7 @@ We can also use the concise and precise ***interval notation*** to describe a ra
 For example, we can say, "`Math.random()` returns a random number in the interval `[0, 1)`"
 
 
-"Returns" is the standard technical term for what a function outputs. It aligns with programming language terminology, especially in documentation and developer communication.
+"Returns" is the standard technical term for what a function "generates". It aligns with programming language terminology, especially in documentation and developer communication.
 
 
 ---
