@@ -95,6 +95,12 @@ In JS naming convention, variable names usually begins with a lowercase letter. 
 
 In the function call `.replaceAll(",", "")`, there's a programming term for `","` and `""` (the values passed into the function). Could you find out what it's called so you can shorten your explanation to something like '...between the ___________s'?
 
+---
+
+A comma is missing between "," and "" in the function call.
+Can you find out the programming term for "," and "" so that we can more accurately describe
+"one comma is missing between the ___________."
+
 
 #### Sprint-1/3-mandatory-interpret/2-time-format.js
 
