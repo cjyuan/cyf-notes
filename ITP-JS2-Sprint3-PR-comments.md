@@ -55,7 +55,7 @@ getCardValue("0x02♠");
 getCardValue("2.1♠")
 ```
 
-
+In JavaScript, many different strings can be interpreted as valid numbers — for example, "0x02", "2.1", or "00000002". Can you think of a better way to ensure that a card’s rank matches exactly one of the nine allowed whole numbers?
 
 
 
@@ -123,44 +123,26 @@ if the function can throw an error as expected, you can use `.toThrow()`. You ca
 
 
 
-
-#### Sprint-3/implement/rotate-char.js
-
-How would you modify your implementation if shift is allowed to be a negative number to represent a rotation in the opposite direction?
-
-#### Sprint-3/revise/implement/creditCardValidator.js
-
-Why not check also cases where number of digits is not exactly 16?
-
-#### Sprint-3/revise/implement/get-ordinal-number.test.js
+#### Sprint-3/3-mandatory-practice/implement/get-ordinal-number.js
 
 `getOrdinalNumber(101)` should return "101st". 
-You might consider looking up the rules online or asking an AI tool to clarify how ordinal numbers are formed.
+Consider looking up the rules to clarify how ordinal numbers are formed.
 
-#### Sprint-3/revise/implement/is-prime.js
-
-You can possibly improve the performance of the code in the following manners:
-- Return `true` if `num` is 2
-- Return `false` if `num` is an even number (we have already checked 2)
-- Use a loop to check if `num` can be fully divided by an odd number >= 3 (but <= `Math.sqrt(num)`)
-- In the loop, avoid calling `Math.sqrt(num)` repeatedly by first assigning the value of `Math.sqrt(num)` to a variable once, and then refer to the variable in the condition of the loop.
+ 
 
 
-You can possibly improve the performance of the code in the following manners:
-- Return `true` if `num` is 2
-- Return `false` if `num` is an even number (we have already checked 2)
-
-- Use a loop to check if `num` can be fully divided by an odd number >= 3 (but <= `Math.sqrt(num)`)
-- In the loop, avoid calling `Math.sqrt(num)` repeatedly by first assigning the value of `Math.sqrt(num)` to a variable once, and then refer to the variable in the condition of the loop.
-  
-
-
-#### Sprint-3/revise/implement/password-validator.test.js
+#### Sprint-3/4-stretch-investigate/password-validator.test.js
 Some of the passwords in this array are invalid passwords.
 
-The function could also return `false` because "welcome1" does not have any uppercase letter. So this test may fail to check if the function can handle "Must not be any previous password in the passwords array" properly.
+The function can return `false` for multiple reasons.
+To test a specific reason, choose an input that satisfies all other conditions except the one you're targeting. This way, if the function returns `false`, you can confidently attribute it to that specific condition.
 
-The function could have also returned `false` because `P1!` does not contain any lowercase letter. How can we be 100% sure the function can correctly check passwords shorter than 5 characters?
+For example, the function might return `false` for "1234" not only because it is fewer than 5 characters, but also because it lacks a lowercase letter.
+As a result, we can't be certain that the function correctly handles the case of passwords shorter than 5 characters, since multiple conditions are being violated simultaneously.
+
+
+
+
 
 ---
 ## In older ITP
@@ -188,4 +170,29 @@ I will not go into details why in some programming languages (but not JavaScript
 In some programming languages that support "integer" data type, if `side1`, `side2`, and `side3` are of "integer" type, then we will need to also ensure all sides are positives (to take into account of possible ***integer overflow*** cases). But the "number" type in JavaScript is "double precision floating point" type, so such check can be omitted.
 
 
+
+#### Sprint-3/revise/implement/is-prime.js
+
+You can possibly improve the performance of the code in the following manners:
+- Return `true` if `num` is 2
+- Return `false` if `num` is an even number (we have already checked 2)
+- Use a loop to check if `num` can be fully divided by an odd number >= 3 (but <= `Math.sqrt(num)`)
+- In the loop, avoid calling `Math.sqrt(num)` repeatedly by first assigning the value of `Math.sqrt(num)` to a variable once, and then refer to the variable in the condition of the loop.
+
+
+You can possibly improve the performance of the code in the following manners:
+- Return `true` if `num` is 2
+- Return `false` if `num` is an even number (we have already checked 2)
+
+- Use a loop to check if `num` can be fully divided by an odd number >= 3 (but <= `Math.sqrt(num)`)
+- In the loop, avoid calling `Math.sqrt(num)` repeatedly by first assigning the value of `Math.sqrt(num)` to a variable once, and then refer to the variable in the condition of the loop.
+
+
+#### Sprint-3/implement/rotate-char.js
+
+How would you modify your implementation if shift is allowed to be a negative number to represent a rotation in the opposite direction?
+
+#### Sprint-3/revise/implement/creditCardValidator.js
+
+Why not check also cases where number of digits is not exactly 16?
 
