@@ -1,4 +1,4 @@
-This instructions assume you had created a branch named `B2` from a branch named `B1` instead of from `main`, and you wanted to rebase `B2` from `B1` to `main`.
+This instructions assume you had created a branch named `B2` from a branch named `B1` instead of from `main`, and you wanted to rebase `B2` from `B1` onto `main`.
 
 **Important**:
 - You need to execute the commands within your cloned repository.
@@ -21,5 +21,5 @@ For more details about this command, ask an AI tool or see
 https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase#:~:text=interactive%20rebase%20display-,Advanced%20rebase%20application,-The%20command%20line
 
 #### 4. Update (and Overwrite) your files in the remote branch B2 (on Github)
-While you are in branch B2 and you have verified that it has been successfully rebased, execute the following command:
+While you are in branch B2 and you have verified that it has been successfully rebased, execute the following command to update the remote branch (on GitHub):
 `git push --force origin`
