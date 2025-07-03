@@ -20,8 +20,11 @@ I asked ChatGPT to create a concise version of your description, it gave me this
 After I give additional constraints `if symbol or operator is allowed (as in describing test in code)`, it showed me:
 `Return 'Reflex angle' if 180 < angle < 360`
 
+---
 
-The spec does not specify what to do when angle >= 360. How would you handle such a case?
+Your function can return `undefined` for some values of `angle`. To ensure reliability, please update the function so it always returns a defined value (which can be "Invalid angle") or throws an error. Functions that are expected to return a result should **never** return `undefined`.
+
+Note: the spec fails to mention angles <= 0 are not "Acute angle".
 
 #### Sprint-3/1-key-implement/2-is-proper-fraction.js
 
@@ -40,7 +43,7 @@ To test your function more comprehensively, you should consider testing all comb
 In mathematics, -4/7 == 4/-7, and -4/-7 == 4/7.
 So, ideally `isProperFraction()` should recognise all of them as proper fractions.
 
-Hint: If you compute the absolute value of both parameters inside the function first, the code can become much simpler.
+Hint: If we compute the absolute value of both parameters inside the function first, the code can become much simpler.
 
 #### Sprint-3/1-key-implement/3-get-card-value.js
 Can you also check if `getCardValue("23♠")` is returning the value you expect?
@@ -105,6 +108,27 @@ Could you look up "How to throw an error in JS" and update your code accordingly
 
 ---
 
+We could generalise this test to "should return 10 for face cards (J, Q, K)" and check all three ranks J, Q, K). Same for "all number cards".
+
+---
+
+
+When preparing tests, we should ensure the tests cover all possible cases. If we specify a test for individual card, we will need about 53 tests to cover all possible cases. Instead, we could consider classifying all possible values into different categories, and then within each category we test some samples.
+
+For example, one possible category for `getCardValue()` is, "should return the value of number cards (2-10)", and we can prepare the test as 
+
+```
+test("should return the value of number cards (2-10)", () => {
+    expect(getCardValue("2♣︎")).toEqual(2);
+    expect(getCardValue("5♠")).toEqual(5);
+    expect(getCardValue("10♥")).toEqual(5);
+    // Note: We could also use a loop to check all values from 2 to 10.
+});
+```
+
+
+---
+
 To test if a function can throw an error as expected, we could use `.toThrow()`. You can find out more about how to use `.toThrow()` here: https://jestjs.io/docs/expect#tothrowerror (Note: Pay close attention to the syntax of the example)
 
 
@@ -128,7 +152,11 @@ if the function can throw an error as expected, you can use `.toThrow()`. You ca
 `getOrdinalNumber(101)` should return "101st". 
 Consider looking up the rules to clarify how ordinal numbers are formed.
 
- 
+---
+
+Instead of writing tests for individual numbers, consider grouping all possible input values into meaningful categories. Then, select representative samples from each category to test. This approach improves coverage and makes your tests easier to maintain.
+
+
 
 
 #### Sprint-3/4-stretch-investigate/password-validator.test.js
