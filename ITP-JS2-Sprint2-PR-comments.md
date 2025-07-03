@@ -19,6 +19,11 @@ You should take a look at `.slice()`. With this function, lines 11-12 can be rew
     const pence = paddedPenceNumberString.slice(-2);   // .padEnd() is redundant regardless of which function we use
 ```
 
+#### Sprint-2/4-mandatory-interpret/time-format.js
+
+A common convention for indicating that a value is a string is to enclose it in double quotes.
+
+
 #### Sprint-2/5-stretch-extend/format-time.js
 There is a String function you can use to make this statement shorter (and clearer).
 
@@ -28,3 +33,12 @@ Also, we should also test cases where minute part is not equal to "00".
 ---
 
 It is more common practice to begin variable names with a lowercase letter. Names that start with an uppercase letter are typically reserved for user-defined data types or class names.
+
+
+---
+
+The objective isn’t to create tests just so the function can pass them, but to design tests that reflect how a proper 24-hour to 12-hour clock conversion should work.
+
+For examples, "00:00" (midnight) should be converted to "12:00 am", "15:05" should be converted "03:05 pm".
+
+If `formatAs12HourClock(time)` doesn't pass all the tests, we need to update the implementation until it does.
