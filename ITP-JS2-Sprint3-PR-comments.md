@@ -22,26 +22,20 @@ After I give additional constraints `if symbol or operator is allowed (as in des
 
 ---
 
-Your function can return `undefined` for some values of `angle`. To ensure reliability, please update the function so it always returns a defined value (which can be "Invalid angle") or throws an error. Functions that are expected to return a result should **never** return `undefined`.
+The spec isn't clear whether `angle` can be assigned a number not in the interval (0, 360).
+When `angle` is >= 360, what should the function return? (Also, by definition, angles <= 0 are not considered acute angles.)
 
-Note: the spec fails to mention angles <= 0 are not "Acute angle".
+When we implement a function that can return a value, to ensure reliability, we should ensure it will always return a defined value instead of `undefined` (which represents "no return value").
+If the parameter, `angle`, is not within the recognised range, we can design the function to return a special value (e.g., "Invalid angle") or throw an error.
+
+
 
 #### Sprint-3/1-key-implement/2-is-proper-fraction.js
 
-
-
----
-Suppose the notation **|X|** denotes the absolute value of X. 
-If you are unfamiliar with the definition of ***absolute value***, you should look the term up.
-
-To test your function more comprehensively, you should consider testing all combinations of positive and negative parameters. For examples,
-- For cases where |numerator| < |denominator|, test 
-`isProperFraction(4, 7)`, `isProperFraction(-4, -7)`, `isProperFraction(-4, 7)`, `isProperFraction(4, -7)`.
-- Do the same for cases where |numerator| > |denominator|. 
-
-
 In mathematics, -4/7 == 4/-7, and -4/-7 == 4/7.
 So, ideally `isProperFraction()` should recognise all of them as proper fractions.
+
+Similarly, `isProperFraction(-5, 2)` should return `false` because -5/2 is not a proper fraction.
 
 Hint: If we compute the absolute value of both parameters inside the function first, the code can become much simpler.
 
@@ -156,7 +150,14 @@ Consider looking up the rules to clarify how ordinal numbers are formed.
 
 Instead of writing tests for individual numbers, consider grouping all possible input values into meaningful categories. Then, select representative samples from each category to test. This approach improves coverage and makes your tests easier to maintain.
 
-
+For example, we can prepare a test for numbers 1, 21, 131, etc. as 
+```
+test("append 'st' to numbers ending in 1, except those ending in 11", () => {
+    expect( getOrdinalNumber(1) ).toEqual("1st");
+    expect( getOrdinalNumber(21) ).toEqual("21st");
+    expect( getOrdinalNumber(131) ).toEqual("131st");
+});
+```
 
 
 #### Sprint-3/4-stretch-investigate/password-validator.test.js
@@ -205,7 +206,7 @@ You can possibly improve the performance of the code in the following manners:
 - Return `true` if `num` is 2
 - Return `false` if `num` is an even number (we have already checked 2)
 - Use a loop to check if `num` can be fully divided by an odd number >= 3 (but <= `Math.sqrt(num)`)
-- In the loop, avoid calling `Math.sqrt(num)` repeatedly by first assigning the value of `Math.sqrt(num)` to a variable once, and then refer to the variable in the condition of the loop.
+- In the loop, avoid calling `Math.sqrt(num)` edly by first assigning the value of `Math.sqrt(num)` to a variable once, and then refer to the variable in the condition of the loop.
 
 
 You can possibly improve the performance of the code in the following manners:
@@ -213,7 +214,7 @@ You can possibly improve the performance of the code in the following manners:
 - Return `false` if `num` is an even number (we have already checked 2)
 
 - Use a loop to check if `num` can be fully divided by an odd number >= 3 (but <= `Math.sqrt(num)`)
-- In the loop, avoid calling `Math.sqrt(num)` repeatedly by first assigning the value of `Math.sqrt(num)` to a variable once, and then refer to the variable in the condition of the loop.
+- In the loop, avoid calling `Math.sqrt(num)` edly by first assigning the value of `Math.sqrt(num)` to a variable once, and then refer to the variable in the condition of the loop.
 
 
 #### Sprint-3/implement/rotate-char.js
