@@ -10,17 +10,20 @@ If you want to prevent some code in a file from being executed when the file is 
 #### Sprint-3/1-key-implement/1-get-angle-type.js
 #### Sprint-3/2-mandatory-rewrite/1-get-angle-type.test.js
 
+We could generalise each test to cover all values that belong to the same category, and pick some sample values in the category to test. For example,
 
 We could specify multiple `expect(...)` statements within each `test()` to cover multiple values that belong to the same case. For example,
 ```
-test("should identify reflex angle when angle is in the interval (180, 360)", () => {
+test("should identify reflex angle (180 < angle < 360)", () => {
   expect(getAngleType(300)).toEqual("Reflex angle");
   expect(getAngleType(359.999)).toEqual("Reflex angle");
   expect(getAngleType(180.001)).toEqual("Reflex angle");
 });
 ```
 
----
+
+
+
 
 Could consider describe this as `"Expect 'Reflex angle' if 180 < angle < 360"`.
 I asked ChatGPT to create a concise version of your description, it gave me this:
@@ -64,7 +67,7 @@ isProperFraction(4, -3)
 #### Sprint-3/1-key-implement/3-get-card-value.js
 #### Sprint-3/2-mandatory-rewrite/3-get-card-value.js
 
-In JavaScript, strings that represent valid numeric literals in the JS language can be safely converted to equivalent numbers. For examples, "0x02", "2.1", or "00_02".
+In JavaScript, strings that represent valid numeric literals in the language can be safely converted to equivalent numbers. For examples, "0x02", "2.1", or "00_02".
 
 Does your function return the value you expected from each of the following function calls?
 
@@ -147,8 +150,7 @@ Both function calls return the same value.
 ---
 #### Sprint-3/3-mandatory-practice/implement/repeat.test.js
 
-If you modified `repeat()` to throw an error when `count` is negative, and you wanted to test 
-if the function can throw an error as expected, you can use `.toThrow()`. You can find out more about how to use `.toThrow()` here: https://jestjs.io/docs/expect#tothrowerror (Note: Pay close attention to the syntax of the example)
+If you modified `repeat()` to throw an error when `count` is negative, and you wanted to test if the function can throw an error as expected, you can use `.toThrow()`. You can find out more about how to use `.toThrow()` here: https://jestjs.io/docs/expect#tothrowerror (Note: Pay close attention to the syntax of the example)
 
 #### Sprint-3/4-stretch-investigate/password-validator.test.js
 Some of the passwords in this array are invalid passwords.
