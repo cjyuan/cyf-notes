@@ -21,7 +21,7 @@ You should take a look at `.slice()`. With this function, lines 11-12 can be rew
 
 #### Sprint-2/4-mandatory-interpret/time-format.js
 
-A common convention for indicating that a value is a string is to enclose it in double quotes.
+A common convention for indicating that a value is a string is to enclose it in double quotes. For example, "00".
 
 
 #### Sprint-2/5-stretch-extend/format-time.js
