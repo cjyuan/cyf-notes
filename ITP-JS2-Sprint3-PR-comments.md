@@ -130,12 +130,12 @@ Consider looking up the rules to clarify how ordinal numbers are formed.
 To ensure thorough testing, we need broad scenario coverage. Listing individual values, however, can quickly lead to an unmanageable number of test cases.
 Instead of writing tests for individual numbers, consider grouping all possible input values into meaningful categories. Then, select representative samples from each category to test. This approach improves coverage and makes our tests easier to maintain.
 
-For example, we can prepare a test for numbers 1, 21, 131, etc. as 
+For example, we can prepare a test for numbers 2, 22, 132, etc. as 
 ```
-test("append 'st' to numbers ending in 1, except those ending in 11", () => {
-    expect( getOrdinalNumber(1) ).toEqual("1st");
-    expect( getOrdinalNumber(21) ).toEqual("21st");
-    expect( getOrdinalNumber(131) ).toEqual("131st");
+test("append 'nd' to numbers ending in 2, except those ending in 12", () => {
+    expect( getOrdinalNumber(2) ).toEqual("2nd");
+    expect( getOrdinalNumber(22) ).toEqual("22nd");
+    expect( getOrdinalNumber(132) ).toEqual("132nd");
 });
 ```
 
