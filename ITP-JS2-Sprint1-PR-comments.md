@@ -59,9 +59,11 @@ a random integer between -5 and 5 (including both -5 and 5)?
 - What is the range of values that could be assigned to `num`?
 ---
 
-Phrases like "number in range from 0 to 1" or "number between 0 and 1" are not precise enough in a program specification, because they do not clearly state whether the endpoints 0 and 1 are included.
+Phrases like "a number between X and Y" are not precise enough in a program specification, because they do not clearly state whether the endpoints X and Y are included.
 
-We can also use the concise and precise ***interval notation*** to describe a range of values.
+We can also use the concise and precise ***interval notation*** to describe a range of values. 
+- `[`, `]` => inclusion
+- `(`, `)` => exclusion
 For example, we can say, "`Math.random()` returns a random number in the interval `[0, 1)`"
 
 
@@ -99,7 +101,7 @@ In the function call `.replaceAll(",", "")`, there's a programming term for `","
 
 A comma is missing between "," and "" in the function call.
 Can you find out the programming term for "," and "" so that we can more accurately describe
-"one comma is missing between the ___________."
+"a comma is missing between the ___________."
 
 
 #### Sprint-1/3-mandatory-interpret/2-time-format.js
