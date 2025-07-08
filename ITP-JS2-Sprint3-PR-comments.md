@@ -46,23 +46,17 @@ If the parameter, `angle`, is not within the recognised range, we can design the
 In mathematics, -A/B == A/-B == -(A/B), and -A/-B == A/B for any integers A and B (B ≠ 0).
 They represent a proper fraction if A < B and A ≠ 0 and B ≠ 0.
 
-If we compute the absolute value of both parameters inside the function first, the code can become much simpler.
+So `isProperFraction(-4, 3)` should return `false` because 4 >= 3.
+
+So `isProperFraction(-2, 5)` should return `true` because 2 < 5.
+
+Consider comparing the absolute value of the numerator and the denominator instead.
 
 
  ***Input normalisation***, the process of pre-processing the input values before they are used in computation, can often simplify complexity of code, improve performance, and prevent errors.
 
 **Can you update your function implementation and Jest tests to take into account all possible cases where `numerator` and `denominator` can be negative, positive, or zero?** 
 
----
-
-3. What should be the return value of the following function calls?
-```
-isProperFraction(-2, -3)
-isProperFraction(-2, 3)
-isProperFraction(2, -3)
-isProperFraction(-4, -3)
-isProperFraction(4, -3)
-```
 
 #### Sprint-3/1-key-implement/3-get-card-value.js
 #### Sprint-3/2-mandatory-rewrite/3-get-card-value.js
