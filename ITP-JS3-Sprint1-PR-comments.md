@@ -84,15 +84,19 @@ Decimal numbers in most programming languages (including JS) are internally repr
 
 So the following could happen
 ```
-  expect(sum([1.2, 0.6, 0.005])).toEqual(1.805);                // This fail
-  expect(sum([1.2, 0.6, 0.005])).toEqual(1.8049999999999997);   // This pass
-  expect(sum([0.005, 0.6, 1.2])).toEqual(1.8049999999999997);   // This fail
+  expect( 1.2 + 0.6 + 0.005 ).toEqual( 1.805 );                // This fail
+  expect( 1.2 + 0.6 + 0.005 ).toEqual( 1.8049999999999997 );   // This pass
+  expect( 0.005 + 0.6 + 1.2 ).toEqual( 1.8049999999999997 );   // This fail
 
   console.log(1.2 + 0.6 + 0.005 == 1.805);  // false
   console.log(1.2 + 0.6 + 0.005 == 0.005 + 0.6 + 1.2); // false
 ```
 
 **Can you find a more appropriate way to test a value (that involves decimal number calculations) for equality?**
+
+Suggestion: Look up 
+- Checking equality in floating point arithmetic in JavaScript 
+- Checking equality in floating point arithmetic with Jest
 
 #### Sprint-1/stretch/aoc-2018-day1/solution.js
 I think this exercise expect you to also write JS code to read the numbers from the file `input.txt` directly.
