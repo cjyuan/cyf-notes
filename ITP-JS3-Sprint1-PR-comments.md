@@ -11,6 +11,11 @@ To avoid modifying the caller's array, a common practice is to make a clone of t
 
 #### Sprint-1/fix/median.js
 
+
+If you do not consider `[-Infinity, Infinity]` a valid input, you can use a built-in function to check if a number not `NaN` and is finite.
+
+---
+
 The arrays specified in `median.test.js` are already sorted by coincidence.
 
 Typically, to find the median value of an array, we first need to sort it. However, to prevent modifying `list` directly, it's best to work with a cloned version instead.
