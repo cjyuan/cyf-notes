@@ -28,6 +28,11 @@ However, "0", "1", "2" are keys of `[1, 2, 3]`, so it is better to specify the t
 
 ---
 
+Array is a kind of object where indexes serve as its keys. So we could call `contains([3, 4], "1")` to check if the function can return `false` when the first parameter is an array and the second parameter is a valid key.
+
+---
+
+
 Array is a kind of object in JS, and "0", "1", "2" are keys of `[1, 2, 3]`. So it is better to express the test as `expect(contains([1, 2, 3], "1")).toBe(false);` to ensure the function can truly reject array.
 
 You can also test other types of invalid parameters (e. g., number, undefined, null, string, boolean).
@@ -55,7 +60,12 @@ parseQueryString("a%25b=c%26d")
 Note: the `%25` and `%26` are ***URL encoded*** or ***percent encoded*** characters.
 
 
+#### Sprint-2/implement/tally.js
 
+Does the following function call returns the value you expect?
+```
+tally(["toString", "toString"]);
+```
 
 #### Sprint-2/interpret/invert.test.js
 **Challenge**
