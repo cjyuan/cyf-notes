@@ -61,14 +61,14 @@ Consider comparing the absolute value of the numerator and the denominator inste
 #### Sprint-3/1-key-implement/3-get-card-value.js
 #### Sprint-3/2-mandatory-rewrite/3-get-card-value.js
 
-In JavaScript, strings that represent valid numeric literals in the language can be safely converted to equivalent numbers. For examples, "0x02", "2.1", or "00_02".
+In JavaScript, strings that represent valid numeric literals in the language can be safely converted to equivalent numbers. For examples, "0x02", "2.1", or "0002".
 
 Does your function return the value you expected from each of the following function calls?
 
 ```
 getCardValue("0x02♠");
 getCardValue("2.1♠");
-getCardValue("00_02♠");
+getCardValue("0002♠");
 ```
 
 ---
@@ -99,7 +99,7 @@ For example, one possible category for `getCardValue()` is, "should return the v
 test("should return the value of number cards (2-10)", () => {
     expect(getCardValue("2♣︎")).toEqual(2);
     expect(getCardValue("5♠")).toEqual(5);
-    expect(getCardValue("10♥")).toEqual(5);
+    expect(getCardValue("10♥")).toEqual(10);
     // Note: We could also use a loop to check all values from 2 to 10.
 });
 ```
