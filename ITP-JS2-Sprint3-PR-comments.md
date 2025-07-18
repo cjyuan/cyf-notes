@@ -133,6 +133,10 @@ test("append 'nd' to numbers ending in 2, except those ending in 12", () => {
 });
 ```
 
+---
+
+When a test fails with the message "... all other numbers", it may be unclear what "other numbers" actually refers to. A more specific and informative message, such as "... numbers ending in 0, 4–9, or 11–13", would make the output easier to understand and act on.
+
 
 #### Sprint-3/3-mandatory-practice/implement/repeat.js
 How would the caller distinguish the result of the following two function calls?
