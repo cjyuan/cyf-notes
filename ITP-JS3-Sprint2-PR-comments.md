@@ -37,6 +37,13 @@ Array is a kind of object in JS, and "0", "1", "2" are keys of `[1, 2, 3]`. So i
 
 You can also test other types of invalid parameters (e. g., number, undefined, null, string, boolean).
 
+---
+
+Can you check if your function returns what you expect from the following function call?
+```
+  tally(["toString", "toString", "toString"]); 
+```
+
 
 #### Sprint-2/implement/querystring.test.js
 
@@ -83,11 +90,15 @@ What do you expect `invert({ a: 1, b: 1 })` would return?
 
 #### Sprint-2/stretch/count-words.js
 
-What is the return value you expect from the following function call?
-Does your function return the value you expected?
+Can you check if your function returns what you expect in the following function calls?
+
 ```
-countWords("A.A A A_A A$A")
+countWords("Hello,World! Hello World!");
+countWords("constructor constructor");
+countWords("          Hello World      ");
 ```
+
+
 
 
 #### Sprint-2/stretch/till.js
