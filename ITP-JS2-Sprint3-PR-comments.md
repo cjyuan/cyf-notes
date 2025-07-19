@@ -44,7 +44,7 @@ If the parameter, `angle`, is not within the recognised range, we can design the
 #### Sprint-3/2-mandatory-rewrite/2-is-proper-fraction.test.js
 
 In mathematics, -A/B == A/-B == -(A/B), and -A/-B == A/B for any integers A and B (B ≠ 0).
-They represent a proper fraction if A < B and A ≠ 0 and B ≠ 0.
+They represent a proper fraction if A < B and B ≠ 0.
 
 So `isProperFraction(-4, 3)` should return `false` because 4 >= 3.
 
