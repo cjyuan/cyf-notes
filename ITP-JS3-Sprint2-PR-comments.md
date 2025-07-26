@@ -21,6 +21,19 @@ Which of these approaches suits your needs better?
 For more info, you can look up `JS "in" operator vs Object.hasOwn`.
 
 ---
+Your code works, but there are more concise syntaxes you could consider.
+Here are two approaches to check if an object contains a property (one of them should fit your needs).
+```
+  let obj = {}, propertyName = "toString";
+  console.log( propertyName in obj );                // true
+  console.log( Object.hasOwn(obj, propertyName) );   // false
+```
+For more info, you can look up `JS "in" operator vs Object.hasOwn`.
+
+
+
+
+---
 
 `contains([1, 2, 3], "a")` could also return false because "a" is not a property (or key) of `[1, 2, 3]`.
 However, "0", "1", "2" are keys of `[1, 2, 3]`, so it is better to specify the test as
@@ -37,12 +50,7 @@ Array is a kind of object in JS, and "0", "1", "2" are keys of `[1, 2, 3]`. So i
 
 You can also test other types of invalid parameters (e. g., number, undefined, null, string, boolean).
 
----
 
-Can you check if your function returns what you expect from the following function call?
-```
-  tally(["toString", "toString", "toString"]); 
-```
 
 
 #### Sprint-2/implement/querystring.test.js
