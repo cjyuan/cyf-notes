@@ -12,7 +12,7 @@ To avoid modifying the caller's array, a common practice is to make a clone of t
 #### Sprint-1/fix/median.js
 
 
-If you do not consider `[-Infinity, Infinity]` a valid input, consider using the built-in function `Number.isFinite()`.
+If you want to exclude `Infinity` and `NaN`, consider using the built-in function `Number.isFinite()`.
 
 ---
 
