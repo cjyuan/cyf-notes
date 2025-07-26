@@ -74,6 +74,8 @@ Does the following function call returns the value you expect?
 tally(["toString", "toString"]);
 ```
 
+Suggestion: Look up an approach to create an empty object with no inherited properties.
+
 #### Sprint-2/interpret/invert.test.js
 **Challenge**
 Assuming the `invert()` function is correctly implemented. 
