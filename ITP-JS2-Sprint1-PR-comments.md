@@ -121,8 +121,7 @@ Can you think of another name for the variable?
 Could we expect this program to work as intended for any valid `penceString` if we deleted `.padEnd(2, "0")` from the code?
 In other words, do we really need `.padEnd(2, "0")` in this script?
 
-Have you tried executing the script without `padEnd(2, "0")` using different values of `penceString` to validate your expectation?
-
+Why don't you try executing the script without using `padEnd(2, '0')`, and test it with different values of `penceString` to validate your expectation?
 
 #### Sprint-1/4-stretch-explore/chrome.md
 
