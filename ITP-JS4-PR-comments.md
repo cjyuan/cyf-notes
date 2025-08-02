@@ -67,6 +67,10 @@ Instead of deleting the table rows one by one, can you think of a more efficient
 
 ---
 
+Please note that when setting the text content of an HTML element, there are subtle but important differences between using `.innerHTML`, `innerText`, and `textContent`.
+
+---
+
 Does `book.check == true` mean "Read" or "Not yet read"?
 
 ---
@@ -81,6 +85,8 @@ Does `book.check == true` mean "Read" or "Not yet read"?
   - The current method of assigning book titles to HTML elements can cause display issues if a title contains special character sequences like `<i>`.
 
 - Can you suggest a more consistent naming convention for the variables representing the two buttons, currently named `changeBut` and `delButton`?
+
+Did you notice that the two variables, `changeBut` and `delButton`, use different naming conventions?
 
 ---
 The alert message is shown before the book is actually deleted; the deletion only occurs after the alert dialog is dismissed. This introduces a risk that the operation may not complete (e.g., if the user closes the browser before dismissing the alert).
