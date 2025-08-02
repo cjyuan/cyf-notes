@@ -52,6 +52,7 @@ The given link in `readm.md` is broken, but you can find similar guide from http
 
 ## Debugging
 ### Book Library
+
 In terms of input validation, 
 1. Are all input properly checked?
 1. Can `.value` be `null`? (Do we need to check `someInputElement.value == null`?)
@@ -63,13 +64,14 @@ According to https://validator.w3.org/, there are errors in your `index.html`. C
 ---
 
 Instead of deleting the table rows one by one, can you think of a more efficient way to remove all rows (except the `<th>...</th>`) in the table?
+
 ---
 
 Does `book.check == true` mean "Read" or "Not yet read"?
 
 ---
 - Lines 18-21:
-  - Using descriptive and consistent suffixes for DOM elements (like El, Input, Btn, Form, etc.) can significantly improves code readability and maintainability.
+  Using descriptive and consistent suffixes (like El, Input, Btn, Form, etc.) for variables that store DOM elements can improve code readability and maintainability.
 
 - Lines 82, 102:
   - Are the values assigned to these `id` attributes unique? 
@@ -81,9 +83,9 @@ Does `book.check == true` mean "Read" or "Not yet read"?
 - Can you suggest a more consistent naming convention for the variables representing the two buttons, currently named `changeBut` and `delButton`?
 
 ---
-At the moment when the alert message is displayed, has the book mentioned in the message been deleted yet?
-How would you rearrange these statements to make the message truthful?
+The alert message is shown before the book is actually deleted; the deletion only occurs after the alert dialog is dismissed. This introduces a risk that the operation may not complete (e.g., if the user closes the browser before dismissing the alert).
 
+In general, it’s better to display a confirmation message only after the associated operation has successfully completed.
 
 ### Code Reading
 The variable at line 5 is definite not global.
