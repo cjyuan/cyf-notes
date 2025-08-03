@@ -59,11 +59,22 @@ In terms of input validation,
 1. Do you want to allow book title and author name to contain only space characters?
 1. What if a user enters an invalid page number in the "pages" input field?
 
+- Do you want to keep leading and trailing space characters in title, author, and pages?
+
+- The following page numbers are possible
+<img width="245" height="188" alt="image" src="https://github.com/user-attachments/assets/e1250b30-5081-470f-92a5-e62a20b2a03e" />
+
+---
+
+Did you notice it was weird to pass the value of `page` as a string instead of as a number in the original code?
+
+
+---
 According to https://validator.w3.org/, there are errors in your `index.html`. Can you fix these errors?
 
 ---
 
-Instead of deleting the table rows one by one, can you think of a more efficient way to remove all rows (except the `<th>...</th>`) in the table?
+To clear the table before repopulating it, instead of deleting the table rows one by one, can you think of a more efficient way to remove all rows (except the `<th>...</th>`) in the table?
 
 ---
 
@@ -71,11 +82,13 @@ Please note that when setting the text content of an HTML element, there are sub
 
 ---
 
-Does `book.check == true` mean "Read" or "Not yet read"?
+Using user input directly without sanitization, normalization, or conversion to the proper data type can be dangerous.
+
+Can you ensure the arguments passed to the Book constructor are properly **pre-processed**?
 
 ---
 - Lines 18-21:
-  Using descriptive and consistent suffixes (like El, Input, Btn, Form, etc.) for variables that store DOM elements can improve code readability and maintainability.
+  Using descriptive and consistent suffixes (like `El`, `Input`, `Btn`, `Form`, etc.) for variables that store DOM elements can improve code readability and maintainability.
 
 - Lines 82, 102:
   - Are the values assigned to these `id` attributes unique? 
