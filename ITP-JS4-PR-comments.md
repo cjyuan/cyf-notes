@@ -106,6 +106,27 @@ The alert message is shown before the book is actually deleted; the deletion onl
 
 In general, it’s better to display a confirmation message only after the associated operation has successfully completed.
 
+---
+For better performance (reduce number of function calls) and reducing the chance of using raw input accidently, we could stored the pre-processed/sanitized/normalized input in some variables first, and reference the variables in other part of the function.
+```javascript
+  const cleanTitle = title.value.trim();
+  ...
+  
+  const pageNum = parseInt(pages.value);
+  ...
+  
+  const book = new Book(cleanTitle, cleanAuthor, pageNum, check.checked);
+
+```
+
+
+
+
+
+
+
+
+
 ### Code Reading
 The variable at line 5 is definite not global.
 I wonder how ChatGPT would answer this question.
