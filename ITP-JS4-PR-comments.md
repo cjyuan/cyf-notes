@@ -128,11 +128,15 @@ For better performance (reduce number of function calls) and reducing the chance
 
 ```
 
+---
 
+Can you think of the pros and cons of these two approaches for creating cells within a row?
+- Keeping all the cell creation code in one location, like the original code does.
+- Scattering the cell creation code across different locations, like what you did.
 
+---
 
-
-
+- For better performance (reduce number of function calls) and reducing the chance of using raw input accidently, we could stored the pre-processed/sanitized/normalized input in some variables first, and reference the variables in other part of the function.
 
 
 
