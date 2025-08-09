@@ -61,14 +61,9 @@ Doing so can help me speed up the review process. Thanks.
 
 ---
 
+- In addition, can you change the base branch of this PR from CYF's `book-library` to CYF's `main`?
 
-In terms of input validation, 
-1. Are all input properly checked?
-1. Can `.value` be `null`? (Do we need to check `someInputElement.value == null`?)
-1. Do you want to allow book title and author name to contain only space characters?
-1. What if a user enters an invalid page number in the "pages" input field?
-
-- Do you want to keep leading and trailing space characters in title, author, and pages?
+---
 
 - The following page numbers are possible
 <img width="245" height="188" alt="image" src="https://github.com/user-attachments/assets/e1250b30-5081-470f-92a5-e62a20b2a03e" />
@@ -76,7 +71,6 @@ In terms of input validation,
 ---
 
 Did you notice it was weird to pass the value of `page` as a string instead of as a number in the original code?
-
 
 ---
 According to https://validator.w3.org/, there are errors in your `index.html`. Can you fix these errors?
@@ -96,19 +90,12 @@ Using user input directly without sanitization, normalization, or conversion to 
 Can you ensure the arguments passed to the Book constructor are properly **pre-processed**?
 
 ---
-- Lines 18-21:
-  Using descriptive and consistent suffixes (like `El`, `Input`, `Btn`, `Form`, etc.) for variables that store DOM elements can improve code readability and maintainability.
 
 - Lines 82, 102:
   - Are the values assigned to these `id` attributes unique? 
   - Is there any need to assign an id attribute to either buttons?
 
-- Line 76:
-  - The current method of assigning book titles to HTML elements can cause display issues if a title contains special character sequences like `<i>`.
-
 - Can you suggest a more consistent naming convention for the variables representing the two buttons, currently named `changeBut` and `delButton`?
-
-Did you notice that the two variables, `changeBut` and `delButton`, use different naming conventions?
 
 ---
 The alert message is shown before the book is actually deleted; the deletion only occurs after the alert dialog is dismissed. This introduces a risk that the operation may not complete (e.g., if the user closes the browser before dismissing the alert).
@@ -117,16 +104,6 @@ In general, it’s better to display a confirmation message only after the assoc
 
 ---
 For better performance (reduce number of function calls) and reducing the chance of using raw input accidently, we could stored the pre-processed/sanitized/normalized input in some variables first, and reference the variables in other part of the function.
-```javascript
-  const cleanTitle = title.value.trim();
-  ...
-  
-  const pageNum = parseInt(pages.value);
-  ...
-  
-  const book = new Book(cleanTitle, cleanAuthor, pageNum, check.checked);
-
-```
 
 ---
 
