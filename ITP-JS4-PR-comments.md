@@ -70,7 +70,7 @@ Doing so can help me speed up the review process. Thanks.
 
 ---
 
-Did you notice it was weird to pass the value of `page` as a string instead of as a number in the original code?
+This could be a good opportunity to practice using the `? :` conditional operator. Can you rewrite the code on lines 86–92 as a single statement?
 
 ---
 According to https://validator.w3.org/, there are errors in your `index.html`. Can you fix these errors?
