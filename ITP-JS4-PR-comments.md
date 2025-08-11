@@ -61,7 +61,7 @@ Doing so can help me speed up the review process. Thanks.
 
 ---
 
-- In addition, can you change the base branch of this PR from CYF's `book-library` to CYF's `main`?
+Can you change the base branch of this PR from CYF's `book-library` to CYF's `main`?
 
 ---
 
