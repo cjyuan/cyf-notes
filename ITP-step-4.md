@@ -16,6 +16,17 @@ For the Linkedin Social Selling Index, you need to
   - Write one SMART action you will commit to get more active on LinkedIn (as a comment in the issue). A SMART action should be Specific, Measurable, Achievable, Relevant, Time-bound.
 3. Share the link to your updated copied issued.
 
+---
+- Can you share a screenshot of your LinkedIn SSI? LinkedIn users cannot share their SSI via a link.
+
+- The exercise also requests a description of a SMART action aimed at increasing your activity on LinkedIn. Can you express one action that satisfies these five characteristics?
+  - Specific: The action is clearly defined and easy to understand
+  - Measurable: The action can be measured, so you can track your progress
+  - Achievable: The action is realistic and feasible
+  - Relevant: The action is meaningful and fits the purpose of your goal
+  - Time-bound: The action has a deadline
+ 
+---
 
 The LinkedIn SSI task asks only for ONE action written in a SMART way. You listed so many and I am not sure how you plan to achieve all in the near future.
 A SMART action should be Specific, Measurable, Achievable, Relevant, Time-bound.
