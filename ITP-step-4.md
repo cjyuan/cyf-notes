@@ -5,7 +5,14 @@ For the TV Show project, you need to submit
 
 The acceptance criteria does not mention the TV Show App has to be bug free, just thought you may want to know:
 
+---
 
+Your current description of your planned actions lacks the five SMART characteristics.
+
+Could you rephrase them so that they satisfy all five SMART characteristics?
+
+
+---
 
 You missed an item described in the Acceptance Criteria ( https://programming.codeyourfuture.io/data-flows/success/ ), "Work out your [LinkedIn Social Selling Index](https://github.com/CodeYourFuture/Module-Data-Flows/issues/12), and posted the actions you will take to improve this".
 
