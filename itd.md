@@ -57,12 +57,21 @@ It’s possible that you used temporary filters instead of permanent filters.
 If that’s the case, you may want to **look up how to apply filters in Google Sheets** so the filtered view can be shared with other users.
 
 ---
+The filtering condition on the **Date** column was not set up correctly. Only sales made between **1 June 2024 and 31 Dec 2024** should be displayed.
+
+---
 ### Step 4
 The page looks great. 
 
 Why set the font size of H1 element using JavaScript (instead of using CSS)?
 
 ---
+
+There are errors in your HTML and CSS code. 
+
+Can you fix all the errors and resubmit your CodePen link?
+
+
 ### Step 5
 
 One of the acceptance criteria (https://itd.codeyourfuture.io/steps/five/#acceptance-criteria) has not yet been met:  
