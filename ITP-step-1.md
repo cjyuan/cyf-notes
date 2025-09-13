@@ -7,3 +7,7 @@ Please resubmit the same issue link once both PRs have passed review and have be
 
 
 Your PRs do not have the "Needs review" label. As such, they are not likely to be reviewed by the volunteers.
+
+
+---
+When your PR is ready for review (including after you’ve addressed the reviewer’s feedback), update its label from “Reviewed” to “Needs review”. Once the reviewer accepts your changes, they will apply the “Complete” label to the PR.
