@@ -50,6 +50,7 @@ Can you grant public "Viewer" permission to the Google sheet and resubmit the li
 ---
 The second filter condition, "Date is between 1 June 2024 and 31 December 2024", is not quite implemented correctly. 
 
+Please note that the dates are in UK format `DD/MM/YYYY`, not in US format `MM/DD/YYYY`.
 
 ---
 Your Google Sheet does not show the filtered results. (Item 9 in the instructions)  
@@ -65,6 +66,15 @@ If filters are applied only to the "Date" and "Points" columns, reordering will 
 However, if filters are applied to all relevant columns, then reordering ensures that the data across all columns remains properly aligned.
 
 ---
+You missed implementing these filtering criteria:
+  - Condition 2: Date is between 1 June 2024 and 31 December 2024
+- Use a filter to order the rows by Date in ascending order
+
+---
+You applied the filters to the wrong row. Consequently, the headers were also filtered out.
+
+
+---
 ### Step 4
 The page looks great. 
 
@@ -75,6 +85,10 @@ Why set the font size of H1 element using JavaScript (instead of using CSS)?
 There are errors in your HTML and CSS code. 
 
 Can you fix all the errors and resubmit your CodePen link?
+
+
+---
+The requirement, "The webpage should include at least three images", has not yet been met.
 
 
 ### Step 5
@@ -90,4 +104,14 @@ Can you address this issue and resubmit your GitHub Pages link?
 When I clicked the link to your conversation with an AI page, I could not see your conversation.  
 Can you use an AI tool to figure out why others cannot view your conversation when they open that link, and address the issue?
 
+---
+When I clicked the CodePen link, I could not see any CSS code. Did you forget to save your code on CodePen?
 
+---
+In your Google Doc, can you also include your answers to these two questions and add one to three sentences explaining why you chose the answers you did?
+  - Do you understand it all?
+  - Has any of the code been pasted from an AI tools or elsewhere?
+
+---
+When I clicked the link to your conversation with an AI page, I get an error message "Unable to load conversation ...".  
+Can you use an AI tool to figure out why others cannot view your conversation when they open that link, and address the issue?
