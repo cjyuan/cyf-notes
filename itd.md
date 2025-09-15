@@ -73,6 +73,12 @@ You missed implementing these filtering criteria:
 ---
 You applied the filters to the wrong row. Consequently, the headers were also filtered out.
 
+---
+The requirements shown in this image (item 9 in the instructions) was not implemented properly.  
+<img width="660" height="153" alt="image" src="https://github.com/user-attachments/assets/516ac924-7641-4527-a5f2-6a02de6b69af" />
+
+Can you **setup the filters** so that your sheet shows only 12 rows of data, similar to those shown in the sample output?
+
 
 ---
 ### Step 4
