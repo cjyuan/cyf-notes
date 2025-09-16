@@ -32,7 +32,8 @@ There is a String function you can use to make this statement shorter (and clear
 Also, we should also test cases where minute part is not equal to "00".
 ---
 
-It is more common practice to begin variable names with a lowercase letter. Names that start with an uppercase letter are typically reserved for user-defined data types or class names.
+It is a common practice to begin variable names with a lowercase letter.
+Names that start with an uppercase letter are typically reserved for user-defined data types or class names.
 
 
 ---
