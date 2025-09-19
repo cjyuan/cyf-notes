@@ -119,7 +119,9 @@ Can you address this issue and resubmit your GitHub Pages link?
 ### Step 6 
 
 When I clicked the link to your conversation with an AI page, I could not see your conversation.  
-Can you use an AI tool to figure out why others cannot view your conversation when they open that link, and address the issue?
+There is a chance that the saved conversation is not publicly accessible.
+Can you address the issue?
+
 
 ---
 When I clicked the CodePen link, I could not see any CSS code. Did you forget to save your code on CodePen?
