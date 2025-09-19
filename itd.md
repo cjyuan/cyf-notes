@@ -100,8 +100,12 @@ Can you fix all the errors and resubmit your CodePen link?
 
 
 ---
-The requirement, "The webpage should include at least three images", has not yet been met.
 
+- The images are not displaying properly. You may want to check each image URL to ensure it points to a **publicly** accessible **image** (and not a webpage).
+- There are errors in your HTML and CSS code. You can use CodePen's "HTML Analyzer" and "CSS Analyzer" to check for issues.
+- The requirement that "one of the images must be centered horizontally on the page" has not yet been met.
+
+Can you address these issues and resubmit your CodePen link?
 
 ### Step 5
 
@@ -109,6 +113,7 @@ One of the acceptance criteria (https://itd.codeyourfuture.io/steps/five/#accept
 - The URL of the deployed webpage includes your first name, last name, or both.
 
 Can you address this issue and resubmit your GitHub Pages link?
+
 
 ---
 ### Step 6 
