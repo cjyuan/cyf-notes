@@ -61,7 +61,7 @@ If that’s the case, you may want to **look up how to apply filters in Google S
 The filtering condition on the **Date** column was not set up correctly. Only sales made between **1 June 2024 and 31 Dec 2024** should be displayed.
 
 ---
-If filters are applied only to the "Date" and "Points" columns, reordering will affect only those two columns, while the corresponding data in the other columns will remain unchanged and misaligned.
+If filters are applied only to the "Date" and "Point of Sale" columns, reordering will affect only those two columns, while the corresponding data in the other columns will remain unchanged and misaligned.
 
 However, if filters are applied to all relevant columns, then reordering ensures that the data across all columns remains properly aligned.
 
