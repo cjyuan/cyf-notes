@@ -87,6 +87,11 @@ Instead of filtering the dates by values, we can filter the dates **by condition
 
 
 ---
+
+If you cannot figure out how to fix the issue, you can try showing your CodePen link to an AI tool and ask it the relevant questions.
+
+
+---
 ### Step 4
 The page looks great. 
 
