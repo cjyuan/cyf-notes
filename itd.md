@@ -1,3 +1,7 @@
+Please note that the ITD which started on 1 Sep will end at 23:59pm on 28 Sep.
+If you cannot finish all steps by the deadline, you can join the next ITD which starts on 1 Nov and reuse your solutions.
+
+
 ### Step 0
 
 The screenshot you submitted does not meet all the acceptance criteria specified in https://itd.codeyourfuture.io/steps/zero/#acceptance-criteria.
