@@ -143,3 +143,18 @@ In your Google Doc, can you also include your answers to these two questions and
 ---
 When I clicked the link to your conversation with an AI page, I get an error message "Unable to load conversation ...".  
 Can you use an AI tool to figure out why others cannot view your conversation when they open that link, and address the issue?
+
+---
+The CodePen link you shared points to the original page, which belongs to CYF. If you wrote your code on that page, you would not be able to save or share it.
+To save your code, you need to click the "Fork" button at the lower-right corner of the page to clone it into your own account first.
+
+Could you prepare the CSS code on your own CodePen page and then update the CodePen link in your Google Doc?
+
+
+
+
+## POSSIBLE IMPROVEMENTS
+
+### Step 4
+- The image to be centered should be scaled to 50% of viewport width. (50% or 50vw)
+- 
