@@ -116,6 +116,7 @@ Can you fix all the errors and resubmit your CodePen link?
 
 Can you address these issues and resubmit your CodePen link?
 
+---
 ### Step 5
 
 One of the acceptance criteria (https://itd.codeyourfuture.io/steps/five/#acceptance-criteria) has not yet been met:  
@@ -123,6 +124,12 @@ One of the acceptance criteria (https://itd.codeyourfuture.io/steps/five/#accept
 
 Can you address this issue and resubmit your GitHub Pages link?
 
+---
+GitHub Pages requires your website files to be located in the repository’s **root** (**top-level**) folder.
+
+To deploy your site, move the contents of the dist folder into the root folder of your repository.
+
+If an `index.html` file is not present in the root folder, GitHub Pages will instead display the `README.md` file by default.
 
 ---
 ### Step 6 
