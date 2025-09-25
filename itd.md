@@ -158,6 +158,11 @@ To save your code, you need to click the "Fork" button at the lower-right corner
 Could you prepare the CSS code on your own CodePen page and then update the CodePen link in your Google Doc?
 
 
+### Step 7
+
+Your average practice test score needs to be at least 100 to meet the acceptance criteria.
+
+Can you retake the practice test a few more times until your score range is at least 95-105?
 
 
 ## POSSIBLE IMPROVEMENTS
