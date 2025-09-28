@@ -1,6 +1,9 @@
-Please note that the ITD which started on 1 Sep will end at 23:59pm on 28 Sep.
+ will end at 23:59pm on 28 Sep.
 If you cannot finish all steps by the deadline, you can join the next ITD which starts on 1 Nov and reuse your solutions.
 
+Please note that the ITD which started on 1 Sep has already ended. 
+Good news is, you can join the next ITD starting on 1 November and reuse your solutions.
+Furthermore, the next ITP begins on 1 January 2026, so participants who complete the ITD in November can still join that ITP.
 
 ### Step 0
 
@@ -160,7 +163,7 @@ Could you prepare the CSS code on your own CodePen page and then update the Code
 
 ### Step 7
 
-Your average practice test score needs to be at least 100 to meet the acceptance criteria.
+Your average practice test score needs to be at least 100 (in the 95-105 range) to meet the acceptance criteria.
 
 Can you retake the practice test a few more times until your score range is at least 95-105?
 
