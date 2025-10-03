@@ -21,14 +21,6 @@ Note: If you need help with this, feel free to bring it up during a Saturday wor
 
 ---
 
-Can you find out from ChatGPT the following
-- What's the best practice to respond to reviewer reviews in a pull request?
-- How to respond to inline comments in a conversation in a pull request?
-
-You can use this PR to practice them.
-
----
-
 Can you also run your code through ChatGPT to see if there’s anything (no matter how minor) that could be improved? I noticed some small inconsistencies, but I believe you can identify them yourself with ChatGPT’s help.
 
 ---
@@ -46,8 +38,12 @@ In addition to implementing changes based on reviewer feedback, it's considered 
 ---
 
 A well-prepared PR makes it easier for reviewers to approve it with minimal back-and-forth.
-The "PR Essentials" file on the [Canvas](https://codeyourfutur-yov6609.slack.com/archives/C07QX99JK7B) in the #cyf-code-review channel has some helpful tips to make your PRs more robust and ready for review.
-Can you take a few minutes to check against the essentials, including how to prepare PR description? Doing so can help speed up the review process.
+Can you take a look at this [PR Guide and General Feedback](https://github.com/cjyuan/Module-Onboarding/blob/feedback/feedback.md) to see if there 
+is anything you can do to make your PR more robust and ready?
+Doing so can help speed up the review process.
+
+
+
 
 And as a practice to get better at using AI tools, try running your code by ChatGPT. You can ask ChatGPT
 ```
@@ -61,25 +57,7 @@ Once you've finished making changes, please leave a comment on this PR so I’ll
 
 ---
 
-There are a few errors in your HTML code, and the code could benefit from better indentation for readability. Can you take a few minutes to go through the suggestions in the "PR Essentials" guide to help improve your code quality and the overall pull request?
-
-You can find the "PR Essentials" guide on the [Canvas](https://codeyourfutur-yov6609.slack.com/archives/C07QX99JK7B) in the #cyf-code-review channel. 
-It includes practical tips for writing cleaner code and making your PRs easier to review. Thanks!
-
----
-
-In your PR description, instead of including the checklist from the project's `README.md`, you can check off the 3rd and 5th items in the original Self-check list to confirm that your implementation meets all the requirements outlined in the project's `README.md`.
-
-I restored the original checklist in your PR description. can you check them to make them look like
-![image](https://github.com/user-attachments/assets/6f85e6c5-4dd7-49aa-a9fc-e17a9dc2189d)
-?
-
----
-
-You can find some useful info to prepare a PR in the "PR Essentials" file on this Slack Canvas:
-https://codeyourfutur-yov6609.slack.com/archives/C07QX99JK7B
-
-
+There are a few errors in your HTML code, and the code could benefit from better indentation for readability. 
 
 ---
 
@@ -90,18 +68,6 @@ To follow best practices, can you update your PR description by carrying out the
 Can you format the checked boxes using the proper Markdown syntax in your PR description so that they look something like this?
 ![image](https://github.com/user-attachments/assets/e6934aa9-0dab-4c08-80ca-e20e6750347e)
 (With proper Markdown syntax, we can use mouse to check/uncheck the items)
-
-To follow best practices, in your PR description, can you provide a brief description (under the "Changelist" section) summarizing the purpose of the PR and the changes you’ve made?
-![image](https://github.com/user-attachments/assets/74c526b0-3a54-4570-8bb4-680398337bcb).
-
-
-The code for the "Changelist" section looks like this in the PR template:
-```
-### Changelist
-
-Briefly explained your PR.
-
-```
 
 ---
 
