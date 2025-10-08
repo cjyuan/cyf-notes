@@ -9,7 +9,7 @@ If you are interested in the topic, you can looking up these two concepts, ***id
 
 #### Sprint-2/3-mandatory-implement/1-bmi.js
 What **type** of value do you expect the function to return? A number or a string?
-Does your function return the type of value you expect it to return?
+Does your function return the type of value you expect?
 
 
 #### Sprint-2/3-mandatory-implement/3-to-pounds.js
