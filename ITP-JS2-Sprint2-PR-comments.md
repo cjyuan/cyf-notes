@@ -11,6 +11,23 @@ If you are interested in the topic, you can looking up these two concepts, ***id
 What **type** of value do you expect the function to return? A number or a string?
 Does your function return the type of value you expect?
 
+---
+Did you notice  the variables `squaredHeight` and `BMI` are rendered in different colors?
+
+Many IDEs and viewers that support syntax highlighting (including GitHub) display identifiers in different formats and colors. Can you find out why?
+```javascript
+let bmi, camelCase;
+let Bmi, PascalCase;
+let BMI, UPPER_SNAKE_CASE;
+```
+
+Can  you look up the naming conventions in JavaScript? In particular,
+- Variable and function names
+- Class and Types names
+- Named constants
+
+Then, update the variable names according to those conventions.
+
 
 #### Sprint-2/3-mandatory-implement/3-to-pounds.js
 You should take a look at `.slice()`. With this function, lines 11-12 can be rewritten as
