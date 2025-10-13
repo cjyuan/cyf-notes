@@ -28,6 +28,7 @@ Can you also run your code through ChatGPT to see if there’s anything (no matt
 Please note that in CYF courses, the recommended way to inform the reviewer of your changes is to do both of the following:
   - **Reply to their feedback.**
     - In the responses, clarify how each piece of feedback was addressed to demonstrate that you've carefully reviewed the suggestions.
+      - You may find the suggestions in this [PR Guide](https://programming.codeyourfuture.io/guides/reviewing/trainee-pr-guide/#addressing-reviewer-feedback) useful.
     - Your response may trigger a notification (depending on the reviewer's settings), helping ensure they’re aware of the updates you’ve made. 
   - **Replace the "Reviewed" label by a "Needs review" label** (which you have done -- great!)
     - Without this label, the reviewer would not know if your changes is ready to be reviewed.
