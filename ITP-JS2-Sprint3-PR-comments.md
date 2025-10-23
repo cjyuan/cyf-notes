@@ -8,9 +8,10 @@ If you want to prevent some code in a file from being executed when the file is 
 
 
 #### Sprint-3/1-key-implement/1-get-angle-type.js
-#### Sprint-3/2-mandatory-rewrite/1-get-angle-type.test.js
 
-We could generalise each test to cover all values that belong to the same category, and pick some sample values in the category to test. For example,
+Checking `angle > 90` is optional because previous if-statements can guarantee `angle` is always more than 90.
+
+#### Sprint-3/2-mandatory-rewrite/1-get-angle-type.test.js
 
 We could specify multiple `expect(...)` statements within each `test()` to cover multiple values that belong to the same case. For example,
 ```
@@ -43,12 +44,20 @@ If the parameter, `angle`, is not within the recognised range, we can design the
 #### Sprint-3/1-key-implement/2-is-proper-fraction.js
 #### Sprint-3/2-mandatory-rewrite/2-is-proper-fraction.test.js
 
+According to the definition of ***proper fraction*** in mathematics:
+- `isProperFraction(-4, 3)` should return `false`
+- `isProperFraction(-2, 5)` should return `true`
+- `isProperFraction(-1, 1)` should return `false`
+- `isProperFraction(-2, -3)` should return `true`
+
+Can you look up the definition of ***proper fraction*** and update your function accordingly?
+
+---
+
 In mathematics, -A/B == A/-B == -(A/B), and -A/-B == A/B for any integers A and B (B ≠ 0).
 They represent a proper fraction if A < B and B ≠ 0.
 
-So `isProperFraction(-4, 3)` should return `false` because 4 >= 3.
 
-So `isProperFraction(-2, 5)` should return `true` because 2 < 5.
 
 Consider comparing the absolute value of the numerator and the denominator instead.
 
