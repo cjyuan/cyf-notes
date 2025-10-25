@@ -5,7 +5,11 @@ Using a boundary value as a test case is always a good idea. Many programs fail 
 If you want to prevent some code in a file from being executed when the file is imported by another file (via `require(...)`), you can lookup "how to check if a JS script is executed directly or via import?".
 
 ---
+Beginning this cohort, the [success page](https://programming.codeyourfuture.io/structuring-data/success/) of module Structuring and Testing Data expects the Sprint-3 exercise to be submitted in separate PRs (1 PR for each backlog).
+- “[Sprint 3 “Implement and Rewrite Tests” Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/6)”.
+- “[Sprint 3 “Practice TDD” Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/695)”.
 
+Can you update this PR (or close it) and then resubmit your work in separate PRs? You can tag me in your new PRs.
 
 #### Sprint-3/1-key-implement/1-get-angle-type.js
 
@@ -222,4 +226,5 @@ How would you modify your implementation if shift is allowed to be a negative nu
 #### Sprint-3/revise/implement/creditCardValidator.js
 
 Why not check also cases where number of digits is not exactly 16?
+
 
