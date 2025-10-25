@@ -8,8 +8,17 @@ Deleting the global `num` is optional. Within the function block, `num` is resol
 If you are interested in the topic, you can looking up these two concepts, ***identifier scope*** and ***identifier resolution***, in the context of JavaScript programming. ChatGPT can give a good explanation.
 
 #### Sprint-2/3-mandatory-implement/1-bmi.js
-What **type** of value do you expect the function to return? A number or a string?
-Does your function return the type of value you expect?
+Both of these function calls output `123` in the console, but internally in the program, 
+the number `123` and the string `"123"` are stored and treated differently.
+```javascript
+  console.log(123);
+  console.log("123");
+```
+
+What **type** of value do you expect your function to return? A number or a string?
+Does your function return the **type** of value you expect?
+
+
 
 ---
 Did you notice  the variables `squaredHeight` and `BMI` are rendered in different colors?
@@ -37,11 +46,14 @@ You should take a look at `.slice()`. With this function, lines 11-12 can be rew
 ```
 
 #### Sprint-2/4-mandatory-interpret/time-format.js
-
-A common convention for indicating that a value is a string is to enclose it in double quotes. For example, "00".
+To more precisely express a value is a string, we can enclsoe the value by a pair of double quotes. For example, "00".
 
 
 #### Sprint-2/5-stretch-extend/format-time.js
+We could also pass a parameter to .slice() to clearly express the intent to extract the last two characters, 
+without needing to calculate the starting position manually. Can you find out what this parameter is?
+
+
 There is a String function you can use to make this statement shorter (and clearer).
 
 "12:00" would make a good edge case to test.
