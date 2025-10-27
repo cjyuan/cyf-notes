@@ -8,17 +8,18 @@ Deleting the global `num` is optional. Within the function block, `num` is resol
 If you are interested in the topic, you can looking up these two concepts, ***identifier scope*** and ***identifier resolution***, in the context of JavaScript programming. ChatGPT can give a good explanation.
 
 #### Sprint-2/3-mandatory-implement/1-bmi.js
-Both of these function calls output `123` in the console, but internally in the program, 
-the number `123` and the string `"123"` are stored and treated differently.
-```javascript
-  console.log(123);
-  console.log("123");
-```
-
 What **type** of value do you expect your function to return? A number or a string?
 Does your function return the **type** of value you expect?
 
-
+Different types of values may appear identical in the console output, but they are represented and treated differently in the program. For example,
+```javascript
+  console.log(123);              // Output 123
+  console.log("123");            // Output 123
+  
+  // Treated differently in the program
+  let sum1 = 123 + 100;         // Evaluate to 223 -- a number
+  let sum 2 = "123" + 100;      // Evaluate to "123100" -- a string.
+```
 
 ---
 Did you notice  the variables `squaredHeight` and `BMI` are rendered in different colors?
