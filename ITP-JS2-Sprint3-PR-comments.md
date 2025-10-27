@@ -85,6 +85,19 @@ getCardValue("0002♠");
 ```
 
 ---
+In JavaScript, strings that represent valid numeric literals in the language can be safely
+converted to equivalent numbers or parsed into a valid integers.  
+Do you want to recognize these string values as valid ranks?
+
+To find out what these strings are, you can ask AI
+> What kinds of string values would make `Number(rank)` evaluate to `2` in JS?
+
+> What kinds of string values would make `parseInt(rank, 10)` evaluate to `2` in JS?
+
+
+
+
+---
 
 Can you think of a better way to ensure that a card’s rank matches exactly one of the nine allowed whole numbers?
 
