@@ -147,8 +147,10 @@ Consider looking up the rules to clarify how ordinal numbers are formed.
 
 ---
 
-To ensure thorough testing, we need broad scenario coverage. Listing individual values, however, can quickly lead to an unmanageable number of test cases.
-Instead of writing tests for individual numbers, consider grouping all possible input values into meaningful categories. Then, select representative samples from each category to test. This approach improves coverage and makes our tests easier to maintain.
+To ensure thorough testing, we need broad scenarios that cover all possible cases.
+Listing individual values, however, can quickly lead to an unmanageable number of test cases.
+Instead of writing tests for individual numbers, consider grouping all possible input values into meaningful categories.
+Then, select representative samples from each category to test. This approach improves coverage and makes our tests easier to maintain.
 
 For example, we can prepare a test for numbers 2, 22, 132, etc. as 
 ```
