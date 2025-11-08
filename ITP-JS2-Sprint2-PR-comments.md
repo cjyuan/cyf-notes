@@ -47,7 +47,7 @@ You should take a look at `.slice()`. With this function, lines 11-12 can be rew
 ```
 
 #### Sprint-2/4-mandatory-interpret/time-format.js
-To more precisely express a value is a string, we can enclsoe the value by a pair of double quotes. For example, "00".
+To more precisely express a value is a string, we can enclose the value by a pair of double quotes. For example, "00".
 
 
 #### Sprint-2/5-stretch-extend/format-time.js
