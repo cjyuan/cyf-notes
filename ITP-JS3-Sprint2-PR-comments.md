@@ -30,8 +30,16 @@ Here are two approaches to check if an object contains a property (one of them s
 ```
 For more info, you can look up `JS "in" operator vs Object.hasOwn`.
 
+---
+Your implementation of `contains()` is correct.
 
+However, your test `expect(contains([], 'a')).toBe(false)` may fail to verify **whether
+`contains()` can detect its first argument is an array**. This is because an incorrectly implementation of
+`contains()` could also return `false` simply because the given array doesn’t contain a key named "a", rather than
+because it properly checked that the first argument is an array.
 
+Can you improve the test to ensure it can correctly verify `contains()` can
+detect its first argument is an array?
 
 ---
 
