@@ -15,6 +15,18 @@ To avoid modifying the caller's array, a common practice is to make a clone of t
 If you want to exclude `Infinity` and `NaN`, consider using the built-in function `Number.isFinite()`.
 
 ---
+`numbers` is no longer the original array and it is not needed later.
+ 
+So we could improve the performance by not making another copy of the array and
+write the code on line 17 as
+
+```javascript
+const sorted = numbers.sort((a, b) => a - b);  // sorted and numbers are the same array
+```
+
+Note: `sorted` is a more meaningful name so it is good to keep it.
+
+---
 
 The arrays specified in `median.test.js` are already sorted by coincidence.
 
@@ -39,7 +51,7 @@ To learn more about how arrays/objects are compared/copied in JS, and to learn m
 ---
 This test should fail if the function returns the original array (instead of a **copy** of the original array).
 
-The current test checks only if the two arrays contain identical elements. 
+The current test checks only if the original array and the returned array contain identical elements. 
 In order to validate the returned array is a different array, we need an **additional** check.
 
 Can you find out what this additional check is? 
@@ -80,7 +92,7 @@ sum([Infinity, -Infinity]);
 Decimal numbers in most programming languages (including JS) are internally represented in "floating point number" format. Floating point arithmetic is not exact. For example, the result of `46.5678 - 46 === 0.5678` is false because `46.5678 - 46` only yield a value that is very close to `0.5678`. Even changing the order in which the program add/subtract numbers can yield different values.
 
 So the following could happen
-```
+```javascript
   expect( 1.2 + 0.6 + 0.005 ).toEqual( 1.805 );                // This fail
   expect( 1.2 + 0.6 + 0.005 ).toEqual( 1.8049999999999997 );   // This pass
   expect( 0.005 + 0.6 + 1.2 ).toEqual( 1.8049999999999997 );   // This fail
