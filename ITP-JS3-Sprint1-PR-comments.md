@@ -37,20 +37,12 @@ To learn more about how arrays/objects are compared/copied in JS, and to learn m
 - How to compare two arrays by value in JS?
 
 ---
-The current test code cannot check if the returned array is a **copy** of the original array because `toEqual()` compares objects (including arrays) by value. To illustrate,
+This test should fail if the function returns the original array (instead of a **copy** of the original array).
 
-```
-  const A = [2, 3, 1];
-  const B = [...A];          // B is a copy of A
-    
-  // This set of code cannot distinguish if the compared objects are the same objects.
-  expect(A).toEqual(A);  // true
-  expect(A).toEqual(B);  // true
-```
+The current test checks only if the two arrays contain identical elements. 
+In order to validate the returned array is a different array, we need an **additional** check.
 
-In order to check if the returned array is a **copy** of the original array, we would need **additional** checks. 
-Can you find out what code you need to add in order to ensure the returned value is not the original array?
-
+Can you find out what this additional check is? 
 
 #### Sprint-1/implement/max.js
 What do you expect from the following function calls (on extreme cases)?
