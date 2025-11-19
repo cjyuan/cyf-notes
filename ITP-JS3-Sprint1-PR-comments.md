@@ -51,7 +51,7 @@ To learn more about how arrays/objects are compared/copied in JS, and to learn m
 ---
 This test should fail if the function returns the original array (instead of a **copy** of the original array).
 
-The current test checks only if the original array and the returned array contain identical elements. 
+The current test checks only if both the original array and the returned array contain identical elements. 
 In order to validate the returned array is a different array, we need an **additional** check.
 
 Can you find out what this additional check is? 
