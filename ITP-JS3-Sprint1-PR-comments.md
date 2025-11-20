@@ -1,6 +1,12 @@
 Can you check if any of this general feedback can help you further improve your code?  
 https://github.com/CodeYourFuture/Module-Data-Groups/blob/sprint-1-feedback/Sprint-1/feedback.md
 
+Doing so can help reviewers speed up the review process. Thanks.
+
+---
+
+Can you update PR Title and Description according to this [PR Guide](https://programming.codeyourfuture.io/guides/reviewing/trainee-pr-guide/) 
+in order to pass the automated "Validate PR Metadata" check?
 
 #### Generic
 
