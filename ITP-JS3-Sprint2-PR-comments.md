@@ -1,3 +1,8 @@
+Can you check if any of this general feedback can help you further improve your code?  
+https://github.com/CodeYourFuture/Module-Data-Groups/blob/general-review-feedback/Sprint-2/feedback.md
+
+Doing so can help reviewers speed up the review process. Thanks.
+
 #### Generic
 
 #### Sprint-2/debug/author.js
