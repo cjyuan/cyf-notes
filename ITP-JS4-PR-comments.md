@@ -15,6 +15,17 @@ How would you modify this statement to align the value of `lineTotal` when its v
 The format of the output in exercise-3 is not **exact**; the spacing is off a bit.
 Since the spec mentions `Pay attention to the exact formatting of the expected result.` It would be great if you can try to produce an output that matches the expected result.
 
+---
+A long statement that chains multiple methods/functions becomes more readable when written across multiple lines, placing each method/function on its own line. For example,
+
+```javascript
+  const gryffindorMembers = arr
+    .filter(({ house }) => house === "Gryffindor")
+    .map(({ firstName, lastName }) => `${firstName} ${lastName}`)
+    .join('\n');
+```
+
+
 ## Programmer Humour
 ### fetch/programmer-humour/javascript.js
 
