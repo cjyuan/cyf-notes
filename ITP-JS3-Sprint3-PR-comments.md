@@ -25,6 +25,17 @@ https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
 A better practice is to define styles in an external CSS file and use 'class' in JavaScript to apply styles to elements.
 
 
+---
+You could also consider loading the JS code as an ES module:
+
+`<script src="alarmclock.js" type="module"></script>`
+
+This offers a couple of key advantages:
+- `defer` is implied: Module scripts are loaded asynchronously and executed only after the HTML document has been fully parsed.
+
+- Scoped execution: The code runs in the module scope, avoiding unintended pollution of the global namespace.
+
+
 ### Alarmclock App
 
 Code works fine if a user only clicks the "Set Alarm" button once.
