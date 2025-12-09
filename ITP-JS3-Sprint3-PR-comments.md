@@ -59,6 +59,19 @@ Here is one way to implement "Change background color when countdown reaches zer
 
 If you can make this work, you can also change the CSS properties to make the background blinks.
 
+---
+Could consider replacing 
+```
+   <h1 id="timeRemaining">Time Remaining: 00:00</h1>
+```
+by
+```
+  <div id="timeRemaining">Time Remaining: <span id="theTime">00:00</span></div>
+```
+
+Suggestion: Use AI to find out why the latter is better.
+
+
 ### Quote Generator
 
 #### Sprint-3/quote-generator/quotes.js
