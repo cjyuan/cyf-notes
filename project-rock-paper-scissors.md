@@ -20,6 +20,24 @@ all players.
 
 Each player has a name and a short description.
 
+Joe also wishes to have a function `compete(competition, players)` that he can call to carry out a competitions. 
+ 
+
+In particular, he wishes
+to be able to carry out a competition by
+```
+  // Code that instantiate a competition class and the player classes
+  competition = new SomeCompetition(...)
+  players[0] = new Type_1_Player(...)
+  players[1] = new Type_2_Player(...)
+
+  // Code to carry out the competition and output the result
+  
+```
+
+
+implement different types of player and different types of competition as classes 
+
 -----------------------------
 
 
