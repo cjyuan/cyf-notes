@@ -1,51 +1,65 @@
-Joe wants to facilitate a competition between two or more automated-players in 
-some variations of the Rock-Paper-Scissors game.
+### 1. Overview
 
-These univeral rules always hold
-- On each move, a player have to play a rock, paper, or scissors.
-- Rock beats scissors, scissors beats paper, and paper beats rock.
+Joe wants to build a system that facilitates competitions between two or more automated players in variations of the Rock–Paper–Scissors (RPS) game.
+The system must be extensible so that new competition rules, scoring mechanisms, and player strategies can be added without modifying existing code.
 
-On top of the universal rules, a competition can introduce additional rules.
-For examples,
-1. Each player plays 10 turns in the competition.
-2. Different scoring mechanism -- winning two consequtive turns scores more, and the player who score 100 points first wins.
-3. The competition takes 100 turns to complete, but each player can only play rock at most 20 times.
-4. The competition is participated by more than two players.
+Initially, competitions will be run locally via a command-line interface (CLI). In the long term, the system should be reusable for web-based competitions,
+where users can submit their own automated players.
 
-In a competition,
-- A player should be notified before the competition begins.
-- On each turn, a player should be given access to the history of the game so that the player can look up the previous moves of 
-all players.
-- A player should be notified when the competition has ended.
+### 2. Universal Game Rules
 
-Each player has a name and a short description.
+The following rules apply to all competitions:
+  1. On each turn, every player must choose exactly one move: Rock, Paper, or Scissors.
+  2. Move outcomes are defined as:
+    - Rock defeats Scissors
+    - Scissors defeats Paper
+    - Paper defeats Rock
+  3. If two players choose the same move, the result is a tie for that matchup.
 
-Joe also wishes to have a function `compete(competition, players)` that he can call to carry out a competitions. 
- 
+### 3. Competition-Specific Rules
 
-In particular, he wishes
-to be able to carry out a competition by
-```
-  // Code that instantiate a competition class and the player classes
-  competition = new SomeCompetition(...)
-  players[0] = new Type_1_Player(...)
-  players[1] = new Type_2_Player(...)
+Different competition variants are expected to define different sets of rules.
+Each competition variant should encapsulate its own behavior and rule logic, allowing new competition types to be introduced without modifying existing ones.
 
-  // Code to carry out the competition and output the result
-  
-```
+These additional rules are intentionally open-ended and may affect any aspect of the competition, including but not limited to:
+- How long the competition lasts (e.g., 10 turns per player)
+- How scores are calculated (e.g., winning two consecutive turns yields bonus points)
+- How winners are determined (e.g., the first player to score 100 points win)
+- What constraints apply to player moves (e.g., a player may play Rock at most 20 times during the competition)
+- How many players participate
 
+The system must allow new competition variants to be added by defining new competition types,
+without requiring changes to the competition framework or core game engine.
 
-implement different types of player and different types of competition as classes 
+### 4. Player Interaction Requirements
 
------------------------------
+Each automated player must interact with the competition through a well-defined interface:
 
+1. Competition Start Notification
+- Each player must be notified before the competition begins.
 
+2. Turn Execution
+- On each turn, a player is asked to choose a move.
+- The player must be given read-only access to the following info of all players:
+  - their previous moves
+  - their current score
 
+3. Competition End Notification
+- Each player must be notified when the competition ends.
 
+### 5. Player Metadata
 
+Each player must have:
+- A name
+- A short textual description
 
-### Extension
-A game made up of rounds of games
+### 6. Design and Extensibility Goals
+- The system should support addition of new competitions and new player implementations.
+- The core game logic should be reusable for future web-based deployment.
 
-A player should get notified before every round begins
+### 7. Implmentation
+To demonstrate the design, the implementation must include the following:
+- At least two distinct competition variants
+- Several different player implementations
+- A game engine responsible for facilitating and managing a competition
+- A command-line interface (CLI) program that uses the game engine to run the competitions and display the results
