@@ -40,6 +40,6 @@ class member and instance member
 4. [Potion Class 101](https://www.codewars.com/kata/5981ff1daf72e8747d000091) -- Class + simple math calculation (6 kyu)
 5. [Urban Dictionary](https://www.codewars.com/kata/5631ac5139795b281d00007d) -- Implement a map-like data structure that supports patterns (6kyu)
 6. [Custom Array Filters](https://www.codewars.com/kata/53fc954904a45eda6b00097f) -- subclassing Array/list (6 kyu)
-
+7. [Measure the little Pythons](https://www.codewars.com/kata/696503a831e8e76d36706fb9/train/python) -- operator overloading (6kyu)
 
 
