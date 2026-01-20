@@ -1,15 +1,8 @@
 Both of your PRs do not yet have a "Needs review" label. Without the label, volunteers will not recognise them as being "ready to be reviewed".
 
-Until you're able to add a label, here are some actions you can take to further improve your implementation and your PR (in order to speed up the review process):
-1. Follow the suggestions in the "PR Essentials" guide on the [Canvas](https://codeyourfutur-yov6609.slack.com/archives/C07QX99JK7B) in the #cyf-code-review channel. It has some helpful tips to make your PRs more robust and ready for review.
-
-2. Ask AI tools for suggestions. For example, you can ask ChatGPT
-```
-review HTML code:
-...        <--- paste your HTML code here
-```
-
-Then take a look at the suggestions it gives you, and pick out the ones that actually make sense for your project. It's a also great way to learn and improve your work.
+### Suggestion
+After you have made all the changes, try asking AI for possible improvements in terms of semantic, accessibility, typo, and consistency.
+It can often help us catch errors, improve consistency, and reinforce best practices.
 
 ---
 
