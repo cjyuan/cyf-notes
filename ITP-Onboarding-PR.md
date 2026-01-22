@@ -1,7 +1,7 @@
 Both of your PRs do not yet have a "Needs review" label. Without the label, volunteers will not recognise them as being "ready to be reviewed".
 
 ### Suggestion
-After you have made all the changes, try asking AI for possible improvements in terms of semantic, accessibility, typo, and consistency.
+After you have made all the changes, share your code to an AI tool and ask it to review your code in terms of semantic, accessibility, typo, and consistency.
 It can often help us catch errors, improve consistency, and reinforce best practices.
 
 ---
@@ -149,6 +149,9 @@ This is an example of a webpage with a layout that matches the wireframe.
 1. Currently a user can enter a name consisting of only space characters (e.g., " "). Can you enforce a stricter validation rule using the `pattern` attribute to disallow any name that contains only space characters?
 
 2. There is a way to configure a `<select>` element so that no option is selected by default, allowing the user to make an explicit choice.
+
+
+3. Why use pattern in `<input type="email">` when browsers can already perform built-in email validation?
 
 
 ---
