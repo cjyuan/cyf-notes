@@ -133,8 +133,8 @@ Line 17 can be better formatted as:
     </p>
 ```
 
-To understand why, you can ask ChatGPT these questions:
-- How HTML treat mutliple whitespace characters in text?
+To understand why, you can ask AI these questions:
+- How HTML treats multiple whitespace characters in text?
 - What's the advantage of not writing a long paragraph of text in a single line in HTML?
 
 VSCode's "Format Document" feature can help us format our code for better readability and consistency, including breaking a long line of text into shorter lines of text.
