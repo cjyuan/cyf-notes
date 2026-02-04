@@ -32,7 +32,7 @@ In addition to implementing changes based on reviewer feedback, it's considered 
 ---
 
 A well-prepared PR makes it easier for reviewers to approve it with minimal back-and-forth.
-Can you take a look at this [PR Guide and General Feedback](https://github.com/cjyuan/Module-Onboarding/blob/feedback/feedback.md) to see if there 
+Can you take a look at this [General Feedback](https://github.com/cjyuan/Module-Onboarding/blob/feedback/feedback.md) to see if there 
 is anything you can do to make your PR more robust and ready?
 Doing so can help speed up the review process.
 
