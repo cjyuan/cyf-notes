@@ -69,6 +69,21 @@ For example, we can say, "`Math.random()` returns a random number in the interva
 
 "Returns" is the standard technical term for what a function "generates". It aligns with programming language terminology, especially in documentation and developer communication.
 
+---
+Can you give a precise description what each of these expressions does, and the range of the numbers it may produce?
+
+1. `Math.random()`
+2. `Math.random() * (maximum - minimum + 1)`
+3. `Math.floor(Math.random() * (maximum - minimum + 1))`
+4. `Math.floor(Math.random() * (maximum - minimum + 1)) + minimum`
+
+---
+Note: To describe a range of numbers, we can use the concise and precise ***interval notation***: 
+- `[`, `]` => inclusion
+- `(`, `)` => exclusion
+
+For example, `[1, 10)` means, all numbers between 1 and 10, including 1 but excluding 10.
+
 
 ---
 
