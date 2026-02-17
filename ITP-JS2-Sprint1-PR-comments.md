@@ -131,6 +131,15 @@ Can you describe in terms of **whole minute**, or use ChatGPT to find out how el
 "time" can ambiguous because it may mean refer to clock time (e.g., 12:30pm), time in seconds, etc. 
 Can you think of another name for the variable?
 
+---
+The name `movieDuration` suggests that:
+- The value represents the duration of a movie
+- It holds a numeric value
+- The unit of that number is unclear
+
+However, this doesn’t quite fit a value like `"2:12:02"`.
+
+Can you suggest a more descriptive name?
 
 
 #### Sprint-1/3-mandatory-interpret/3-to-pounds.js
