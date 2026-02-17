@@ -64,6 +64,7 @@ Phrases like "a number between X and Y" are not precise enough in a program spec
 We can also use the concise and precise ***interval notation*** to describe a range of values. 
 - `[`, `]` => inclusion
 - `(`, `)` => exclusion
+
 For example, `[1, 10)` means, all numbers between 1 and 10, including 1 but excluding 10.
 
 
