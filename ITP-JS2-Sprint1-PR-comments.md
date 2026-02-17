@@ -64,7 +64,7 @@ Phrases like "a number between X and Y" are not precise enough in a program spec
 We can also use the concise and precise ***interval notation*** to describe a range of values. 
 - `[`, `]` => inclusion
 - `(`, `)` => exclusion
-For example, we can say, "`Math.random()` returns a random number in the interval `[0, 1)`"
+For example, `[1, 10)` means, all numbers between 1 and 10, including 1 but excluding 10.
 
 
 "Returns" is the standard technical term for what a function "generates". It aligns with programming language terminology, especially in documentation and developer communication.
