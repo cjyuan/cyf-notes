@@ -62,9 +62,9 @@ There is a String function you can use to make this statement shorter (and clear
 Also, we should also test cases where minute part is not equal to "00".
 
 ---
-If "01:00" is converted to "01:00 am", it is reasonable for the caller to expect "13:00" to be converted to "01:00 pm".
+If "01:00" is converted to "01:00 am", it is probably reasonable for the caller to expect "13:00" to be converted to "01:00 pm".
 
-What could go wrong?
+When the returned values are not formatted consistently, it may result in unintended side-effect. For examples,
 
 1. When the strings are displayed, "01:00 pm" and "1:00 pm" would not align as nicely.
 ```
@@ -74,7 +74,7 @@ What could go wrong?
 01:00 pm
 ```
 
-2. When the formatted strings are compared in the program, `"1:00 pm" < "11:00 pm"` and `01:00 pm" < "11:00 pm"` produce different results.
+2. When the formatted strings are compared in the program, `"1:00 pm" < "11:00 pm"` and `01:00 am" < "11:00 am"` produce different results.
 
 Consistency is important so the caller can be certain what to expect from a function.  
 
