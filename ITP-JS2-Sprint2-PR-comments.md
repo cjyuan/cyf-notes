@@ -60,7 +60,27 @@ There is a String function you can use to make this statement shorter (and clear
 "12:00" would make a good edge case to test.
 
 Also, we should also test cases where minute part is not equal to "00".
+
 ---
+If "01:00" is converted to "01:00 am", it is reasonable for the caller to expect "13:00" to be converted to "01:00 pm".
+
+What could go wrong? Here are two examples,
+- When the strings are all centered within a table column on a webpage, "01:00 pm" and "1:00 pm" would not align as nicely.
+
+<div align=center>01:00 am</div>
+<div align=center>1:00 pm</div>
+<div align=center>12:00 am</div>
+<div align=center>01:00 pm</div>
+
+- When the times are compared in the program, `"1:00 pm" < "11:00 pm"` and `01:00 pm" < "11:00 pm"` produce different results.
+
+Consistency is important so the caller can be certain what to expect from a function.  
+
+Did you choose the format "1:00 pm" by design (before you implement the function), or did you set the expected value in your tests because you knew that's what your function will return?
+
+
+---
+
 
 It is a common practice to begin variable names with a lowercase letter.
 Names that start with an uppercase letter are typically reserved for user-defined data types or class names.
