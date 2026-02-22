@@ -16,8 +16,8 @@ From line 29, we know `coins` can only be one of the following 9 tuples:
 
 We could further improve the performance if we can
   - avoid repeatedly creating the same sub-tuples at line 29 (e.g. use another cache), and
-  - create key as (total, a_unique_integer_identifying_the_subarray) instead of as (total, tuple of coins)
-     - There are only a small number of different subarrays. We can map each subarray to a unique integer. 
+  - create key as (total, a_unique_integer_identifying_the_subtuple) instead of as (total, tuple of coins)
+     - There are only a small number of different sub-tuples. We can easily assign each sub-tuple a unique integer. 
 
 ---
 Array creation is a relatively costly operation.
@@ -34,7 +34,7 @@ From line 41, we know `coins` can only be one of the following 8 arrays:
 We could further improve the performance if we can
   - avoid repeatedly creating the same sub-arrays at line 41 (e.g. use another cache), and
   - create key as (total, a_unique_integer_identifying_the_subarray) instead of as (total, tuple of coins)
-     - There are only a small number of different subarrays. We can map each subarray to a unique integer. 
+     - There are only a small number of different subarrays. We can easily assign each subarray a unique integer. 
 
 
 ## Improve with Precomputing
