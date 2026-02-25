@@ -5,6 +5,14 @@ Using a boundary value as a test case is always a good idea. Many programs fail 
 If you want to prevent some code in a file from being executed when the file is imported by another file (via `require(...)`), you can lookup "how to check if a JS script is executed directly or via import?".
 
 ---
+
+Can you revise these test descriptions to make the failure messages more informative, so it's immediately clear both what caused the test to fail and what the expected outcome was?
+
+---
+Can you add more test cases to this group to make the coverage more comprehensive?
+If the number of cases becomes too large, you can consider organizing them into meaningful subcategories.
+
+---
 Beginning this cohort, the [success page](https://programming.codeyourfuture.io/structuring-data/success/) of module Structuring and Testing Data expects the Sprint-3 exercise to be submitted in separate PRs (1 PR for each backlog).
 - “[Sprint 3 “Implement and Rewrite Tests” Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/6)”.
 - “[Sprint 3 “Practice TDD” Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/695)”.
