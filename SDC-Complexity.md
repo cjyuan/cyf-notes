@@ -46,7 +46,11 @@ How can you prevent this side effect?
 
 ---
 
+### LRU Cache
 
+To better adhere to the **Single-Responsibility Principle** (SRP) from SOLID design principles, 
+it's preferable to implement the "doubly linked list" and the "LRU Cache" as separate classes, with the linked list used inside LruCache to manage ordering.
 
+Alternatively, `OrderedDict` can be used directly within `LruCache` to maintain order.
 
-
+Could you update your code using one of these approaches?
