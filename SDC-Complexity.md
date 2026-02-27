@@ -54,3 +54,11 @@ it's preferable to implement the "doubly linked list" and the "LRU Cache" as sep
 Alternatively, `OrderedDict` can be used directly within `LruCache` to maintain order.
 
 Could you update your code using one of these approaches?
+
+### Linked List
+We could also just call `remove()` in `pop_tail()` to remove the tail -- less code to maintain.
+
+Could consider calling `remove(removed)` -- less code to maintain.
+
+What was the value of `node.next` before this line?
+
