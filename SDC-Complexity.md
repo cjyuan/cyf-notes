@@ -1,3 +1,13 @@
+## Analyse and Refactor Functions
+
+The refactored code and the analyses of the refactored code look good!
+
+(1) Can you also show the time complexity of the original implementation?
+
+I think "Time Complexity" here refers to the time complexity of the original implementation, and "Optimal Time Complexity" refers to the time complexity of the refactored version. 
+
+
+
 ## Improve With Caches
 
 ### Sprint-2/improve_with_caches/making_change/making_change.py
@@ -56,9 +66,14 @@ Alternatively, `OrderedDict` can be used directly within `LruCache` to maintain 
 Could you update your code using one of these approaches?
 
 ### Linked List
-We could also just call `remove()` in `pop_tail()` to remove the tail -- less code to maintain.
-
 Could consider calling `remove(removed)` -- less code to maintain.
 
+Could consider delegating the node removing task to `remove()` -- less code to maintain.
+
+
 What was the value of `node.next` before this line?
+
+The code in `linked_list_test.py` expects both `.next` and `.previous` properties of the removed node to be assigned `None`. Currently your implementation could not pass the tests.
+
+Note: Do you know the why it is a good practice to assign `.next` and `.previous` of the removed node to `None`? 
 
