@@ -5,18 +5,11 @@ To follow best practices, can you update your PR description by carrying out the
 
 ---
 
-Could you also practice responding to comments directly in the comment threads? It could make tracking the discussion easier.
+Indentation is off.
 
-Leaving responses directly in the comment threads makes tracking the discussion easier. You can try the approach in future PRs.
-Here is a simplified version of best practices ChatGPT suggested for responding to inline comments in a pull request:
-> - ✅ Reply to every comment – Let the reviewer know you saw it.
-> - ✏️ Make the change if needed – Fix the code if the comment points out a real issue.
-> - 🤔 Explain if you don't agree – If you think the code is fine, politely explain why.
-> - ✅ Mark as resolved when done – Only mark comments resolved after you fix or respond.
-> - 💬 Keep replies short and polite – Be respectful and to the point.
-> - ⏱️ Respond soon – Don’t wait too long to reply.
-> - 🧪 Test your changes – Make sure your fixes actually work.
-> - 📍 Reply directly under the comment – This keeps the conversation easy to follow.
+Consider install **prettier** VSCode extension and enable formatting on save/paste on VSCode
+as recommended in 
+https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/blob/main/readme.md
 
 ---
 
@@ -115,10 +108,10 @@ In the function call `.replaceAll(",", "")`, there's a programming term for `","
 
 ---
 
-A comma is missing between "," and "" in the function call.
-Can you find out the programming term for "," and "" so that we can more accurately describe
-"a comma is missing between the ___________."
+We can more precisely describe "A comma is missing between `","` and `""` in the function call" as:  
+A comma is missing between the ___________s.
 
+What is the programming term that belongs in the blank?
 
 #### Sprint-1/3-mandatory-interpret/2-time-format.js
 
