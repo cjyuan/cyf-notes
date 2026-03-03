@@ -125,13 +125,7 @@ Can you describe in terms of **whole minute**, or use ChatGPT to find out how el
 Can you think of another name for the variable?
 
 ---
-The name `movieDuration` suggests that:
-- The value represents the duration of a movie
-- It holds a numeric value
-- The unit of that number is unclear
-
-However, this doesn’t quite fit a value like `"2:12:02"`.
-
+The name `movieDuration` implies a primitive numeric quantity rather than a formatted string in the form `"2:12:02"`.
 Can you suggest a more descriptive name?
 
 
