@@ -23,3 +23,13 @@ https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase#:~:text=int
 #### 4. Update (and Overwrite) your files in the remote branch B2 (on Github)
 While you are in branch B2 and you have verified that it has been successfully rebased, execute the following command to update the remote branch (on GitHub):
 `git push --force origin`
+
+---
+
+Suppose the file is `path/to/file`, and you want to restore the file to its state before the commit with SHA `1234567`.  
+The command is:
+```
+git restore --source=1234567^ path/to/file
+```
+
+After the file is restored, make a commit and push the changes to GitHub.
