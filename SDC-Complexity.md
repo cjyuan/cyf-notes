@@ -47,6 +47,12 @@ We could further improve the performance if we can
   - create key as (total, a_unique_integer_identifying_the_subarray) instead of as (total, tuple of coins)
      - There are only a small number of different subarrays. We can easily assign each subarray a unique integer. 
 
+---
+Note: Even though tuple construction and dictionary lookup (lines __ and __) are O(1) operations, 
+they are still relatively costly than some simple numerical computation and comparisons (lines 18 and 22).
+
+This is unrelated to cache, but if you swap the code on lines 18-23 with the code on lines 13-16,
+you can probably notice some slight improvement in performance.
 
 ## Improve with Precomputing
 
