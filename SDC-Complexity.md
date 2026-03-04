@@ -59,6 +59,12 @@ you can probably notice some slight improvement in performance.
 Can you use complexity to explain how the new implementation is better than the original implementation? 
 
 
+---
+
+If we are factoring in the length of the strings, `m`, then the complexity of sorting won't just be `O(n log n)`.
+`n log n` measures only the number of comparisons needed.
+
+
 ### Sprint-2/improve_with_precomputing/common_prefix/common_prefix.py
 
 `strings.sort()` can modify the original list passed into the function by the caller.
