@@ -41,6 +41,15 @@ Your understanding of `.indexOf()` and `.slice()` is correct, but the value assi
 
 Could you find out from ChatGPT which part of the path, `/Users/mitch/cyf/Module-JS1/week-1/interpret/file.txt`, is considered the directory name?
 
+
+---
+Can you make these statements to work for any valid path? For example, they could still work correctly if we changed line 12 to
+```
+const filePath = "/Users/jacknguyen448/cyf/Module-2/Sprint-1/package.json";
+```
+
+
+
 #### Sprint-1/1-key-exercises/4-random.js
 To test your understanding, how would you write an expression (without using any variable in the expression) that can yield
 a random integer between -5 and 5 (including both -5 and 5)?
@@ -101,7 +110,7 @@ How would you modify the code (through type conversion) so that you can still us
 In JS naming convention, variable names usually begins with a lowercase letter. Names starting with an uppercase letter are used for built-in and custom data types (e.g., `Math`)
 
 ---
-Starting a variable name with a $ is generally not recommended.
+Starting a variable name with a `$` is generally not recommended.
 
 Normal practice is to begin a variable name with a lowercase letter.
 
@@ -116,7 +125,7 @@ In the function call `.replaceAll(",", "")`, there's a programming term for `","
 ---
 
 We can more precisely describe "A comma is missing between `","` and `""` in the function call" as:  
-A comma iss missing between the ___________s.
+A comma is missing between the ___________s.
 
 What is the programming term that belongs in the blank?
 
@@ -158,6 +167,8 @@ We can also find out exactly what the function returns from the MDN Web Docs web
 If we were writing a program that uses `prompt()` to ask for an input value, how could
 the program check if the user clicked "OK" or "Cancel"?
 
+---
 
+What does the function return when a user clicks "Cancel" instead of "OK"?
 
 
