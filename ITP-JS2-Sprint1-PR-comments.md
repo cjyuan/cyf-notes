@@ -144,7 +144,9 @@ Can you suggest a more descriptive name?
 Could we expect this program to work as intended for any valid `penceString` if we deleted `.padEnd(2, "0")` from the code?
 In other words, do we really need `.padEnd(2, "0")` in this script?
 
-Why don't you try executing the script without using `padEnd(2, '0')`, and test it with different values of `penceString` to validate your expectation?
+---
+
+Have you tried removing `.padEnd()` from the code, then assign `penceString` different values to check if the script produces the results you expected?
 
 #### Sprint-1/4-stretch-explore/chrome.md
 
@@ -158,6 +160,4 @@ the program check if the user clicked "OK" or "Cancel"?
 
 
 
-There is a shorter ***programming term*** to describe operations like `count = count + 1` or `count++`. 
-May I suggest feeding the code to ChatGPT to see how else the code can be described? 
-From time to time you may learn new terminology or more concise ways to describe code.
+
