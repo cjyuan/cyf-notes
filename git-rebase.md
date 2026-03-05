@@ -25,6 +25,11 @@ While you are in branch B2 and you have verified that it has been successfully r
 `git push --force origin`
 
 ---
+One way to revert changes to a file is via the `git restore` command.
+
+First, locate a commit before the file was modified. It could be the first commit you made, assuming the branch started in a clean state. 
+
+Next, record the first 7 characters of the commit SHA.
 
 Suppose the file is `path/to/file`, and you want to restore the file to its state before the commit with SHA `1234567`.  
 The command is:
