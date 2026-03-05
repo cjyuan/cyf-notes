@@ -100,6 +100,13 @@ How would you modify the code (through type conversion) so that you can still us
 
 In JS naming convention, variable names usually begins with a lowercase letter. Names starting with an uppercase letter are used for built-in and custom data types (e.g., `Math`)
 
+---
+Starting a variable name with a $ is generally not recommended.
+
+Normal practice is to begin a variable name with a lowercase letter.
+
+
+
 #### Sprint-1/3-mandatory-interpret/1-percentage-change.js
 `foo(bar())` would be considered as two function calls in which `bar()` is called first and its return value is passed as a parameter to `foo()`.
 
@@ -109,9 +116,15 @@ In the function call `.replaceAll(",", "")`, there's a programming term for `","
 ---
 
 We can more precisely describe "A comma is missing between `","` and `""` in the function call" as:  
-A comma is missing between the ___________s.
+A comma iss missing between the ___________s.
 
 What is the programming term that belongs in the blank?
+
+---
+
+The error occurred because a comma was missing between the ___________s.
+What is the programming term that belongs in the blank?
+
 
 #### Sprint-1/3-mandatory-interpret/2-time-format.js
 
@@ -121,11 +134,9 @@ Can you describe in terms of **whole minute**, or use ChatGPT to find out how el
 
 ----
 
-"time" can ambiguous because it may mean refer to clock time (e.g., 12:30pm), time in seconds, etc. 
-Can you think of another name for the variable?
+The name `movieDuration` does not quite indicate the value stored in the variable 
+is a formatted string in the form `"2:12:02"`.
 
----
-The name `movieDuration` implies a primitive numeric quantity rather than a formatted string in the form `"2:12:02"`.
 Can you suggest a more descriptive name?
 
 
