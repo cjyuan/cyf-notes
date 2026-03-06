@@ -174,13 +174,6 @@ test("append 'nd' to numbers ending in 2, except those ending in 12", () => {
 When a test fails with the message "... all other numbers", it may be unclear what "other numbers" actually refers to. A more specific and informative message, such as "... numbers ending in 0, 4–9, or 11–13", would make the output easier to understand and act on.
 
 
-#### Sprint-3/3-mandatory-practice/implement/repeat.js
-How would the caller distinguish the result of the following two function calls?
-1. `repeat("Please enter positive number!", 1)`
-2. `repeat("", -1)`
-
-Both function calls return the same value.
-
 ---
 #### Sprint-3/3-mandatory-practice/implement/repeat.test.js
 
@@ -198,56 +191,44 @@ For example, the function might return `false` for "1234" not only because it is
 As a result, we can't be certain that the function correctly handles the case of passwords shorter than 5 characters, since multiple conditions are being violated simultaneously.
 
 
----
-## In older ITP
+### Practice TDD
 
-#### Sprint-3/implement/is-valid-triangle.js
-
-Is it necessary to include the if-statement at lines 42-44?
-Can you find any values for a, b, and c, such that the function will fail after you removed the if-statement at lines 42-44?
-If you cannot find such a, b, and c, that means you probably do not need that if-statement.
-
-I will not go into details why in some programming languages (but not JavaScript) we need also to ensure a, b, c are positives.
-
-The main point I would like to make is, you should fully understand and be able to explain your code. An interviewer may ask you questions like what I am asking here, and it would reflect poorly on you if you cannot explain your code.
+#### Sprint-3/2-practice-tdd/count.js
 
 
----
+#### Sprint-3/2-practice-tdd/count.test.js
+- Could consider testing more samples.
 
-If any of `a`, `b`, and `c` is less than or equal to zero, then the condition at line 43 will always be false.
-Is there any need to further check if `a`, `b`, and `c` is less than or equal to zero at line 51?
+- Could consider testing these cases:
+    - A case to show that the match is case sensitive
+    - A case to show that the function is expected to work also for non-alphabets
 
-I will not go into details why in some programming languages (but not JavaScript) we need also to ensure a, b, c are positives.
+#### Sprint-3/2-practice-tdd/get-ordinal-number.js
 
----
+Here is an alternative to express the code on line 3:
+```javascript
+const lastTwoDigits = num % 100;
 
-In some programming languages that support "integer" data type, if `side1`, `side2`, and `side3` are of "integer" type, then we will need to also ensure all sides are positives (to take into account of possible ***integer overflow*** cases). But the "number" type in JavaScript is "double precision floating point" type, so such check can be omitted.
+if  (lastTwoDigits >= 11 && lastTwoDigits<= 13) 
+```
+- More expressive
+- Avoid evaluating the same expression multiple times
+- (Cons) more code
 
-
-
-#### Sprint-3/revise/implement/is-prime.js
-
-You can possibly improve the performance of the code in the following manners:
-- Return `true` if `num` is 2
-- Return `false` if `num` is an even number (we have already checked 2)
-- Use a loop to check if `num` can be fully divided by an odd number >= 3 (but <= `Math.sqrt(num)`)
-- In the loop, avoid calling `Math.sqrt(num)` edly by first assigning the value of `Math.sqrt(num)` to a variable once, and then refer to the variable in the condition of the loop.
-
-
-You can possibly improve the performance of the code in the following manners:
-- Return `true` if `num` is 2
-- Return `false` if `num` is an even number (we have already checked 2)
-
-- Use a loop to check if `num` can be fully divided by an odd number >= 3 (but <= `Math.sqrt(num)`)
-- In the loop, avoid calling `Math.sqrt(num)` edly by first assigning the value of `Math.sqrt(num)` to a variable once, and then refer to the variable in the condition of the loop.
+Note: The difference might not be obvious in this example.
 
 
-#### Sprint-3/implement/rotate-char.js
 
-How would you modify your implementation if shift is allowed to be a negative number to represent a rotation in the opposite direction?
+#### Sprint-3/2-practice-tdd/get-ordinal-number.test.js
 
-#### Sprint-3/revise/implement/creditCardValidator.js
 
-Why not check also cases where number of digits is not exactly 16?
 
+#### Sprint-3/2-practice-tdd/repeat-str.js
+
+
+
+#### Sprint-3/2-practice-tdd/repeat-str.test.js
+
+To test if a function can throw an error as expected, we can use `.toThrow()`. 
+You can find out more about how to use `.toThrow()` at https://jestjs.io/docs/expect#tothrowerror (Note: Pay close attention to the syntax of the example)
 
