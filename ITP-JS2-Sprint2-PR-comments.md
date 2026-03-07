@@ -1,3 +1,11 @@
+Indentation is off.
+Some of the code is not consistently formatted.
+
+Have you installed the **prettier** VSCode extension and enabled "Format on save/paste" on VSCode,
+as recommended in 
+https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/blob/main/readme.md
+?
+
 #### Sprint-2/1-key-errors/1.js
 With the current implementation, the function will always return "50%".
 How would you modify the function so that it can be easily reused to convert different numbers to their equivalent percentages? 
@@ -5,7 +13,8 @@ How would you modify the function so that it can be easily reused to convert dif
 
 #### Sprint-2/2-mandatory-debug/2.js
 Deleting the global `num` is optional. Within the function block, `num` is resolved to the parameter `num`.
-If you are interested in the topic, you can looking up these two concepts, ***identifier scope*** and ***identifier resolution***, in the context of JavaScript programming. ChatGPT can give a good explanation.
+If you are interested in the topic, you can looking up these two concepts, ***identifier scope*** and
+***identifier resolution***, in the context of JavaScript programming. ChatGPT can give a good explanation.
 
 #### Sprint-2/3-mandatory-implement/1-bmi.js
 What **type** of value do you expect your function to return? A number or a string?
@@ -79,7 +88,8 @@ When the returned values are not formatted consistently, it may result in uninte
 Consistency is important so the caller can be certain what to expect from a function.  
 
 
-Did you choose the format "1:00 pm" by design (before you implement the function), or did you set the expected value in your tests because you knew that's what your function will return?
+Did you choose the format "1:00 pm" by design (before you implement the function), or did you set the 
+expected value in your tests because you knew that's what your function will return?
 
 
 ---
