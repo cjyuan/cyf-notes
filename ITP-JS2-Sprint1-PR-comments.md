@@ -6,10 +6,12 @@ To follow best practices, can you update your PR description by carrying out the
 ---
 
 Indentation is off.
+Some of the code is not consistently formatted.
 
-Consider install **prettier** VSCode extension and enable formatting on save/paste on VSCode
+Have you installed the **prettier** VSCode extension and enabled "Format on save/paste" on VSCode,
 as recommended in 
 https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/blob/main/readme.md
+?
 
 ---
 
