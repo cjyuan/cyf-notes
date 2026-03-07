@@ -13,9 +13,15 @@ Can you add more test cases to this group to make the coverage more comprehensiv
 If the number of cases becomes too large, you can consider organizing them into meaningful subcategories.
 
 ---
-Beginning this cohort, the [success page](https://programming.codeyourfuture.io/structuring-data/success/) of module Structuring and Testing Data expects the Sprint-3 exercise to be submitted in separate PRs (1 PR for each backlog).
-- “[Sprint 3 “Implement and Rewrite Tests” Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/6)”.
-- “[Sprint 3 “Practice TDD” Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/695)”.
+Sprint-3 exercises need to be submitted in separate PRs (1 PR for each backlog):
+- **Required**
+  - [Complete Sprint 3 implement and rewrite tests coursework](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/6)
+  - [Complete Sprint 3 practice TDD coursework](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/695)
+- **Optional**
+  - [Complete Sprint 3 stretch coursework](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/696)
+  - [Refactoring Dead Code](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/903)
+
+Otherwise the GitHub validation bot will complain and prevent you from adding the "Needs Review" label to your PR.
 
 Can you update this PR (or close it) and then resubmit your work in separate PRs? You can tag me in your new PRs.
 
