@@ -14,6 +14,14 @@ https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/blob/main/
 ?
 
 ---
+If you have enabled "Format on save" but it is not working, it is likely that you haven't assign a formatter for JS file. This could happen if you have zero or multiple extensions that can format .js file.
+
+If you have installed "Prettier" extension. To assign it as the formatter of JS code, you can try:
+(1) Use "Format document" to format the JS file. Sometimes, VSCode will ask you to choose a formatter, and you can manually select "Prettier".
+(2) Edit `settings.json` and set Prettier as the default formatter for JS.
+See: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+ 
+---
 
 When describing code, we should avoid simply translating it literally because:
 - Other developers can already read the code and see what it does.
