@@ -177,7 +177,12 @@ test("append 'nd' to numbers ending in 2, except those ending in 12", () => {
 
 ---
 
-When a test fails with the message "... all other numbers", it may be unclear what "other numbers" actually refers to. A more specific and informative message, such as "... numbers ending in 0, 4–9, or 11–13", would make the output easier to understand and act on.
+When a test fails with the message "... all other numbers", it may be unclear what "other numbers" actually refers to.
+Can you revise the test description to make it more informative?
+
+
+
+A more specific and informative message, such as "... numbers ending in 0, 4–9, or 11–13", would make the output easier to understand and act on.
 
 
 ---
@@ -227,7 +232,10 @@ Note: The difference might not be obvious in this example.
 
 #### Sprint-3/2-practice-tdd/get-ordinal-number.test.js
 
+When a test fails with the message "... all other numbers", it may be unclear what "other numbers" actually refers to.
+Can you revise the test description to make it more informative?
 
+A more specific and informative message, such as "... numbers ending in 0, 4–9, or 11–13", would make the output easier to understand and act on.
 
 #### Sprint-3/2-practice-tdd/repeat-str.js
 
