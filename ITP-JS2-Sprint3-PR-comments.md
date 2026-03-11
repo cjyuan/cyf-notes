@@ -1,4 +1,14 @@
 #### Generic
+How could you phrase the error message so that the person using this function can understand the cause of the error?
+
+---
+Can you take this opportunity to practice:
+- Group tests into logical categories and then include a few representative cases within each category.
+- Express each category using the pattern "should ____________ when _________________" so that the expected behavior of the function is clearly described
+
+
+
+---
 Using a boundary value as a test case is always a good idea. Many programs fail because they do not check the boundary cases properly.
 
 ---
@@ -62,6 +72,9 @@ If the parameter, `angle`, is not within the recognised range, we can design the
 #### Sprint-3/1-key-implement/2-is-proper-fraction.js
 #### Sprint-3/2-mandatory-rewrite/2-is-proper-fraction.test.js
 
+Can you lookup if -1/-2, 1/-2, -1/2, 1/0, -1/0 are considered proper fractions, and then update your code and tests accordingly?
+
+
 According to the definition of ***proper fraction*** in mathematics:
 - `isProperFraction(-4, 3)` should return `false`
 - `isProperFraction(-2, 5)` should return `true`
@@ -74,10 +87,6 @@ Can you look up the definition of ***proper fraction*** and update your function
 
 In mathematics, -A/B == A/-B == -(A/B), and -A/-B == A/B for any integers A and B (B ≠ 0).
 They represent a proper fraction if A < B and B ≠ 0.
-
-
-
-Consider comparing the absolute value of the numerator and the denominator instead.
 
 
  ***Input normalisation***, the process of pre-processing the input values before they are used in computation, can often simplify complexity of code, improve performance, and prevent errors.
