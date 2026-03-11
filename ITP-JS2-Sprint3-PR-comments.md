@@ -1,4 +1,8 @@
 #### Generic
+
+This exercise has a second part **"2 Rewrite tests with Jest"** ==> three more files to be updated.
+
+---
 How could you phrase the error message so that the person using this function can understand the cause of the error?
 
 ---
@@ -70,29 +74,11 @@ If the parameter, `angle`, is not within the recognised range, we can design the
 
 
 #### Sprint-3/1-key-implement/2-is-proper-fraction.js
+Can you lookup if -1/-2, 1/-2, -1/2, 1/0, -1/0 are considered proper fractions, and then update 
+your implementation and tests accordingly?
+
 #### Sprint-3/2-mandatory-rewrite/2-is-proper-fraction.test.js
-
-Can you lookup if -1/-2, 1/-2, -1/2, 1/0, -1/0 are considered proper fractions, and then update your code and tests accordingly?
-
-
-According to the definition of ***proper fraction*** in mathematics:
-- `isProperFraction(-4, 3)` should return `false`
-- `isProperFraction(-2, 5)` should return `true`
-- `isProperFraction(-1, 1)` should return `false`
-- `isProperFraction(-2, -3)` should return `true`
-
-Can you look up the definition of ***proper fraction*** and update your function accordingly?
-
----
-
-In mathematics, -A/B == A/-B == -(A/B), and -A/-B == A/B for any integers A and B (B ≠ 0).
-They represent a proper fraction if A < B and B ≠ 0.
-
-
- ***Input normalisation***, the process of pre-processing the input values before they are used in computation, can often simplify complexity of code, improve performance, and prevent errors.
-
-**Can you update your function implementation and Jest tests to take into account all possible cases where `numerator` and `denominator` can be negative, positive, or zero?** 
-
+We could use notations like `| ... |` or `abs(...)` to indicate we are comparing their absolute values. 
 
 #### Sprint-3/1-key-implement/3-get-card-value.js
 #### Sprint-3/2-mandatory-rewrite/3-get-card-value.js
@@ -106,6 +92,13 @@ getCardValue("0x02♠");
 getCardValue("2.1♠");
 getCardValue("0002♠");
 ```
+
+---
+Could also consider testing the following cases:
+- Valid rank + invalid suit character
+- Valid rank with no suit
+- Empty string
+
 
 ---
 In JavaScript, strings that represent valid numeric literals in the language can be safely
@@ -153,6 +146,7 @@ test("should return the value of number cards (2-10)", () => {
 });
 ```
 
+Can you practice preparing tests in this fashion?
 
 ---
 
