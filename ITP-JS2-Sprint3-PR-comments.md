@@ -211,11 +211,13 @@ As a result, we can't be certain that the function correctly handles the case of
 
 
 #### Sprint-3/2-practice-tdd/count.test.js
-- Could consider testing more samples.
+Could consider testing a few more samples in this script - higher chance to detect bugs in code.
 
-- Could consider testing these cases:
-    - A case to show that the match is case sensitive
-    - A case to show that the function is expected to work also for non-alphabets
+The original specification did not clearly state whether the character match should be case-sensitive.
+Most people would probably assume that it is, but to demonstrate our understanding or clarify the assumption we made, 
+we could add test cases to convey this. For examples,
+- A case to show that the match is case sensitive
+- A case to show that the function is expected to work also for non-alphabets
 
 #### Sprint-3/2-practice-tdd/get-ordinal-number.js
 
