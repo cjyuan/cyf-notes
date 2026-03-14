@@ -78,7 +78,9 @@ Can you lookup if -1/-2, 1/-2, -1/2, 1/0, -1/0 are considered proper fractions, 
 your implementation and tests accordingly?
 
 #### Sprint-3/2-mandatory-rewrite/2-is-proper-fraction.test.js
-We could use notations like `| ... |` or `abs(...)` to indicate we are comparing their absolute values. 
+We can use pseudo-code and notations like `abs(...)` or `| ... |` in the descriptions to more 
+concisely describe the conditions (the "when" part).
+
 
 #### Sprint-3/1-key-implement/3-get-card-value.js
 #### Sprint-3/2-mandatory-rewrite/3-get-card-value.js
@@ -206,6 +208,14 @@ As a result, we can't be certain that the function correctly handles the case of
 
 
 ### Practice TDD
+
+In TDD, the test description (or test name) should clearly explain what behavior the function should exhibit. 
+The goal is that someone reading the test can understand the requirement without reading another spec.
+
+A common format is: `should <expected_behavior> when <condition>`.
+
+Can you also include the "condition" part into these descriptions? 
+
 
 #### Sprint-3/2-practice-tdd/count.js
 
