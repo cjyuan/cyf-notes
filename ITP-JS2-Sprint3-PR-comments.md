@@ -151,6 +151,10 @@ test("should return the value of number cards (2-10)", () => {
 Can you practice preparing tests in this fashion?
 
 ---
+Should also include a category to check if the function can correctly validate the suit character.
+
+
+---
 
 To test if a function can throw an error as expected, we could use `.toThrow()`. You can find out more about how to use `.toThrow()` here: https://jestjs.io/docs/expect#tothrowerror (Note: Pay close attention to the syntax of the example)
 
