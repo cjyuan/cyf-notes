@@ -103,23 +103,6 @@ Could also consider testing the following cases:
 
 
 ---
-In JavaScript, strings that represent valid numeric literals in the language can be safely
-converted to equivalent numbers or parsed into a valid integers.  
-Do you want to recognize these string values as valid ranks?
-
-To find out what these strings are, you can ask AI
-> What kinds of string values would make `Number(rank)` evaluate to `2` in JS?
-
-> What kinds of string values would make `parseInt(rank, 10)` evaluate to `2` in JS?
-
-
-
-
----
-
-Can you think of a better way to ensure that a card’s rank matches exactly one of the nine allowed whole numbers?
-
-
 
 The instructions in `Sprint-3/1-key-implement/3-get-card-value.js` state
 "Given a card with an invalid rank ... the function should **throw an error** indicating "Invalid card rank."
@@ -151,7 +134,7 @@ test("should return the value of number cards (2-10)", () => {
 Can you practice preparing tests in this fashion?
 
 ---
-Should also include a category to check if the function can correctly validate the suit character.
+Could also include a category to check if the function can correctly validate the suit character.
 
 
 ---
