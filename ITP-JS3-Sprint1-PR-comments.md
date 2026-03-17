@@ -82,6 +82,15 @@ findMax([0, NaN, 1])
 should be be `-Infinty`, not a string value.
 
 ---
+
+#### Sprint-1/implement/max.test.js
+When a string representing a valid numeric literal (for example, `"300"`) is compared to a number, 
+JavaScript first converts the string into its numeric equivalent before performing the comparison. 
+As a result, the expression `20 < "300"` evaluates to `true`.
+
+To test if the function can correctly ignore non-numeric values, you could include a string such as `"300"` in the test cases.
+
+---
 Why return a string (instead of a value of type "number") when the given array contains only non-number values?
 
 When a function has a dual return type, it becomes unclear what the caller should expect. Developers would need to look at the implementation or documentation to understand the behavior.
