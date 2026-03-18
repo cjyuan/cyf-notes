@@ -1,27 +1,29 @@
 Here are the feedbacks to your evidence:
 
-**Complete the Intro to Python course**
-Can you include a screenshot showing you have completed all parts (from "Lesson: Intro to Python" to "N-Side Dice") of the "Intro to Python" section of the CIP course?
+- Codewars Progress Checker
+  - Link broken
+  - Not yet completed all the required katas
 
-**Link to your exercises for the Coursework Exercises**
-Your PR needs to complete a review process before we can recognise it.
-
-**Link to your Written Email for an Internship**
-Can you try using some AI tool to improve it?
-
-
-
-For the evidence of "Complete the Intro to Python course", can you include a screenshot showing you have completed all parts (from "Lesson: Intro to Python" to "N-Side Dice") of the "Intro to Python" section of the CIP course?
-
-After updating your Google Doc, please remove the existing link and resubmit the updated link so volunteers are notified of the new submission. (We don't get notified when you only leave a comment)
+  - "ITP: Structuring and Testing Data - Sprint 1" katas not yet completed
+  - "ITP: Structuring and Testing Data - Sprint 2" katas not yet completed
+  - "ITP: Structuring and Testing Data - Sprint 3" katas not yet completed
 
 
 
-The acceptance criteria ask for evidence of the followings:
 
-Complete the Intro to Python course (A screenshot showing you have completed the "Intro to Python" section of the Code In Place course)
-Link to your exercises for the Coursework Exercises (Three PR links, one for each of the the Sprint-1, Sprint-2, Sprint-3 exercises)
-Link to your Written Email for an Internship (A link to a Google doc with the email content)
+- PRs not yet completed
+  - Sprint 1 Coursework Exercises
+  - Sprint 2 Coursework Exercises
+  - Sprint 3 "Implement and Rewrite Tests" Coursework Exercises 
+  - Sprint 3 "Practice TDD" Coursework Exercises
+
+- Written Email for an Internship
+  - Document not accessible
+  - Can you try using some AI tool to improve it?
+
+- Missing the following screenshots
+  - A screenshot showing that you took part in an online study session
+  - A screenshot showing that you gave a demo 
 
 
-Can you submit a Google doc with these evidence?
+Please resubmit the issue link when you have addressed the feedback I left on your issue.
