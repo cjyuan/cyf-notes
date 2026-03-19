@@ -21,8 +21,15 @@ To avoid modifying the caller's array, a common practice is to make a clone of t
 
 #### Sprint-1/fix/median.js
 
+Do you plan to consider also `-Infinity`, `Infinity`, and `NaN` in the median calculation?
 
+---
 If you want to exclude `Infinity` and `NaN`, consider using the built-in function `Number.isFinite()`.
+
+---
+- Naming convention for variables storing an array is: 
+  - Use plural form (e.g. `numbers`), or 
+  - Append a suffix `Array` or `List` to the name (e.g., `numberArray`) 
 
 ---
 `numbers` is no longer the original array and it is not needed later.
@@ -127,7 +134,9 @@ Suggestion: Look up
 - Checking equality in floating point arithmetic with Jest
 
 #### Sprint-1/stretch/aoc-2018-day1/solution.js
-I think this exercise expect you to also write JS code to read the numbers from the file `input.txt` directly.
+This optional exercise requires reading numbers from a file named `input.txt`, and then sum up the numbers.
+
+Suggestion: Look up Node.js File system (`fs`) API.
 
 ---
 With the file path specified as an absolute path, the script probably cannot find `input.txt` when it is executed on a different computer.
