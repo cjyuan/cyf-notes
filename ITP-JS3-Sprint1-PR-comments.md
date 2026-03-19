@@ -23,6 +23,9 @@ To avoid modifying the caller's array, a common practice is to make a clone of t
 
 Do you plan to consider also `-Infinity`, `Infinity`, and `NaN` in the median calculation?
 
+Do you plan to consider also `-Infinity`, `Infinity`, and `NaN` in the median calculation (and in the functions in `implement/max.js` and `implement/sum.js`)?
+
+
 ---
 If you want to exclude `Infinity` and `NaN`, consider using the built-in function `Number.isFinite()`.
 
@@ -95,7 +98,8 @@ When a string representing a valid numeric literal (for example, `"300"`) is com
 JavaScript first converts the string into its numeric equivalent before performing the comparison. 
 As a result, the expression `20 < "300"` evaluates to `true`.
 
-To test if the function can correctly ignore non-numeric values, you could include a string such as `"300"` in the test cases.
+To test if the function can correctly ignore non-numeric values,
+consider including a string such as `"300"` in the relevant test cases.
 
 ---
 Why return a string (instead of a value of type "number") when the given array contains only non-number values?
