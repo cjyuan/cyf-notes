@@ -76,6 +76,11 @@ In order to validate the returned array is a different array, we need an **addit
 
 Can you find out what this additional check is? 
 
+---
+There is a chance that, even though `result` has incorrect elements (for example, `[]`), 
+the two tests could still pass. Can you figure out why, and then fix the tests accordingly? 
+
+
 #### Sprint-1/implement/max.js
 What do you expect from the following function calls (on extreme cases)?
 Does your function return the value you expected?
