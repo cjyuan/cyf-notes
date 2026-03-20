@@ -36,6 +36,12 @@ Here are two approaches to check if an object contains a property (one of them s
 For more info, you can look up `JS "in" operator vs Object.hasOwn`.
 
 ---
+Does your function return the value you expect from the following function call?
+
+`contains(["a", "b", "c"], "1")`
+
+
+---
 Your implementation of `contains()` is correct.
 
 However, your test `expect(contains([], 'a')).toBe(false)` may fail to verify **whether
@@ -127,6 +133,7 @@ countWords("constructor constructor");
 countWords("          Hello World      ");
 ```
 
+Note: The spec is not clear about exactly what to expect from these function calls. This is just for self-check.
 
 
 
