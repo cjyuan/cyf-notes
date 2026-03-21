@@ -13,6 +13,9 @@ Can you change your code so that `value` will take the **value** (instead of **n
 #### Sprint-2/debug/recipe.js
 The spec at line 4 also asks to log each ingredient on a new line (i.e., one ingredient per line).
 
+
+Since ingredient values are separated by '\n' in the output, we could also use `Array.prototype.join()` to construct the equivalent string and then output the resulting string.
+
 #### Sprint-2/implement/contains.js
 
 **Suggestion**
