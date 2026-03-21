@@ -78,7 +78,7 @@ You can also test other types of invalid parameters (e. g., number, undefined, n
 #### Sprint-2/implement/querystring.test.js
 
 Note: 
-- In real query string, both `key` and `value` are ***percent-encoded*** or ***URL encoded*** in the URL.
+- (Implementing this is optional) In real query string, both `key` and `value` are ***percent-encoded*** or ***URL encoded*** in the URL.
 For example, the string "5%" is encoded as "5%25". So to get the actual value of "5%25"
 (whether it is a key or value in the query string), we need to call a function to decode it.
 
