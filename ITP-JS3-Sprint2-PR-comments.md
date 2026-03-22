@@ -39,31 +39,13 @@ Here are two approaches to check if an object contains a property (one of them s
 For more info, you can look up `JS "in" operator vs Object.hasOwn`.
 
 ---
-Does your function return the value you expect from the following function call?
 
-`contains(["a", "b", "c"], "1")`
+Array is also an object where it indexes are its keys.
+`Object.hasOwn([1, 2, 3], "a")` evaluates to `false` because `"a"` is not a key (index) of the array.
+However, `Object.hasOwn([1, 2, 3], "0")` evaluates to `true` because `"0"` is a key (index) of the array.
 
-
----
-Your implementation of `contains()` is correct.
-
-However, your test `expect(contains([], 'a')).toBe(false)` may fail to verify **whether
-`contains()` can detect its first argument is an array**. This is because an incorrectly implementation of
-`contains()` could also return `false` simply because the given array doesn’t contain a key named "a", rather than
-because it properly checked that the first argument is an array.
-
-Can you improve the test to ensure it can correctly verify `contains()` can
-detect its first argument is an array?
-
----
-
-`contains([1, 2, 3], "a")` could also return false because "a" is not a property (or key) of `[1, 2, 3]`.
-However, "0", "1", "2" are keys of `[1, 2, 3]`, so it is better to specify the test as
-`expect(contains([1, 2, 3], "1")).toBe(false);` (to ensure you are checking what you describe)
-
----
-
-Array is a kind of object where indexes serve as its keys. So we could call `contains([3, 4], "1")` to check if the function can return `false` when the first parameter is an array and the second parameter is a valid key.
+To test if the implemented function can correctly return `false` when the first argument is an array,
+we should specify an actual key of the array.
 
 ---
 
