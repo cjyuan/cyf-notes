@@ -111,6 +111,18 @@ Why return a string (instead of a value of type "number") when the given array c
 
 When a function has a dual return type, it becomes unclear what the caller should expect. Developers would need to look at the implementation or documentation to understand the behavior.
 
+
+---
+In practice, we write tests not only to verify our current implementation, but also to ensure that future changes do not alter the function's expected behavior.
+
+Currently the following function could also pass this test:
+```
+function findMax(elements) {
+    const onlyNumbers = elements.map(Number).filter((el)=>!Number.isNaN(el));
+    return Math.max(...onlyNumbers);
+}
+```
+
 #### Sprint-1/implement/sum.js
 
 What do you expect from the following function calls (on extreme cases)?
