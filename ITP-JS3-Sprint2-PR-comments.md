@@ -48,6 +48,18 @@ To test if the implemented function can correctly return `false` when the first 
 we should specify an actual key of the array.
 
 ---
+In practice, we write tests not only to verify our current implementation, but also to ensure that future changes do not alter the function's expected behavior.
+
+Currently the following function could also pass this test:
+```
+function contains(obj, key) {
+    if (obj == null || typeof obj != "object") return false;
+    return Object.hasOwn(obj, key);
+}
+```
+
+
+---
 
 
 Array is a kind of object in JS, and "0", "1", "2" are keys of `[1, 2, 3]`. So it is better to express the test as `expect(contains([1, 2, 3], "1")).toBe(false);` to ensure the function can truly reject array.
