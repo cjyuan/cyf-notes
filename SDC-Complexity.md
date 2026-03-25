@@ -94,3 +94,9 @@ The code in `linked_list_test.py` expects both `.next` and `.previous` propertie
 
 Note: Do you know the why it is a good practice to assign `.next` and `.previous` of the removed node to `None`? 
 
+---
+## Number Systems
+Since the answers in this exercise are fairly clear, can you check your work against the answers on
+https://github.com/CodeYourFuture/Module-Tools/blob/solutions/number-systems/README.md?plain=1
+
+Should you have any question regarding number systems, feel free to raise them in the comment of this PR.
