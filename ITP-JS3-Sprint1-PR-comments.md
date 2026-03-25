@@ -69,6 +69,10 @@ To learn more about how arrays/objects are compared/copied in JS, and to learn m
 - How to compare two arrays by value in JS?
 
 ---
+Your function implementation is correct. However, this test could be improved to better ensure
+that any future changes continue to align with the expected behavior described on line 27:
+> Then it should return a **copy** of the original array
+
 This test should fail if the function returns the original array (instead of a **copy** of the original array).
 
 The current test checks only if both the original array and the returned array contain identical elements. 
