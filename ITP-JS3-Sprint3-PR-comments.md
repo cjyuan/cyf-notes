@@ -1,29 +1,22 @@
 ### Generic
 
-It's considered good practice to check the boxes in the PR template (to confirm that the listed requirements have been met) and to include a brief description of the PR.
-
-
-Each exercise should have its own branch created from `main`. This branch currently contains modified files that don't belong to this backlog. Can you either
-1. fix this branch by either rebasing it onto `main`, Or
-2. close this PR and submit a new PR using a new branch created from `main?
-
----
-
 Each Sprint-3 backlog (alarmclock, reading-list, slideshow, quote-generator, todo-list) should have its own branch created from `main`. Can you either fix this branch, or close this PR and create separate PR for each Sprint-3 backlog?
 
 ---
 
-We should respect instructions like `DO NOT EDIT BELOW HERE`; it is usually there for a reason. If you are curious about why, you can ask ChatGPT `Why should programmers respect "DO NOT EDIT BELOW HERE" instruction in a file?`
-
-
-Hoisting in JavaScript 
-https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
-
+We should respect instructions like `DO NOT EDIT BELOW HERE`; it is usually there for a reason. If you are curious about why, you can ask AI `Why should programmers respect "DO NOT EDIT BELOW HERE" instruction in a file?`
 
 ---
 
 A better practice is to define styles in an external CSS file and use 'class' in JavaScript to apply styles to elements.
 
+---
+
+Suggestion: Look up 
+
+> Pros and cons between these two approaches to call a function, `callback()`, on page load?
+- `<body onload="callback()">` in HTML code
+- `windows.addEventListener("load", callback)` in JS code
 
 ---
 You could also consider loading the JS code as an ES module:
@@ -34,6 +27,29 @@ This offers a couple of key advantages:
 - `defer` is implied: Module scripts are loaded asynchronously and executed only after the HTML document has been fully parsed.
 
 - Scoped execution: The code runs in the module scope, avoiding unintended pollution of the global namespace.
+
+---
+Can you put all the "run on load" code inside a function?
+Doing so can make it clearer that "this is what runs when the page loads."
+For examples,
+
+```javascript
+function setup() {
+  // code to be executed on page load
+}
+
+window.addEventListener('load', setup);
+```
+or
+```javascript
+window.addEventListener('load', function() {
+  // code to be executed on page load
+});
+```
+
+---
+Suggestion: Look up
+> The differences between using `.innerHTML`, `innerText`, and `textContent` to set text content of an HTML element.
 
 
 ### Alarmclock App
