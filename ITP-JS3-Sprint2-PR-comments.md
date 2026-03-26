@@ -5,6 +5,11 @@ Doing so can help reviewers speed up the review process. Thanks.
 
 #### Generic
 
+
+`test.todo(" ... ")` is just a placeholder to serve as a reminder for "what needs to be done".
+In this exercise, that means "implementing the corresponding Jest tests described in the comments."
+
+
 #### Sprint-2/debug/author.js
 The property values refer to `'Zadie', 'Smith', 'writer', 40, true`.
 Can you change your code so that `value` will take the **value** (instead of **name**) of each property in each iteration?
