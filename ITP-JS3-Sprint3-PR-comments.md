@@ -29,9 +29,15 @@ This offers a couple of key advantages:
 - Scoped execution: The code runs in the module scope, avoiding unintended pollution of the global namespace.
 
 ---
+Placing all the "run on load" code in one place is a good practice.
+Would be even better to place the code (and the constants/variables needed locally by these code)
+inside a function to make it clearer that "this is what runs when the page loads."
+
+---
 Can you put all the "run on load" code inside a function?
 Doing so can make it clearer that "this is what runs when the page loads."
 For examples,
+
 
 ```javascript
 function setup() {
@@ -105,6 +111,10 @@ It would be better to show "Auto-Play: OFF" initially (to be consistent with the
 To make variable names (for storing DOM objects) more meaningful, a better practice is to add a suffix to the variable names. For examples, `quoteEl`, `authorEl`, `newQuoteButton`.
 
 The leading `"` and `-` appear to be for styling purposes. Keeping them in the HTML makes it easier to style or modify the view. This allows front-end developers to adjust the UI without changing any JavaScript code.
+
+---
+The leading `-` appears to be for styling purposes. Keeping it in the CSS or in HTML could allow us to adjust the view without changing any JavaScript code.
+
 
 ### Image Carousel
 
