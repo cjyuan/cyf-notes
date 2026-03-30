@@ -30,7 +30,7 @@ This offers a couple of key advantages:
 
 ---
 Placing all the "run on load" code in one place is a good practice.
-Would be even better to place the code (and the constants/variables needed locally by these code)
+Would be even better to place the code 
 inside a function to make it clearer that "this is what runs when the page loads."
 
 ---
