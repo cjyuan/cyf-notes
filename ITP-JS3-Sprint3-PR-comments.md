@@ -74,6 +74,21 @@ After the user clicks the "Set Alarm" button, there is a one second delay before
 
 When the countdown reaches 00:00, there is a one second delay before the alarm sound is played. Is this by design?
 
+When input is 1, the alarm is played one second later -- an expected behavior.
+However, when input is 0, the alarm is also played one second later (instead of being played immediately).
+Can you make the app's behaviour more consistent?
+
+---
+Currently when starting a new countdown, the application does not always return to a clean initial state, 
+which can lead to inconsistent behaviour between runs.
+
+Consider introducing a dedicated reset function to return the app to a clean initial state to help ensure consistency.
+
+Note: a user may not click the "Stop" button first before starting a new count down.
+
+
+
+
 Here is one way to implement "Change background color when countdown reaches zero":
 - Create a CSS class (in `style.css`) for the background when countdown reaches zero.
 - In JS, when the countdown reaches zero, add this CSS class to `<body>`.
