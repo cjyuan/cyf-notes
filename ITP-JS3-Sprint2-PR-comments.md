@@ -14,6 +14,8 @@ In this exercise, that means "implementing the corresponding Jest tests describe
 The property values refer to `'Zadie', 'Smith', 'writer', 40, true`.
 Can you change your code so that `value` will take the **value** (instead of **name**) of each property in each iteration?
 
+---
+Have you ran your code to ensure it outputs the value of the properties? The values are `'Zadie', 'Smith', 'writer', 40, true`.
 
 #### Sprint-2/debug/recipe.js
 The spec at line 4 also asks to log each ingredient on a new line (i.e., one ingredient per line).
@@ -137,7 +139,18 @@ parseQueryString("a%25b=c%26d")
 ```
 Note: the `%25` and `%26` are ***URL encoded*** or ***percent encoded*** characters.
 
+---
+FYI: These arguments are also valid query strings:
 
+```javascript
+parseQueryString("key1=value1&=&key2=value2")
+parseQueryString("key=")
+parseQueryString("key1=value1&key2")
+parseQueryString("=value")
+parseQueryString("key1=value1&&key2=value2")
+```
+
+No change required.
 
 
 #### Sprint-2/implement/tally.js
