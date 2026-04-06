@@ -158,6 +158,14 @@ Suggestion: Look up
 - Checking equality in floating point arithmetic in JavaScript 
 - Checking equality in floating point arithmetic with Jest
 
+---
+Note: The default value of the second parameter of `toBeCloseTo()` is only 2.
+For the default value 2, the test criterion is `Math.abs(expected - received) < 0.005`, which may not be precise enough in some applications.
+
+Ref: https://jestjs.io/docs/expect#tobeclosetonumber-numdigits
+
+
+
 #### Sprint-1/stretch/aoc-2018-day1/solution.js
 This optional exercise requires reading numbers from a file named `input.txt`, and then sum up the numbers.
 
