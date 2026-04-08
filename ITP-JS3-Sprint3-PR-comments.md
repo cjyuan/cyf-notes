@@ -86,15 +86,12 @@ Consider introducing a dedicated reset function to return the app to a clean ini
 
 Note: a user may not click the "Stop" button first before starting a new count down.
 
-
-
-
-Here is one way to implement "Change background color when countdown reaches zero":
-- Create a CSS class (in `style.css`) for the background when countdown reaches zero.
-- In JS, when the countdown reaches zero, add this CSS class to `<body>`.
-- In JS, whenever you need to reset the background, remove the CSS class from `<body>`.
-
-If you can make this work, you can also change the CSS properties to make the background blinks.
+---
+To better separate presentation logic from application logic, you can consider defining a CSS class, and use [`classList.toggle()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) to apply/remove the style. For example,
+```
+document.body.classList.toggle("alarm-activated", true);  // apply style
+document.body.classList.toggle("alarm-activated", false); // remove style
+``` 
 
 ---
 Could consider replacing 
