@@ -160,7 +160,9 @@ Does the following function call returns the value you expect?
 tally(["toString", "toString"]);
 ```
 
-Suggestion: Look up an approach to create an empty object with no inherited properties.
+Suggestion:
+- Look up an approach to create an empty object with no inherited properties, or
+- use `Object.hasOwn()`
 
 #### Sprint-2/interpret/invert.test.js
 **Challenge**
