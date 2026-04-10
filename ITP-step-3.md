@@ -40,4 +40,5 @@ Acceptance Criteria not yet met:
 - Missing a screenshot showing that you gave a demo 
 
 
-Can you address these issues and then resubmit the issue link?
+Can you address the above issue(s) and then resubmit your link?
+
