@@ -25,6 +25,13 @@ A long statement that chains multiple methods/functions becomes more readable wh
     .join('\n');
 ```
 
+---
+Good idea to use `padEnd()` to align the item in the first two columns.
+
+How would you modify this code to align the value of `lineTotal` when its value is 10.00 or more?
+
+
+
 
 ## Programmer Humour
 ### fetch/programmer-humour/javascript.js
