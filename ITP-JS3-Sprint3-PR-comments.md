@@ -34,9 +34,8 @@ Would be even better to place the code
 inside a function to make it clearer that "this is what runs when the page loads."
 
 ---
-Can you put all the "run on load" code inside a function?
-Doing so can make it clearer that "this is what runs when the page loads."
-For examples,
+Placing all the "run on load" code (lines 11 and 506) inside a function can make it clearer that 
+"this is what runs when the page loads." For examples,
 
 
 ```javascript
