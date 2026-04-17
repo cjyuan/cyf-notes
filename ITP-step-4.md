@@ -1,3 +1,14 @@
+- Link of Codewars Progress Checker broken
+  
+- Codewars: "ITP: Data Flow - Sprint 1" katas not yet completed
+- Codewars: "ITP: Data Flow - Sprint 2: katas not yet completed
+- Codewars: "ITP: Data Flow - Sprint 3: katas not yet completed
+
+- "Book Library Project" (PR not yet compelted)
+
+Can you address the above issue(s) and then resubmit your link?
+
+---
 For the TV Show project, you need to submit
 - A link to your level 400 PR you made against your partner's repo (`main` or `level-300` branch)
 - A link to your level 500 PR (which you can make against your OWN `main` branch).
