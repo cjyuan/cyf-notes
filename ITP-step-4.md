@@ -4,7 +4,7 @@
 - Codewars: "ITP: Data Flow - Sprint 2: katas not yet completed
 - Codewars: "ITP: Data Flow - Sprint 3: katas not yet completed
 
-- "Book Library Project" (PR not yet compelted)
+- "Book Library Project" (PR not yet completed)
 
 Can you address the above issue(s) and then resubmit your link?
 
