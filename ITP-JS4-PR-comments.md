@@ -79,7 +79,7 @@ Doing so can help me speed up the review process. Thanks.
 
 ---
 
-- You checked the trimmed value but you are using the untrimmed values.
+- The code checks the trimmed value but it uses the untrimmed values.
 
 - `pagesInput.value` is a string, and a number in scientific format may look unnatural as "number of pages".
 
