@@ -124,6 +124,33 @@ Can you ensure the arguments passed to the Book constructor are properly **pre-p
   - Are the values assigned to these `id` attributes unique? 
   - Is there any need to assign an id attribute to either buttons?
 
+
+---
+`expr1 ? expr2 : expr3` is an **expression** that evalutes to the value of either `expr2` or `expr3 depending
+on the truthy value of `expr1`.
+
+Normal use of `? :` is
+
+`variable = expr1 ? expr2 : expr3;`
+
+instead of
+
+`expr1 ? variable = expr1 : variable : expr2;`
+
+
+
+
+Normally way to use `? :` is:
+
+`readStatus = myLibrary[i].check ? "Yes" : "No";`
+
+- `condition ? v1 : v2` is an **expression**. It evaluates to `v1` if `condition` is true, and to `v2` `if condition` is false.
+- `.check` is a boolean value. Comparing it to `true` is optional.
+
+
+---
+
+
 - Can you suggest a more consistent naming convention for the variables representing the two buttons, currently named `changeBut` and `delButton`?
 
 ---
