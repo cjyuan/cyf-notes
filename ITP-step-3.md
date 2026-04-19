@@ -36,7 +36,6 @@ Acceptance Criteria not yet met:
 - Brag Diary: Missing a link to your Brag Diary
 - Brag Diary: Missing an explanation of how you have used your “Brag Diary” to record your progress
 
-- Missing a screenshot showing that you took part in an online study session
 - Missing a screenshot showing that you gave a demo 
 
 
