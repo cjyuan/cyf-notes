@@ -113,6 +113,13 @@ To clear the table before repopulating it, instead of deleting the table rows on
 Please note that when setting the text content of an HTML element, there are subtle but important differences between using `.innerHTML`, `innerText`, and `textContent`.
 
 ---
+- String input may contain only space characters or leading/trailing space. Ideally the app should not accept a string containing only spaces as a book title or author's name.
+
+` `pageInput.value` is a string and it can be a number in scientific format (e.g. "3e2") -- which may look weird when isplayed as a value of page count.
+
+A better and safer approach to deal with user input is to first preprocess/sanitise them, and then store the cleaned values in variables. Thereafter, refer only to the variables for cleaned values consistently throughout the rest of the code.
+
+---
 
 Using user input directly without sanitization, normalization, or conversion to the proper data type can be dangerous.
 
