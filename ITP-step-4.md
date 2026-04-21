@@ -1,3 +1,17 @@
+These are the required evidence expected for Step 4:
+- [x] A link to the Codewars Progress Checker 
+- [ ] A link to your TV Show GitHub repo
+- [ ] A link to your deployed Netlify site for the TV Show Project
+- [ ] A link to your level 400 and level 500 pull requests for the TV Show Project
+  - Your level 400 PR should be made on your partner's repo
+  - If you have included your GitHub repo, you don't have to include a separate level-500 PR
+- [ ] A link to your completed "Book Library Project" PR
+- [ ] A link to your issue for “LinkedIn Social Selling Index” which includes
+  - A screenshot of your current index
+  - An action (written in SMART format) that you will take to improve your index
+- [ ] A screenshot showing that you gave a demo.
+
+---
 - Link of Codewars Progress Checker broken
   
 - Codewars: "ITP: Data Flow - Sprint 1" katas not yet completed
