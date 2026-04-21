@@ -78,7 +78,9 @@ https://github.com/CodeYourFuture/Module-Data-Flows/blob/general-review-feedback
 Doing so can help me speed up the review process. Thanks.
 
 ---
+Can we declare `myLibrary` in a way that prevents it from being accidentally reassigned?
 
+---
 - The code checks the trimmed value but it uses the untrimmed values.
 
 - `pagesInput.value` is a string, and a number in scientific format may look unnatural as "number of pages".
