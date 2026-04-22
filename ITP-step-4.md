@@ -32,9 +32,9 @@ The acceptance criteria does not mention the TV Show App has to be bug free, jus
 
 ---
 
-Your current description of your planned actions lacks the five SMART characteristics.
+The current description of your planned actions does not yet include all five SMART characteristics.
+Could you rewrite at least one action in SMART format (to meet the acceptance criteria of Step 4)?
 
-Could you rephrase them so that they satisfy all five SMART characteristics?
 
 
 ---
