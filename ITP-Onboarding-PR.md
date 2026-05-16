@@ -16,6 +16,13 @@ Note: If you need help with this, feel free to bring it up during a Saturday wor
 
 Can you also run your code through ChatGPT to see if there’s anything (no matter how minor) that could be improved? I noticed some small inconsistencies, but I believe you can identify them yourself with ChatGPT’s help.
 
+
+---
+Indentation is off.
+
+Please follow this [guide](https://github.com/CodeYourFuture/Module-Onboarding/blob/main/practical_guide.md) to 
+enable "Format on Save" in VS Code or use VS Code's "Format Document" feature to keep your code consistently formatted.
+
 ---
 
 Please note that in CYF courses, the recommended way to inform the reviewer of your changes is to do both of the following:
