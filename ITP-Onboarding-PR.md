@@ -25,6 +25,11 @@ enable "Format on Save" in VS Code or use VS Code's "Format Document" feature to
 
 ---
 
+Providing meaningful alt text is important because it ensures images are accessible to people using screen readers and also helps when images fail to load, giving users essential context about the content or function of the image.
+
+Can you give a more descriptive alt value to the images?
+
+---
 Please note that in CYF courses, the recommended way to inform the reviewer of your changes is to do both of the following:
   - **Reply to their feedback.**
     - In the responses, clarify how each piece of feedback was addressed to demonstrate that you've carefully reviewed the suggestions.
