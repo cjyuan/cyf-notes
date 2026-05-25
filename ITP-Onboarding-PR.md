@@ -14,18 +14,25 @@ Note: If you need help with this, feel free to bring it up during a Saturday wor
 
 ---
 
-Can you also run your code through ChatGPT to see if there’s anything (no matter how minor) that could be improved? I noticed some small inconsistencies, but I believe you can identify them yourself with ChatGPT’s help.
+I noticed some inconsistencies and spelling mistakes in the text.
 
+Could you run it through an AI tool to identify any potential improvements, even minor ones, to help ensure the content is fully polished?
 
 ---
 Indentation is off.
 
-Please follow this [guide](https://github.com/CodeYourFuture/Module-Onboarding/blob/main/practical_guide.md) to 
-enable "Format on Save" in VS Code or use VS Code's "Format Document" feature to keep your code consistently formatted.
+Breaking HTML text into multiple lines helps make the code easier to read, edit, and maintain while preserving the same rendered output.
+
+VS Code formatter could be used to keep our code consistently formatted, including breaking long
+lines of HTML text into multiple lines for easier editing and maintenance.
+
+For more info about enabling "Format on Save" in VS Code or use VS Code's "Format Document" feature,
+please refer to this [guide](https://github.com/CodeYourFuture/Module-Onboarding/blob/main/practical_guide.md).
 
 ---
 
-Providing meaningful alt text is important because it ensures images are accessible to people using screen readers and also helps when images fail to load, giving users essential context about the content or function of the image.
+Providing meaningful alt text is important because it ensures images are accessible to people using screen readers and also helps when images
+fail to load, giving users essential context about the content or function of the image.
 
 Can you give a more descriptive alt value to the images?
 
@@ -39,7 +46,19 @@ Please note that in CYF courses, the recommended way to inform the reviewer of y
     - Without this label, the reviewer would not know if your changes is ready to be reviewed.
 ---
 
-In addition to implementing changes based on reviewer feedback, it's considered good practice to respond to each comment. This helps clarify how each piece of feedback was addressed and demonstrates that you've carefully reviewed the suggestions. Additionally, your response may trigger a notification (depending on the reviewer's settings), helping ensure they’re aware of the updates you’ve made.
+In addition to implementing changes based on reviewer feedback, it's considered good practice to respond to each comment. 
+This helps clarify how each piece of feedback was addressed and demonstrates that you've carefully reviewed the suggestions.
+Additionally, your response may trigger a notification (depending on the reviewer's settings), helping ensure they’re aware of the updates you’ve made.
+
+---
+In terms of the page layout, good progress so far!  
+
+I'd like you to compare your page carefully against the wireframe and identify any differences in terms of **alignment**, **positioning**, 
+and whether any elements from the wireframe are **missing, omitted, or implemented differently**.
+
+Once you've done that review, revisit your implementation and make adjustments where needed to bring the layout closer to the wireframe.
+
+You will likely need to make some changes in `style.css` to achieve this.
 
 ---
 
@@ -64,16 +83,6 @@ Once you've finished making changes, please leave a comment on this PR so I’ll
 ---
 
 There are a few errors in your HTML code, and the code could benefit from better indentation for readability. 
-
----
-
-To follow best practices, can you update your PR description by carrying out the following actions?
-    - Check the items in the Self-Checklist to confirm your pull request meets the guidelines (which you have done! Good!)
-    - Provide a brief description (under the "Changelist" section) summarizing the purpose of the PR and the changes you’ve made 
-
-Can you format the checked boxes using the proper Markdown syntax in your PR description so that they look something like this?
-![image](https://github.com/user-attachments/assets/e6934aa9-0dab-4c08-80ca-e20e6750347e)
-(With proper Markdown syntax, we can use mouse to check/uncheck the items)
 
 ---
 
@@ -126,7 +135,7 @@ Could you update your implementation to ensure it complies with the requirements
 Note: In practice, it’s important to ensure the implementation adheres to the specifications to maintain consistency and avoid unexpected behavior. If you’d like to introduce new features you believe are useful, it’s best to request pre-approval first to ensure alignment with project goals.
 
 --- 
-One of the acceptance criteria, "The page footer is fixed to the bottom of the viewport", has not yet been satisfied. Can you make the necessary change? (Suggestion: Ask ChatGPT what that requirement means).
+One of the acceptance criteria, "The page footer is fixed to the bottom of the viewport", has not yet been satisfied. Can you make the necessary change? (Suggestion: Ask AI what that requirement means).
 
 ---
 
