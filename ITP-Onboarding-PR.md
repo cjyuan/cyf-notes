@@ -14,9 +14,11 @@ Note: If you need help with this, feel free to bring it up during a Saturday wor
 
 ---
 
-I noticed some inconsistencies and spelling mistakes in the text.
+- I noticed the following issues in the text content:
+    - Some words are misspelled or use incorrect letter casing.
+    - Spacing around punctuation marks is inconsistent.
 
-Could you run it through an AI tool to identify any potential improvements, even minor ones, to help ensure the content is fully polished?
+    Could you run it through an AI tool to identify any potential improvements, even minor ones, to help ensure the content is fully polished?
 
 ---
 Indentation is off.
@@ -26,8 +28,12 @@ Breaking HTML text into multiple lines helps make the code easier to read, edit,
 VS Code formatter could be used to keep our code consistently formatted, including breaking long
 lines of HTML text into multiple lines for easier editing and maintenance.
 
-For more info about enabling "Format on Save" in VS Code or use VS Code's "Format Document" feature,
-please refer to this [guide](https://github.com/CodeYourFuture/Module-Onboarding/blob/main/practical_guide.md).
+As a best practice, consider following this [guide](https://github.com/CodeYourFuture/Module-Onboarding/blob/main/practical_guide.md) to enable VS Code's
+"Format on Save" option or to use its "Format Document" command to ensure your code is always consistently formatted.
+
+Please note that code formatters may not work correctly when the source code contains syntax errors.
+
+If formatting is not working in VS Code, check your code for syntax errors and resolve them before running the formatter again.
 
 ---
 
