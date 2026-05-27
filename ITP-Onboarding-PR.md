@@ -147,6 +147,16 @@ One of the acceptance criteria, "The page footer is fixed to the bottom of the v
 
 According to https://validator.w3.org/, there are errors in your code. Can you fix them?
 
+
+---
+
+There are some error in your CSS code. Can you fix them?
+
+To check for CSS code for syntax error, you can try https://stylelint.io/demo 
+- Copy/paste your CSS code into the editing pane, then wait for a while.
+
+
+
 --- 
 
 
