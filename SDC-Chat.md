@@ -7,6 +7,11 @@ The README has this requirement:
 
 In the PR description, can you list the extra features you implemented?
 
+---
+Code could use some documentation (comments).
+
+A useful rule of thumb is to ask yourself whether you could still explain or figure out how the code works few months from now. If the answer is uncertain, consider adding a comment to help future readers understand the intent and reasoning behind it.
+
 
 ### Server Side
 
