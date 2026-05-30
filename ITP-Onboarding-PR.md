@@ -37,10 +37,10 @@ If formatting is not working in VS Code, check your code for syntax errors and r
 
 ---
 
-Providing meaningful alt text is important because it ensures images are accessible to people using screen readers and also helps when images
+Providing meaningful `alt` text is important because it ensures images are accessible to people using screen readers and also helps when images
 fail to load, giving users essential context about the content or function of the image.
 
-Can you give a more descriptive alt value to the images?
+Can you give a more descriptive `alt` value to all images?
 
 ---
 Please note that in CYF courses, the recommended way to inform the reviewer of your changes is to do both of the following:
@@ -73,22 +73,10 @@ Can you take a look at this [General Feedback](https://github.com/cjyuan/Module-
 is anything you can do to make your PR more robust and ready?
 Doing so can help speed up the review process.
 
-
-
-
-And as a practice to get better at using AI tools, try running your code by ChatGPT. You can ask ChatGPT
-```
-review HTML code:
-...        <--- paste your HTML code here
-```
-
-Then take a look at the suggestions it gives you, and pick out the ones that actually make sense for your project. It's a great way to learn and improve your work.
-
-Once you've finished making changes, please leave a comment on this PR so I’ll get notified. Thanks!
-
 ---
 
-There are a few errors in your HTML code, and the code could benefit from better indentation for readability. 
+Consider moving the CSS into an external `.css` file instead of embedding them within the HTML document.
+This improves maintainability, keeps the markup cleaner, and makes it easier to locate, update, and reuse styles across multiple pages.
 
 ---
 
@@ -156,30 +144,21 @@ To check for CSS code for syntax error, you can try https://stylelint.io/demo
 - Copy/paste your CSS code into the editing pane, then wait for a while.
 
 
-
 --- 
+CSS
 
+There are two `main` selectors in this file. Consider merging the properties from both selectors into a single `main` rule to make them easier to find and maintain.
 
-Line 17 can be better formatted as:
-```
-    <p>
-      A README file is a document that provides information about a project,
-      including its purpose, how to install and use it, and any other
-      relevant details. It serves as a guide for users and developers to
-      understand the project.
-    </p>
-```
-
-To understand why, you can ask AI these questions:
-- How HTML treats multiple whitespace characters in text?
-- What's the advantage of not writing a long paragraph of text in a single line in HTML?
-
-VSCode's "Format Document" feature can help us format our code for better readability and consistency, including breaking a long line of text into shorter lines of text.
-To use the feature, right-click inside the code editor and select the option.
-Please note that if there are syntax errors in the code, the "Prettier" extension may not format HTML code properly.
+---
 
 This is an example of a webpage with a layout that matches the wireframe.
 ![image](https://github.com/user-attachments/assets/15f3fcb5-5a5a-4826-8e94-f8f0b716cb61)
+
+
+---
+The checkboxes in the PR description are not yet correctly checked in Markdown syntax. Can you fix them?
+To learn more about GitHub tasklist (list of check boxes), please refer to this article: 
+https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-tasklists
 
 
 ### Form-Controls
