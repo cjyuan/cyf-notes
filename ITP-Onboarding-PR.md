@@ -169,6 +169,17 @@ https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-f
 
 3. Why use pattern in `<input type="email">` when browsers can already perform built-in email validation?
 
+---
+
+Note: With this syntax, you would not need to introduce `id` and `for` atttributes.
+```
+<label>
+  <input type="radio" name="..." value="...">
+  Value of label
+</label>
+
+```
+
 
 ---
 
@@ -189,5 +200,7 @@ Here’s how to do it:
     - On your computer (in VSCode), switch to the branch where you want to revert the changes. (`Mo-reza_Articles`)
     - Replace the modified files with the downloaded versions from the `main` branch.
     - Commit the changes and push the commit to GitHub.
+
+
 
 
