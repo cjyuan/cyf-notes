@@ -12,6 +12,10 @@ Code could use some documentation (comments).
 
 A useful rule of thumb is to ask yourself whether you could still explain or figure out how the code works few months from now. If the answer is uncertain, consider adding a comment to help future readers understand the intent and reasoning behind it.
 
+---
+2000 is a magic number and best practice is to represent all magic numbers as named constants.
+
+
 
 ### Server Side
 
@@ -50,6 +54,10 @@ In addition, how does this timestamp format affect users living in different tim
 ##### Rendering messages
 
 What if the user's name or message contains characters like `<` or `>`? For example, `<javascript src="..."></script>`.
+
+---
+If the presentation logic (lines 15 to 61) is kept in a separate function that take messages as its parameter,
+it would make the rendering logic easier to develop and test independently.
 
 
 
