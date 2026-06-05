@@ -36,6 +36,12 @@ Please note that code formatters may not work correctly when the source code con
 If formatting is not working in VS Code, check your code for syntax errors and resolve them before running the formatter again.
 
 ---
+Could you look up the benefits of using a code formatter? I strongly recommend following this [guide](https://github.com/CodeYourFuture/Module-Onboarding/blob/main/practical_guide.md)
+to enable VS Code's "Format on Save" option or use its "Format Document" command. This will help ensure your code is consistently formatted and easier to read and maintain.
+
+
+
+---
 
 Providing meaningful `alt` text is important because it ensures images are accessible to people using screen readers and also helps when images
 fail to load, giving users essential context about the content or function of the image.
@@ -135,6 +141,8 @@ One of the acceptance criteria, "The page footer is fixed to the bottom of the v
 
 According to https://validator.w3.org/, there are errors in your code. Can you fix them?
 
+You did a good job keeping your code error-free. However, the W3C Validator (https://validator.w3.org/)
+identifies a warning in your code. Could you revise your code to resolve this warning?
 
 ---
 
