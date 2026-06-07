@@ -28,7 +28,7 @@ Breaking HTML text into multiple lines helps make the code easier to read, edit,
 VS Code formatter could be used to keep our code consistently formatted, including breaking long
 lines of HTML text into multiple lines for easier editing and maintenance.
 
-As a best practice, consider following this [guide](https://github.com/CodeYourFuture/Module-Onboarding/blob/main/practical_guide.md) to enable VS Code's
+As a best practice, consider following this  to enable VS Code's
 "Format on Save" option or to use its "Format Document" command to ensure your code is always consistently formatted.
 
 Please note that code formatters may not work correctly when the source code contains syntax errors.
@@ -36,10 +36,11 @@ Please note that code formatters may not work correctly when the source code con
 If formatting is not working in VS Code, check your code for syntax errors and resolve them before running the formatter again.
 
 ---
-Could you look up the benefits of using a code formatter? I strongly recommend following this [guide](https://github.com/CodeYourFuture/Module-Onboarding/blob/main/practical_guide.md)
-to enable VS Code's "Format on Save" option or use its "Format Document" command. This will help ensure your code is consistently formatted and easier to read and maintain.
+Your formatting is already very good. Using a formatter with "Format on Save" would save you time, ensure 100% consistency, and automatically
+clean up things like trailing whitespace and unnecessary empty lines. This also helps keep Git diffs and pull requests cleaner by reducing
+formatting-only changes, making it easier to review the actual code changes.
 
-
+For more info about enabling "Format on save" option on VS Code, please refer to this [guide](https://github.com/CodeYourFuture/Module-Onboarding/blob/main/practical_guide.md).
 
 ---
 
