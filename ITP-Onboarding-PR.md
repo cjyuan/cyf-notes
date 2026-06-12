@@ -211,5 +211,8 @@ Here’s how to do it:
     - Commit the changes and push the commit to GitHub.
 
 
+Suggestion: Use `<fieldset>` and `<legend>` for this radio button group rather than a `<div>`. These elements are specifically designed for grouping related form controls and provide better semantic meaning and accessibility support.
+
+
 
 
