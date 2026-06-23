@@ -1,5 +1,5 @@
 
-To follow best practices, can you update your PR description by carrying out the following actions?
+To follow best practices, could you update your PR description by carrying out the following actions?
     - Check the items in the Self-Checklist to confirm your pull request meets the guidelines (which you have done! Good!)
     - Provide a brief description (under the "Changelist" section) summarizing the purpose of the PR and the changes you’ve made 
 
@@ -39,11 +39,11 @@ See: https://www.youtube.com/watch?v=z5jZ9lrSpqk&t=705  (At around 12:50 minute 
 #### Sprint-1/1-key-exercises/1-count.js
 Operation like `count = count + 1` is very common in programming, and there is a programming term describing such operation.
 
-Can you find out what one-word programming term describes the operation on line 3?
+Could you find out what one-word programming term describes the operation on line 3?
 
 
 #### Sprint-1/1-key-exercises/3-paths.js
-Since a folder name can also contain '.', can you modify your code so that it will also work for a file path like `"/path1/path2.old/file.txt"`?
+Since a folder name can also contain '.', could you modify your code so that it will also work for a file path like `"/path1/path2.old/file.txt"`?
 
 ---
 
@@ -53,7 +53,7 @@ Could you find out from ChatGPT which part of the path, `/Users/mitch/cyf/Module
 
 
 ---
-Can you make these statements to work for any valid path? For example, they could still work correctly if we changed line 12 to
+Could you make these statements to work for any valid path? For example, they could still work correctly if we changed line 12 to
 ```
 const filePath = "/Users/jacknguyen448/cyf/Module-2/Sprint-1/package.json";
 ```
@@ -73,7 +73,7 @@ a random integer between -5 and 5 (including both -5 and 5)?
 
 Phrases like "a number between X and Y" are not precise enough in a program specification, because they do not clearly state whether the endpoints X and Y are included.
 
-We can also use the concise and precise ***interval notation*** to describe a range of values. 
+We could also use the concise and precise ***interval notation*** to describe a range of values. 
 - `[`, `]` => inclusion
 - `(`, `)` => exclusion
 
@@ -83,7 +83,7 @@ For example, `[1, 10)` means, all numbers between 1 and 10, including 1 but excl
 "Returns" is the standard technical term for what a function "generates". It aligns with programming language terminology, especially in documentation and developer communication.
 
 ---
-Can you give a precise description what each of these expressions does, and the range of the numbers it may produce?
+Could you give a precise description what each of these expressions does, and the range of the numbers it may produce?
 
 1. `Math.random()`
 2. `Math.random() * (maximum - minimum + 1)`
@@ -91,7 +91,7 @@ Can you give a precise description what each of these expressions does, and the 
 4. `Math.floor(Math.random() * (maximum - minimum + 1)) + minimum`
 
 ---
-Note: To describe a range of numbers, we can use the concise and precise ***interval notation***: 
+Note: To describe a range of numbers, we could use the concise and precise ***interval notation***: 
 - `[`, `]` => inclusion
 - `(`, `)` => exclusion
 
@@ -113,7 +113,7 @@ Could you try using ChatGPT to find a clearer, more concise way to describe the 
 #### Sprint-1/2-mandatory-errors/3.js
 Suppose you were not allowed to modify the statement `const cardNumber = 4533787178994213;`
 (that is, keep the variable's value unchanged).
-How would you modify the code (through type conversion) so that you can still use `.slice(-4)` to extract the last 4 digits from the given number.
+How would you modify the code (through type conversion) to still being able to use `.slice(-4)` to extract the last 4 digits from the given number.
 
 #### Sprint-1/2-mandatory-errors/4.js
 
@@ -134,7 +134,7 @@ In the function call `.replaceAll(",", "")`, there's a programming term for `","
 
 ---
 
-We can more precisely describe "A comma is missing between `","` and `""` in the function call" as:  
+We could more precisely describe "A comma is missing between `","` and `""` in the function call" as:  
 A comma is missing between the ___________s.
 
 What is the programming term that belongs in the blank?
@@ -149,14 +149,14 @@ What is the programming term that belongs in the blank?
 
 You gave a literal translation of the code, but it does not quite explain what the expression `(movieLength - remainingSeconds) / 60` does.
 
-Can you describe in terms of **whole minute**, or use ChatGPT to find out how else the code can be described? 
+Could you describe in terms of **whole minute**, or use ChatGPT to find out how else the code can be described? 
 
 ----
 
 The name `movieDuration` does not quite indicate the value stored in the variable 
 is a formatted string in the form `"2:12:02"`.
 
-Can you suggest a more descriptive name?
+Could you suggest a more descriptive name?
 
 
 #### Sprint-1/3-mandatory-interpret/3-to-pounds.js
@@ -171,7 +171,7 @@ Have you tried removing `.padEnd()` from the code, then assign `penceString` dif
 
 Note: To view the return value of a function call, we need to output the return value to the console as `console.log( function_call(...) )`.
 
-We can also find out exactly what the function returns from the MDN Web Docs website.
+We could also find out exactly what the function returns from the MDN Web Docs website.
 
 
 If we were writing a program that uses `prompt()` to ask for an input value, how could
