@@ -124,6 +124,10 @@ Starting a variable name with a `$` is generally not recommended.
 
 Normal practice is to begin a variable name with a lowercase letter.
 
+---
+Identifiers that begin with `_` or `$` are valid variable names. However, they are usually used by convention to signal special meaning.
+
+Could you explore names that start with alphabets instead? Feel free to ask AI for suggestion.
 
 
 #### Sprint-1/3-mandatory-interpret/1-percentage-change.js
