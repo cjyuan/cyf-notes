@@ -1,3 +1,4 @@
+## Rebase a branch that was not created from `main`
 This instructions assume you had created a branch named `B2` from a branch named `B1` instead of from `main`, and you wanted to rebase `B2` from `B1` onto `main`.
 
 **Important**:
@@ -25,6 +26,9 @@ While you are in branch B2 and you have verified that it has been successfully r
 `git push --force origin`
 
 ---
+
+
+## Reverting Changes
 One way to revert changes to a file is via the `git restore` command.
 
 First, locate a commit before the file was modified. It could be the first commit you made, assuming the branch started in a clean state. 
@@ -38,3 +42,17 @@ git restore --source=1234567^ path/to/file
 ```
 
 After the file is restored, make a commit and push the changes to GitHub.
+
+## Ignore tracked file locally
+
+In future PR, to ignore a tracked file such as `package.json` locally, use:
+```
+git update-index --skip-worktree path/to/file
+```
+
+And if you ever need undo the operation in order to track it again, use:
+```
+git update-index --no-skip-worktree path/to/file
+```
+
+This is commonly used for local configuration files that differ per developer.
