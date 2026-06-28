@@ -94,6 +94,12 @@ The code in `linked_list_test.py` expects both `.next` and `.previous` propertie
 
 Note: Do you know the why it is a good practice to assign `.next` and `.previous` of the removed node to `None`? 
 
+
+---
+
+May I suggest exploring the use of `__slots__` to reduce memory usage?
+
+
 ---
 ## Number Systems
 Since the answers in this exercise are fairly clear, can you check your work against the answers on
