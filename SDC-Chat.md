@@ -39,6 +39,11 @@ Can you suggest a strategy to ensure that users in different time zones see time
 ---
 What's the reason to embed the received user message in the response?
 
+---
+#### Unique ID
+Relying on `Date.now()` for IDs can lead to collisions if multiple messages are processed within the same millisecond. A UUID-based approach is safer and ensures uniqueness.
+
+
 
 
 ### Client Side
