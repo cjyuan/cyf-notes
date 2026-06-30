@@ -10,6 +10,8 @@ I think "Time Complexity" here refers to the time complexity of the original imp
 
 ## Improve With Caches
 
+Could you look into an approach that doesn't require keeping the cache in the global scope?
+
 ### Sprint-2/improve_with_caches/making_change/making_change.py
 
 Array and tuple creations are relatively costly operations.
@@ -90,9 +92,9 @@ Could consider delegating the node removing task to `remove()` -- less code to m
 
 What was the value of `node.next` before this line?
 
-The code in `linked_list_test.py` expects both `.next` and `.previous` properties of the removed node to be assigned `None`. Currently your implementation could not pass the tests.
+Could you look up why, in a doubly linked List  implementation, assigning `.next` and `.previous` of the removed node to `None` a good practice?
 
-Note: Do you know the why it is a good practice to assign `.next` and `.previous` of the removed node to `None`? 
+No change required.
 
 
 ---
