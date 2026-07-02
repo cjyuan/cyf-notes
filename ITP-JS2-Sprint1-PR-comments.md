@@ -61,16 +61,10 @@ const filePath = "/Users/jacknguyen448/cyf/Module-2/Sprint-1/package.json";
 
 
 #### Sprint-1/1-key-exercises/4-random.js
-To test your understanding, how would you write an expression (without using any variable in the expression) that can yield
-a random integer between -5 and 5 (including both -5 and 5)?
+Could you look up the differences among `Math.round()`, `Math.trunc()`, `Math.floor()`, `Math.ceil()`?
+All of these functions remove the decimal part of a number, but in different manner.
 
-
-- What is the range of values that could be returned by `Math.random()`?
-- What is the significance of `(maximum - minimum + 1)`? What does this expression represent?
-- What is the significance of `... + minimum`?
-- What is the range of values that could be assigned to `num`?
 ---
-
 Phrases like "a number between X and Y" are not precise enough in a program specification, because they do not clearly state whether the endpoints X and Y are included.
 
 We could also use the concise and precise ***interval notation*** to describe a range of values. 
@@ -141,7 +135,7 @@ In the function call `.replaceAll(",", "")`, there's a programming term for `","
 We could more precisely describe "A comma is missing between `","` and `""` in the function call" as:  
 A comma is missing between the ___________s.
 
-What is the programming term that belongs in the blank?
+What is this programming term that refers to the values passed to a function? It begins with an 'a'.
 
 ---
 
