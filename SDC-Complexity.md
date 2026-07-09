@@ -98,6 +98,10 @@ No change required.
 
 
 ---
+Could consider adding type hints to each method to clearly specify the types of its parameters and return value.
+
+
+---
 
 May I suggest exploring the use of `__slots__` to reduce memory usage?
 
