@@ -105,6 +105,12 @@ Could consider adding type hints to each method to clearly specify the types of 
 
 May I suggest exploring the use of `__slots__` to reduce memory usage?
 
+### Skip List
+What you implemented is not quite a "Skip List".
+
+May I suggest search for Skip List pseudo code, and then convert the pseudo code to Python? There may be more than one way to implement Skip List, so look for something you can understand.
+
+This video gives a good illustration of how Skip List works, but it does not include any pseudo code: https://www.youtube.com/watch?v=UGaOXaXAM5M
 
 ---
 ## Number Systems
