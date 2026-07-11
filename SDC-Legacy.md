@@ -15,3 +15,6 @@ Could you use AI to research:
 ## Bloom too long
 
 When a request to add a bloom fails, how does the client know that it failed because the bloom content exceeds 280 characters, rather than for some other reason?
+
+
+## Hashtag slowing down my browser (flashing)
