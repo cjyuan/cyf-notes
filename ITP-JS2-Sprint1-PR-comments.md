@@ -20,6 +20,10 @@ If you have installed "Prettier" extension. To assign it as the formatter of JS 
 1. Use "Format document" to format the JS file. Sometimes, VSCode will ask you to choose a formatter, and you can manually select "Prettier".
 2. Edit `settings.json` and set Prettier as the default formatter for JS.
 See: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+
+---
+Could you look up the benefits of using a code formatter? I strongly recommend following this guide
+to enable VS Code's "Format on Save" option or use its "Format Document" command. This will help ensure your code is consistently formatted and easier to read and maintain.
  
 ---
 
