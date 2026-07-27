@@ -77,6 +77,17 @@ If the parameter, `angle`, is not within the recognised range, we can design the
 Can you lookup if -1/-2, 1/-2, -1/2, 1/0, -1/0 are considered proper fractions, and then update 
 your implementation and tests accordingly?
 
+---
+- What are the expected value of these function calls?
+```
+  isProperFraction(-1, 0)
+  isProperFraction(-1, -5);
+```
+
+- What authoritative source do you base your definition of a proper fraction on?
+
+
+
 #### Sprint-3/2-mandatory-rewrite/2-is-proper-fraction.test.js
 We can use pseudo-code and notations like `abs(...)` or `| ... |` in the descriptions to more 
 concisely describe the conditions (the "when" part).
