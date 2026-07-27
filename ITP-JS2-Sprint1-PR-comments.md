@@ -75,7 +75,8 @@ We could also use the concise and precise ***interval notation*** to describe a 
 - `[`, `]` => inclusion
 - `(`, `)` => exclusion
 
-For example, `[1, 10)` means, all numbers between 1 and 10, including 1 but excluding 10.
+For example, $x$ is a number in $[1, 10)$ means:
+> $x$ is a number between 1 and 10, including 1 but excluding 10.
 
 
 "Returns" is the standard technical term for what a function "generates". It aligns with programming language terminology, especially in documentation and developer communication.
@@ -93,7 +94,9 @@ Note: To describe a range of numbers, we could use the concise and precise ***in
 - `[`, `]` => inclusion
 - `(`, `)` => exclusion
 
-For example, `[1, 10)` means, all numbers between 1 and 10, including 1 but excluding 10.
+For example, $x$ is a number in $[1, 10)$ means:
+> $x$ is a number between 1 and 10, including 1 but excluding 10.
+
 
 
 ---
@@ -143,17 +146,11 @@ What is this programming term that refers to the values passed to a function? It
 
 ---
 
-The error occurred because a comma was missing between the ___________s.
+The error occurred because a comma was missing between the a___________s.
 What is the programming term that belongs in the blank?
 
 
 #### Sprint-1/3-mandatory-interpret/2-time-format.js
-
-You gave a literal translation of the code, but it does not quite explain what the expression `(movieLength - remainingSeconds) / 60` does.
-
-Could you describe in terms of **whole minute**, or use ChatGPT to find out how else the code can be described? 
-
-----
 
 The name `movieDuration` does not quite indicate the value stored in the variable 
 is a formatted string in the form `"2:12:02"`.
