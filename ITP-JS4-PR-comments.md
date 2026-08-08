@@ -168,6 +168,12 @@ The alert message is shown before the book is actually deleted; the deletion onl
 In general, it’s better to display a confirmation message only after the associated operation has successfully completed.
 
 ---
+`alert()` is a blocking function call. As a result, invoking it prevents the browser from updating the UI until the dialog is dismissed.
+
+If time permits, research for approaches that allows the UI to update before displaying the `alert` dialog. (This is an optional change).
+
+
+---
 For better performance (reduce number of function calls) and reducing the chance of using raw input accidently, we could stored the pre-processed/sanitized/normalized input in some variables first, and reference the variables in other part of the function.
 
 ---
