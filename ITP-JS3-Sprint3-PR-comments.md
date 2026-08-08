@@ -105,6 +105,9 @@ by
 
 Suggestion: Use AI to find out why the latter is better.
 
+---
+Code on lines 15-19 is very similar to those on lines 6-11.
+To adhere to the DRY principle in programming, could you refactor the repeated code into a reusable function?
 
 ### Quote Generator
 
