@@ -87,6 +87,9 @@ Consider introducing a dedicated reset function to return the app to a clean ini
 Note: a user may not click the "Stop" button first before starting a new count down.
 
 ---
+Are there any values need to be rejected to ensure the app works properly?
+
+---
 To better separate presentation logic from application logic, you can consider defining a CSS class, and use [`classList.toggle()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) to apply/remove the style. For example,
 ```
 document.body.classList.toggle("alarm-activated", true);  // apply style
