@@ -63,9 +63,10 @@ Code works fine if a user only clicks the "Set Alarm" button once.
 However, if the user enters a time and then clicks the "Set Alarm" button multiple times, the countdown clock will not display properly.
 Can you fix the issue?
 
-Some unusual input values that can make your app behave abnormally can still pass this check. Can you add code to sanitise them?
+This check cannot yet prevent all input values that could make your app behave abnormally. Can you add code to sanitise them?
 
-Some unusual input values can make your app behave abnormally. Can you add code to sanitise them?
+Some input values could make your app behave abnormally. Could you add code to sanitise or reject them?
+
 
 You missed updating `index.html` according to an instruction in `readme.md`.
 
