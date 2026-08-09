@@ -90,14 +90,11 @@ then use those cleaned values consistently throughout the rest of the code.
 
 ---
 
-
-
 Can you change the base branch of this PR from CYF's `book-library` to CYF's `main`?
 
 ---
 
-- The following page numbers are possible
-<img width="245" height="188" alt="image" src="https://github.com/user-attachments/assets/e1250b30-5081-470f-92a5-e62a20b2a03e" />
+What type of data should page count be? Could you look up why representing the same kind of data in different data types is not a good practice?
 
 ---
 
