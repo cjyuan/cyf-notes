@@ -72,6 +72,12 @@ The given link in `readm.md` is broken, but you can find similar guide from http
 
 ### Book Library
 
+Could consider placing all code that runs once on page load in a single function. For example, you could put it inside the page load callback or create a function named `init()` or `setup()` and call it once when the page loads.
+
+This makes it easier to locate and manage all the code that runs once when the app starts.
+
+
+---
 Can you check if any of this general feedback can help you further improve your code?
 https://github.com/CodeYourFuture/Module-Data-Flows/blob/general-review-feedback/debugging/book-library/feedback.md
 
