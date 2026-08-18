@@ -22,6 +22,9 @@ These are the required evidence expected for Step 4:
 
 Can you address the above issue(s) and then resubmit your link?
 
+
+Could you address the comments I left on your issue and then resubmit your issue link?
+
 ---
 For the TV Show project, you need to submit
 - A link to your level 400 PR you made against your partner's repo (`main` or `level-300` branch)
@@ -30,13 +33,19 @@ For the TV Show project, you need to submit
 
 The acceptance criteria does not mention the TV Show App has to be bug free, just thought you may want to know:
 
+
+- The level 400 link you shared is the PR made by your partner. Could you share your level 400 PR which you made on your partner's repo?
+
+- TV Show Project
+   - Missed a level-0 requirement: Your project is deployed to Netlify at `cyf-USERNAME-tv.netlify.app`.
+   - Missed a level-400 requirement: Add a select element to your page so the user can choose a show.
+
 ---
 
 The current description of your planned actions does not yet include all five SMART characteristics.
 Could you rewrite at least one action in SMART format (to meet the acceptance criteria of Step 4)?
 
-
-
+   
 ---
 
 You missed an item described in the Acceptance Criteria ( https://programming.codeyourfuture.io/data-flows/success/ ), "Work out your [LinkedIn Social Selling Index](https://github.com/CodeYourFuture/Module-Data-Flows/issues/12), and posted the actions you will take to improve this".
