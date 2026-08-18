@@ -40,6 +40,8 @@ The acceptance criteria does not mention the TV Show App has to be bug free, jus
    - Missed a level-0 requirement: Your project is deployed to Netlify at `cyf-USERNAME-tv.netlify.app`.
    - Missed a level-400 requirement: Add a select element to your page so the user can choose a show.
 
+- You are also expected to create a PR against CodeYourFuture's `main` when you have finished your level-500 implementation. Could you share the link to this PR?
+
 ---
 
 The current description of your planned actions does not yet include all five SMART characteristics.
@@ -47,6 +49,14 @@ Could you rewrite at least one action in SMART format (to meet the acceptance cr
 
    
 ---
+
+- LinkedIn Social Selling Index
+  - LinkedIn user's SSI page is not shareable. Could you instead share a screenshot of your SSI page?
+
+  - The LinkedIn SSI task asks for ONE action written in the SMART format.
+    A SMART action should be Specific, Measurable, Achievable, Relevant, Time-bound.
+    Can you express one action that satisfies these five characteristics?
+
 
 You missed an item described in the Acceptance Criteria ( https://programming.codeyourfuture.io/data-flows/success/ ), "Work out your [LinkedIn Social Selling Index](https://github.com/CodeYourFuture/Module-Data-Flows/issues/12), and posted the actions you will take to improve this".
 
