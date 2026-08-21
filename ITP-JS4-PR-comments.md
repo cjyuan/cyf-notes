@@ -87,6 +87,15 @@ Doing so can help me speed up the review process. Thanks.
 Can we declare `myLibrary` in a way that prevents it from being accidentally reassigned?
 
 ---
+The browser checks the input elements against the specified constraints only when a user submits a form.
+Without `<form>`, the browser won't enforce the "required" constraint.
+
+---
+This checkbox is not showing.
+
+The issue is related to Bootstrap 4.4.1. Could you use AI to find a way to fix the issue? Mentioning "Bootstrap 4.4.1" might help.
+
+---
 - The code checks the trimmed value but it uses the untrimmed values.
 
 - `pagesInput.value` is a string, and a number in scientific format may look unnatural as "number of pages".
