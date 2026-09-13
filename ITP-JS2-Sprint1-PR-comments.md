@@ -8,10 +8,27 @@ To follow best practices, could you update your PR description by carrying out t
 Indentation is off.
 Some of the code is not consistently formatted.
 
-Have you installed the **prettier** VSCode extension and enabled "Format on save/paste" on VSCode,
-as recommended in 
-https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/blob/main/readme.md
-?
+Suggestion:
+- Look up the benefits of using a code formatter.
+- Install the "Prettier" VSCode extension, and then
+  - use VSCode "Format document" feature to format the code.
+  - Optionally, enable "Format on save" and "Format on paste" in VSCode (to always keep the code consistently formatted).
+
+Resources:
+- [Visual Studio Code -- Formatting](https://code.visualstudio.com/docs/editing/codebasics#_formatting)
+
+Note: The formatter may not work correctly if your code has syntax errors.
+
+**Suggestion**:
+* Look up the benefits of using a code formatter.
+* Install the **Prettier** extension for VS Code, then:
+  * Use VS Code's **Format Document** feature to format your code.
+  * Optionally, enable **Format On Save** and **Format On Paste** to keep your code consistently formatted.
+
+**Resource**: [Visual Studio Code - Formatting](https://code.visualstudio.com/docs/editing/codebasics#_formatting)
+
+> **Note:** The formatter may not work correctly if your code contains syntax errors.
+
 
 ---
 If you have enabled "Format on save" but it is not working, it is likely that you haven't assign a formatter for JS file. This could happen if you have zero or multiple extensions that can format .js file.
@@ -22,7 +39,7 @@ If you have installed "Prettier" extension. To assign it as the formatter of JS 
 See: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 
 ---
-Could you look up the benefits of using a code formatter? I strongly recommend following this guide
+ I strongly recommend following this guide
 to enable VS Code's "Format on Save" option or use its "Format Document" command. This will help ensure your code is consistently formatted and easier to read and maintain.
  
 ---
