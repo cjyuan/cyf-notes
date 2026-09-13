@@ -8,17 +8,6 @@ To follow best practices, could you update your PR description by carrying out t
 Indentation is off.
 Some of the code is not consistently formatted.
 
-Suggestion:
-- Look up the benefits of using a code formatter.
-- Install the "Prettier" VSCode extension, and then
-  - use VSCode "Format document" feature to format the code.
-  - Optionally, enable "Format on save" and "Format on paste" in VSCode (to always keep the code consistently formatted).
-
-Resources:
-- [Visual Studio Code -- Formatting](https://code.visualstudio.com/docs/editing/codebasics#_formatting)
-
-Note: The formatter may not work correctly if your code has syntax errors.
-
 **Suggestion**:
 * Look up the benefits of using a code formatter.
 * Install the **Prettier** extension for VS Code, then:
