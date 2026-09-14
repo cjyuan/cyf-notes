@@ -18,6 +18,13 @@ Some of the code is not consistently formatted.
 
 > **Note:** The formatter may not work correctly if your code contains syntax errors.
 
+---
+Note: Chrome Developer Tools and AI tools may provide useful insights into how we can further improve our implementation. While you are not required to follow their suggestions in every exercise, taking the time to consider them can often help us learn more effectively.
+
+Here's an example,
+
+<img width="921" height="460" alt="Image" src="https://github.com/user-attachments/assets/b9285523-b69c-4dfd-8015-971ce853e65a" />
+
 
 ---
 If you have enabled "Format on save" but it is not working, it is likely that you haven't assign a formatter for JS file. This could happen if you have zero or multiple extensions that can format .js file.
