@@ -6,17 +6,25 @@ as recommended in
 https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/blob/main/readme.md
 ?
 
-#### Sprint-2/1-key-errors/1.js
+#### Sprint-3/1-key-errors/0.js
+
+The alternatives of reassigning the function parameters are:
+- Use a separate `const` variable
+- Return the expression directly
+
+Suggestion: Use AI to explore the trade-off of these approaches.
+
+#### Sprint-3/1-key-errors/1.js
 With the current implementation, the function will always return "50%".
 How would you modify the function so that it can be easily reused to convert different numbers to their equivalent percentages? 
 
 
-#### Sprint-2/2-mandatory-debug/2.js
+#### Sprint-3/2-mandatory-debug/2.js
 Deleting the global `num` is optional. Within the function block, `num` is resolved to the parameter `num`.
 If you are interested in the topic, you can looking up these two concepts, ***identifier scope*** and
 ***identifier resolution***, in the context of JavaScript programming. ChatGPT can give a good explanation.
 
-#### Sprint-2/3-mandatory-implement/1-bmi.js
+#### Sprint-3/3-mandatory-implement/1-bmi.js
 What **type** of value do you expect your function to return? A number or a string?
 Does your function return the **type** of value you expect?
 
@@ -48,18 +56,18 @@ Can  you look up the naming conventions in JavaScript? In particular,
 Then, update the variable names according to those conventions.
 
 
-#### Sprint-2/3-mandatory-implement/3-to-pounds.js
+#### Sprint-3/3-mandatory-implement/3-to-pounds.js
 You should take a look at `.slice()`. With this function, lines 11-12 can be rewritten as
 ```
     const pounds = paddedPenceNumberString.slice(0, -2);
     const pence = paddedPenceNumberString.slice(-2);   // .padEnd() is redundant regardless of which function we use
 ```
 
-#### Sprint-2/4-mandatory-interpret/time-format.js
+#### Sprint-3/4-mandatory-interpret/time-format.js
 To more precisely express a value is a string, we can enclose the value by a pair of double quotes. For example, "00".
 
 
-#### Sprint-2/5-stretch-extend/format-time.js
+#### Sprint-3/5-stretch-extend/format-time.js
 We could also pass a parameter to .slice() to clearly express the intent to extract the last two characters, 
 without needing to calculate the starting position manually. Can you find out what this parameter is?
 
