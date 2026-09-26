@@ -186,8 +186,7 @@ Note: To view the return value of a function call, we need to output the return 
 We could also find out exactly what the function returns from the MDN Web Docs website.
 
 
-If we were writing a program that uses `prompt()` to ask for an input value, how could
-the program check if the user clicked "OK" or "Cancel"?
+When a program uses prompt() to ask the user for input, how can it tell whether the user clicked "OK" or "Cancel"?
 
 ---
 
