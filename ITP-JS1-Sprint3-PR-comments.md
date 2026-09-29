@@ -68,6 +68,13 @@ To more precisely express a value is a string, we can enclose the value by a pai
 
 
 #### Sprint-3/5-stretch-extend/format-time.js
+
+Note: The .slice() method supports negative indices, which count positions from the end of the string.
+
+For example, `str.slice(-3)` returns the substring containing last three characters from `str`. 
+
+---
+
 We could also pass a parameter to .slice() to clearly express the intent to extract the last two characters, 
 without needing to calculate the starting position manually. Can you find out what this parameter is?
 
