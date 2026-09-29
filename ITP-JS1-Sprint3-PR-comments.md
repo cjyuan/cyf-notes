@@ -1,3 +1,9 @@
+There are a few comments that I'm not sure have been addressed.
+
+Could you use AI to explore best practices for responding to inline comments in a PR and apply what you learn to this PR?
+
+---
+
 Indentation is off.
 Some of the code is not consistently formatted.
 
