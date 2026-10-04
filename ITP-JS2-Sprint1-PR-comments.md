@@ -51,7 +51,60 @@ Why not practice "committing files one by one, on purpose, and for a reason"?
 In VSCode, you can select which file to ***stage***, and commit only the staged file.
 See: https://www.youtube.com/watch?v=z5jZ9lrSpqk&t=705  (At around 12:50 minute marker, the video shows how to stage a single file).
 
+---
+#### format-clock-edge-cases/timeConverter.test.js
 
+Could you update the tests and then modify the function implementation accordingly?
+
+---
+**Could you check whether your tests cover all 6 possible cases for `hour`?**
+
+* `00` (AM)
+* `12` (PM)
+* `01-09` (single-digit hour in AM)
+* `10-11` (double-digit hour in AM)
+* `13-21` (single-digit hour in PM)
+* `22-23` (double-digit hour in PM)
+
+Ideally, the tests should also cover these 2 cases for `minute` for each of the hour cases:
+
+* `00-09` (single-digit minute)
+* `10-59` (double-digit minute)
+
+This would give us coverage of all relevant hour/minute combinations.
+
+
+
+
+- Note: The .slice() method supports negative indices, which count positions from the end of the string.  
+For example, `str.slice(-3)` returns the substring containing last three characters from `str`. 
+
+---
+
+**Could you check whether the expected return values specified in the tests use a consistent format?**
+
+When a function's return values are not consistently formatted, it can lead to unintended side effects. For examples:
+
+1. When the formatted strings are displayed, they may not align nicely:
+
+```text
+01:00 am
+1:00 pm
+12:00 am
+01:00 pm
+02:00pm
+```
+
+2. When the formatted strings are compared in a program, they may produce unexpected results:
+
+* `"1:00 pm" < "11:00 pm"` evaluates to `false`
+* `"01:00 am" < "11:00 am"` evaluates to `true`
+
+For this reason, it would be better to ensure that the function always returns values in a consistent format.
+
+
+
+---
 
 #### Sprint-1/1-key-exercises/1-count.js
 Operation like `count = count + 1` is very common in programming, and there is a programming term describing such operation.
