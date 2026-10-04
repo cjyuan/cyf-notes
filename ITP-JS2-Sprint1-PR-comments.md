@@ -76,7 +76,7 @@ This would give us coverage of all relevant hour/minute combinations.
 
 
 
-- Note: The .slice() method supports negative indices, which count positions from the end of the string.  
+- Note: The `.slice()` method supports negative indices, which count positions from the end of the string.  
 For example, `str.slice(-3)` returns the substring containing last three characters from `str`. 
 
 ---
