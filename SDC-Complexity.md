@@ -77,12 +77,14 @@ How can you prevent this side effect?
 
 ### LRU Cache
 
-To better adhere to the **Single-Responsibility Principle** (SRP) from SOLID design principles, 
-it's preferable to implement the "doubly linked list" and the "LRU Cache" as separate classes, with the linked list used inside LruCache to manage ordering.
+To better adhere to the **Single-Responsibility Principle** (SRP) from SOLID design principles, it's preferable to implement the "doubly linked list" and the "LRU Cache" as separate classes, with the linked list used inside LruCache to manage ordering.
 
-Alternatively, `OrderedDict` can be used directly within `LruCache` to maintain order.
+You could copy your `linked_list.py` to this folder.
+
+Alternatively, use a suitable Python built-in class.
 
 Could you update your code using one of these approaches?
+
 
 ### Linked List
 Could consider calling `remove(removed)` -- less code to maintain.
