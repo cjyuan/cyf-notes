@@ -1,3 +1,9 @@
+Could you also respond to all my previous comments in addition to making change? 
+
+**Suggestion**: Use AI to explore "how to respond to comments in a PR".
+
+---
+
 There are a few comments that I'm not sure have been addressed.
 
 Could you use AI to explore best practices for responding to inline comments in a PR and apply what you learn to this PR?
