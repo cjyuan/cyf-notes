@@ -6,7 +6,10 @@ The refactored code and the analyses of the refactored code look good!
 
 I think "Time Complexity" here refers to the time complexity of the original implementation, and "Optimal Time Complexity" refers to the time complexity of the refactored version. 
 
-
+---
+Note: 
+Most Set implementations support the common set operations such as _union, intersection, difference, subset, superset, equality, add, remove, contains, size, clear, and is empty_.
+You could consider taking advantage of them for optimal performance.
 
 ## Improve With Caches
 
