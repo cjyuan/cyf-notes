@@ -19,7 +19,7 @@ Could you look into an approach that doesn't require keeping the cache in the gl
 
 Array and tuple creations are relatively costly operations.
 
-From lines _X_ and _Y_,, we know `coins` can only be one of the following 9 tuples:
+We could observe that `coins` can only be one of the following 9 tuples:
 ```
 (200, 100, 50, 20, 10, 5, 2, 1)
 (100, 50, 20, 10, 5, 2, 1)
@@ -37,7 +37,7 @@ We could further improve the performance if we can
 ---
 Array and tuple creations are relatively costly operations.
 
-From lines _X_ and _Y_, we know `coins` can only be one of the following 9 arrays:
+We could observe that `coins` can only be one of the following 9 arrays:
 ```
 [200, 100, 50, 20, 10, 5, 2, 1]
 [100, 50, 20, 10, 5, 2, 1]
