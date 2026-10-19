@@ -1,3 +1,10 @@
+## GENERAL
+
+A small suggestion: try to avoid comments that simply restate what the code already makes clear. In this case, the code is self-explanatory, so the comment doesn't really add any new information. Comments are most useful when they explain why something is done, clarify non-obvious behaviour, or document an important assumption. This helps keep the code clean and makes the comments that we do have more valuable.
+
+---
+
+
 ## Analyse and Refactor Functions
 
 The refactored code and the analyses of the refactored code look good!
@@ -82,24 +89,22 @@ How can you prevent this side effect?
 
 To better adhere to the **Single-Responsibility Principle** (SRP) from SOLID design principles, it's preferable to implement the "doubly linked list" and the "LRU Cache" as separate classes, with the linked list used inside LruCache to manage ordering.
 
-You could copy your `linked_list.py` to this folder.
-
-Alternatively, use a suitable Python built-in class.
+To use the doubly linked list you have implemented, you could copy your `linked_list.py` to this folder.
+Alternatively, you could use a suitable Python built-in class to maintain the order.
 
 Could you update your code using one of these approaches?
 
 
 ### Linked List
-Could consider calling `remove(removed)` -- less code to maintain.
 
 Could consider delegating the node removing task to `remove()` -- less code to maintain.
-
-
-What was the value of `node.next` before this line?
 
 Could you look up why, in a doubly linked List  implementation, assigning `.next` and `.previous` of the removed node to `None` a good practice?
 
 No change required.
+
+---
+
 
 
 ---
