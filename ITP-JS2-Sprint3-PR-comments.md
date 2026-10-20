@@ -219,13 +219,13 @@ Can you also include the "condition" part into these descriptions?
 
 
 #### Sprint-3/2-practice-tdd/count.test.js
-Could consider testing a few more samples in this script - higher chance to detect bugs in code.
+- Could consider testing multiple samples in each test category - higher chance to detect bugs in code.
+- Empty string is often a good edge case to test.
 
-The original specification did not clearly state whether the character match should be case-sensitive.
-Most people would probably assume that it is, but to demonstrate our understanding or clarify the assumption we made, 
-we could add test cases to convey this. For examples,
-- A case to show that the match is case sensitive
-- A case to show that the function is expected to work also for non-alphabets
+---
+When a specification is ambiguous, programmers may need to make reasonable assumptions based on their understanding of the requirements. In this case, the original specification did not explicitly state whether character matching should be case-sensitive. Although most people would likely assume that it is, adding test cases can help document this assumption and make our interpretation of the specification explicit.
+
+Similarly, we should consider adding tests for any other assumptions made during implementation to clarify the intended behavior and ensure these assumptions are consistently understood and validated.
 
 #### Sprint-3/2-practice-tdd/get-ordinal-number.js
 
