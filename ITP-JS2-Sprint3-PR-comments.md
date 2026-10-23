@@ -93,6 +93,12 @@ We can use pseudo-code and notations like `abs(...)` or `| ... |` in the descrip
 concisely describe the conditions (the "when" part).
 
 
+---
+
+The test cases in this script do not yet include cases involving negative numbers.
+
+Are $\frac{-2}{3}$, $\frac{2}{-3}$ (which equals to $-\frac{2}{3}$) and $\frac{-2}{-3}$ (which equals to $\frac{2}{3}$) proper fractions? What is the definition of _proper fraction_?
+
 #### Sprint-3/1-key-implement/3-get-card-value.js
 #### Sprint-3/2-mandatory-rewrite/3-get-card-value.js
 
