@@ -41,7 +41,6 @@ Can you update this PR (or close it) and then resubmit your work in separate PRs
 
 #### Sprint-3/1-key-implement/1-get-angle-type.js
 
-Checking `angle > 90` is optional because previous if-statements can guarantee `angle` is always more than 90.
 
 #### Sprint-3/2-mandatory-rewrite/1-get-angle-type.test.js
 
@@ -59,10 +58,7 @@ test("should identify reflex angle (180 < angle < 360)", () => {
 
 
 Could consider describe this as `"Expect 'Reflex angle' if 180 < angle < 360"`.
-I asked ChatGPT to create a concise version of your description, it gave me this:
-`Return 'Reflex angle' for angles between 180 and 360 degrees`
-After I give additional constraints `if symbol or operator is allowed (as in describing test in code)`, it showed me:
-`Return 'Reflex angle' if 180 < angle < 360`
+
 
 ---
 The spec isn't clear whether `angle` can be assigned a number not in the interval (0, 360).
@@ -113,11 +109,11 @@ getCardValue("0002♠");
 ```
 
 ---
-Could also consider testing the following cases:
-- Valid rank + invalid suit character
-- Valid rank with no suit
-- Empty string
+When testing invalid inputs, focus on edge cases that the function might overlook. Inputs that closely resemble valid card values are especially useful. For example, `"A"` is a good test case because it contains a valid rank but is missing the suit character.
 
+Can you think of other test cases that resemble valid card values but are still invalid?
+
+An empty string (`""`) is also always worth testing for any parameter that accepts a string.
 
 ---
 
