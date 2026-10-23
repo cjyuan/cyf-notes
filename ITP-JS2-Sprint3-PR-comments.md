@@ -225,9 +225,16 @@ Can you also include the "condition" part into these descriptions?
 - Empty string is often a good edge case to test.
 
 ---
-When a specification is ambiguous, programmers may need to make reasonable assumptions based on their understanding of the requirements. In this case, the original specification did not explicitly state whether character matching should be case-sensitive. Although most people would likely assume that it is, adding test cases can help document this assumption and make our interpretation of the specification explicit.
 
-Similarly, we should consider adding tests for any other assumptions made during implementation to clarify the intended behavior and ensure these assumptions are consistently understood and validated.
+When a specification is ambiguous, programmers may need to make reasonable assumptions based on their understanding of the requirements.  
+In this case, the original specification does not explicitly clarify:
+
+- Whether character matching should be case-sensitive.
+- How the function should behave when the second parameter is a string containing zero or multiple characters.
+- Whether matching should support any character, including non-English letters, rather than just English letters.
+
+Could you add test cases to document your assumptions and make your interpretation of the specification explicit?
+
 
 #### Sprint-3/2-practice-tdd/get-ordinal-number.js
 
