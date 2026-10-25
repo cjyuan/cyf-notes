@@ -200,11 +200,21 @@ Some of the passwords in this array are invalid passwords.
 
 ---
 
-The function can return `false` for multiple reasons.
-To test a specific reason, choose an input that satisfies all other conditions except the one you're targeting. This way, if the function returns `false`, you can confidently attribute it to that specific condition.
+To test a function that could return `false` for multiple reasons, we should choose an input (argument) that satisfies all conditions except the one we're targeting.  
+This way, if the function returns `false`, we can confidently attribute the result to that specific condition.
 
-For example, the function might return `false` for "1234" not only because it is fewer than 5 characters, but also because it lacks a lowercase letter.
-As a result, we can't be certain that the function correctly handles the case of passwords shorter than 5 characters, since multiple conditions are being violated simultaneously.
+To illustrate, consider this example:
+```javascript
+  test("returns false when the password has fewer than 5 characters", () => {
+    expect(isValidPassword("1234")).toBe(false);
+  });
+```
+The test case `"1234"` is a poor choice because it violates multiple conditions, not just the minimum length requirement.  
+Even if the function incorrectly checks the password length, this test could still pass because the function returns `false` for one of the other reasons.
+
+A better test case would be `"Ab1!"` because it satisfies all conditions except the minimum length requirement.
+
+**Could you review each test case to ensure it isolates the specific condition being tested?** Make sure the input satisfies all the other conditions and violates only the target condition, so that if the test passes, you can be confident that the specific condition is being checked correctly.
 
 
 ### Practice TDD
