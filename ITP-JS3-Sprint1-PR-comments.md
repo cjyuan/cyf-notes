@@ -86,23 +86,13 @@ the two tests could still pass. Can you figure out why, and then fix the tests a
 
 
 #### Sprint-1/implement/max.js
-What do you expect from the following function calls (on extreme cases)?
-Does your function return the value you expected?
 
-```
-findMax([-Infinity])
-findMax([-Infinity, 0])
-findMax([NaN])
-findMax([0, NaN, 1])
-```
----
-
-`Inifinity` is a keyword in the JavaScript language. When an array is empty, the value to be returned 
-should be be `-Infinty`, not a string value.
-
----
 
 #### Sprint-1/implement/max.test.js
+How should the function handle an array containing `NaN`?
+
+---
+
 When a string representing a valid numeric literal (for example, `"300"`) is compared to a number, 
 JavaScript first converts the string into its numeric equivalent before performing the comparison. 
 As a result, the expression `20 < "300"` evaluates to `true`.
@@ -127,6 +117,10 @@ function findMax(elements) {
 }
 ```
 
+#### Sprint-1/implement/mean.test.js
+What should `calculateMean([Infinity, 0, -Infinity])` or `calculateMean([0, NaN])` return?
+The same also applies to `sum()`.
+
 #### Sprint-1/implement/sum.js
 
 What do you expect from the following function calls (on extreme cases)?
@@ -137,9 +131,9 @@ sum([NaN, 1]);
 sum([Infinity, -Infinity]);
 ```
 
-
 #### Sprint-1/implement/sum.test.js
 
+---
 Decimal numbers in most programming languages (including JS) are internally represented in "floating point number" format. Floating point arithmetic is not exact. For example, the result of `46.5678 - 46 === 0.5678` is false because `46.5678 - 46` only yield a value that is very close to `0.5678`. Even changing the order in which the program add/subtract numbers can yield different values.
 
 So the following could happen
