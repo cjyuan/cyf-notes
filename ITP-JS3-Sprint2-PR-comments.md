@@ -94,7 +94,17 @@ function contains(obj, key) {
 ```
 ---
 
+Your current function implementation is good, but our tests (in practice) should not only verify our current implementation, but also ensure that future changes do not alter the function's expected behavior.
 
+Arrays are objects, with their **indices** acting as keys.
+```
+Object.hasOwn([1, 2, 3], 'name')        // evaluates to false
+Object.hasOwn([1, 2, 3], '0')           // evaluates to true
+```
+
+**A proper test should use a valid key to guarantee the function returns `false` specifically because the first argument is an array, not because the key is missing.**
+
+---
 Array is a kind of object in JS, and "0", "1", "2" are keys of `[1, 2, 3]`. So it is better to express the test as `expect(contains([1, 2, 3], "1")).toBe(false);` to ensure the function can truly reject array.
 
 You can also test other types of invalid parameters (e. g., number, undefined, null, string, boolean).
